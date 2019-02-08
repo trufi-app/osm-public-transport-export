@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "OSM  Public Transport Downloader",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "geojson": "node app/osm-to-geojson.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader.git"
@@ -13,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader/issues"
   },
-  "homepage": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader#readme"
+  "homepage": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
 }

@@ -1,0 +1,140 @@
+>>>
+Bus B, Villa Moscú → Aeropuerto → Chavez Rancho
+https://www.openstreetmap.org/relation/4247869
+
+rel(4247869);out geom;
+way(40860774);out geom;way(315707961);out geom;
+way(50848463);out geom;way(392716887);out geom;
+way(209396546);out geom;way(318643204);out geom;
+way(220432304);out geom;way(315707953);out geom;
+way(315707971);out geom;way(656900186);out geom;
+way(318643190);out geom;way(318643190);out geom;
+way(318643186);out geom;way(254606985);out geom;
+way(545608318);out geom;way(545608314);out geom;
+way(604396696);out geom;way(604396696);out geom;
+
+<<<>>>
+Bus B, Chavez Rancho → Aeropuerto → Villa Moscú
+https://www.openstreetmap.org/relation/4420889
+
+rel(4420889);out geom;
+way(50848467);out geom;way(346920867);out geom;
+way(164670232);out geom;way(548473898);out geom;
+way(168240285);out geom;way(548473894);out geom;
+way(230640699);out geom;way(318643186);out geom;
+way(318643204);out geom;way(50848466);out geom;
+way(315707971);out geom;way(656900186);out geom;
+way(545608318);out geom;way(545608314);out geom;
+
+<<<>>>
+Bus C, Eucaliptos Sud → Beato Salomón
+https://www.openstreetmap.org/relation/4430244
+
+rel(4430244);out geom;
+way(484303336);out geom;way(319054095);out geom;
+way(319054112);out geom;way(654591050);out geom;
+
+<<<>>>
+Bus C, Beato Salomón → Eucaliptos Sud
+https://www.openstreetmap.org/relation/4433300
+
+rel(4433300);out geom;
+way(654591050);out geom;way(319054112);out geom;
+way(319647258);out geom;way(587323374);out geom;
+
+<<<>>>
+Bus D, Alejo Calatayud → Linde
+https://www.openstreetmap.org/relation/4443072
+
+rel(4443072);out geom;
+way(319647250);out geom;way(319647238);out geom;
+way(545166720);out geom;way(545166720);out geom;
+
+<<<>>>
+Bus D, Linde → Alejo Calatayud
+https://www.openstreetmap.org/relation/4443073
+
+rel(4443073);out geom;
+way(314152380);out geom;way(222015393);out geom;
+way(319647246);out geom;way(361946674);out geom;
+way(319647238);out geom;way(320330723);out geom;
+
+<<<>>>
+Bus 120, Cochabamba → Tiquipaya
+https://www.openstreetmap.org/relation/4480209
+
+rel(4480209);out geom;
+way(314152444);out geom;way(63545678);out geom;
+way(320336351);out geom;way(314152446);out geom;
+way(321575994);out geom;way(321575994);out geom;
+way(392387471);out geom;way(63545693);out geom;
+
+<<<>>>
+Bus G, San Antonio → Asunción Llallagua
+https://www.openstreetmap.org/relation/5387555
+
+rel(5387555);out geom;
+way(222238803);out geom;way(361946692);out geom;
+way(320614259);out geom;way(361946671);out geom;
+way(361946674);out geom;way(314152446);out geom;
+way(418239790);out geom;way(361946664);out geom;
+
+<<<>>>
+Bus H, Chacacollo → Molle Molle → Salinas
+https://www.openstreetmap.org/relation/5457000
+
+rel(5457000);out geom;
+way(368000121);out geom;way(316898077);out geom;
+way(368000139);out geom;way(148658021);out geom;
+way(550175874);out geom;way(550175872);out geom;
+way(654603215);out geom;way(654603215);out geom;
+way(656372206);out geom;way(655708948);out geom;
+way(656372208);out geom;way(368000149);out geom;
+way(366967662);out geom;way(610543930);out geom;
+
+<<<>>>
+Bus H, Salinas → Molle Molle → Chacacollo
+https://www.openstreetmap.org/relation/5457001
+
+rel(5457001);out geom;
+way(168240285);out geom;way(548473894);out geom;
+way(230640721);out geom;way(467394200);out geom;
+way(368000100);out geom;way(548473898);out geom;
+way(368000149);out geom;way(655708947);out geom;
+way(550175874);out geom;way(550175872);out geom;
+way(654603215);out geom;way(654603215);out geom;
+way(655708949);out geom;way(656372206);out geom;
+way(148658021);out geom;way(368000153);out geom;
+way(149742432);out geom;way(316898077);out geom;
+way(366967662);out geom;way(366967662);out geom;
+
+<<<>>>
+Bus 106, Cochabamba → El Paso
+https://www.openstreetmap.org/relation/6714096
+
+rel(6714096);out geom;
+way(361656446);out geom;way(321575994);out geom;
+way(502557675);out geom;way(321575995);out geom;
+
+<<<>>>
+Micro J, C. Gran Chaco → C. Chiquitano
+https://www.openstreetmap.org/relation/9085564
+
+rel(9085564);out geom;
+way(340501634);out geom;way(326573185);out geom;
+way(326573186);out geom;way(369146721);out geom;
+
+<<<>>>
+Trufi 108 , Av. Benjo Cruz → C. San Luis
+https://www.openstreetmap.org/relation/9144377
+
+rel(9144377);out geom;
+way(55968928);out geom;way(657413136);out geom;
+way(659208676);out geom;way(659208630);out geom;
+
+<<<>>>
+Minibus 43 , Av. Humberto Asín Rivero → OTB 27 de Mayo
+https://www.openstreetmap.org/relation/9166782
+**************** route undefined **************
+
+<<<

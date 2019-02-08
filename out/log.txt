@@ -1,0 +1,30 @@
+
+Done >>> Bus 270, Plaza Bolivar → Pacata Central
+Done >>> Bus 270, Pacata Central → Plaza Bolivar
+Done >>> Micro A, Chaqui Mayu → Sindicato Agrario Taquiña
+Done >>> Micro A, Sindicato Agrario Taquiña → Chaqui Mayu
+Done >>> Bus 106, El Paso → Cochabamba
+Done >>> Bus LL, La Concordia → San Gabriel
+Done >>> Bus G, Asunción Llallagua → San Antonio
+Done >>> Bus LL, San Gabriel → La Concordia
+Done >>> Bus 120, Tiquipaya → Cochabamba
+Done >>> Micro J, C. Chiquitano → C. Gran Chaco
+Done >>> Minibus 16, Av. La Joya → C. Padre Bertha
+Done >>> Minibus 16, C. Padre Bertha → Av. La Joya
+Done >>> Micro R , Entre Rios → Av. Arquímedes
+Done >>> Micro R , Av. Arquímedes → Entre Rios
+Done >>> Minibus 1 , Av. Humberto Asin  → Av. Ecologica
+Done >>> Minibus 1 , Av. Ecologica → Av. Humberto Asin
+Done >>> Trufi 102 , Av. Segunda → Tamborada
+Done >>> Trufi 108 ,C. San Luis → Av. Benjo Cruz
+Done >>> Minubus 10 , C. Faustino Suarez → Cerro Calomani
+Done >>> Minibus 10 , Cerro Calomani →  C. Faustino Suarez
+Done >>> Minibus 1001 , Barrio Universitario Bajo  → OTB Ecológica
+Done >>> Minibus 1001 , OTB Ecológica → Barrio Universitario Bajo
+Done >>> Trufi 101-A , Barrio Universitario Bajo  →  Av. Ecologica
+Done >>> Trufi 104 , C. Monsenor O. Arnulfo Romero  → 1ro de Mayo
+Done >>> Trufi 104 , 1ro de Mayo → C. Monsenor O. Arnulfo Romero
+Done >>> Trufi 107 , Maica Quenamari → C. Rafael Bustillo-Norte
+Done >>> Trufi 107 , C. Rafael Bustillo-Norte →  Maica Quenamari
+Done >>> Trufi 109 , C. Papayo → C. Felix Reyes Ortiz
+Done >>> Trufi 109 , C. Felix Reyes Ortiz → C. Papayo
