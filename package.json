@@ -1,0 +1,17 @@
+{
+  "name": "osm-public-transport-downloader",
+  "version": "1.0.0",
+  "description": "OSM  Public Transport Downloader",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader.git"
+  },
+  "author": "Samuel Rioja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader/issues"
+  },
+  "homepage": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader#readme"
+}
