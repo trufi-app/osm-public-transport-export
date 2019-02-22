@@ -9,31 +9,29 @@ const fetch_busses = (bounds) => fetch_overpass(make_query_busses(bounds))
 const fetch_route = (id_relation) => fetch_overpass(make_query_route(id_relation))
 
 const timeout = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+const unique = (value, index, self) => self.indexOf(value) === index;
 
 const stop_map = {}
 const add_stop = (stop_id, stop_name) => {
     if (!stop_map[stop_id])
-        stop_map[stop_id] = { stop_id: stop_id, stop_name: [stop_name] }
+        stop_map[stop_id] = { stop_id, stop_name: [stop_name] }
     else
         stop_map[stop_id].stop_name.push(stop_name)
-
 }
 const make_stop_name_pretty = () => {
-    let tmp_stop_map = stop_map
-    for (let stop_index in tmp_stop_map) {
-        let tmp_stop_name = {}
-        let tmp_pretty_name = ""
-        tmp_stop_map[stop_index].stop_name.forEach(value => {
-            if (!tmp_stop_name[value] && tmp_stop_name[value] != "innominada")
-                tmp_stop_name[value] = value
-        })
-        for (let name_index in tmp_stop_name) {
-            tmp_pretty_name += tmp_stop_name[name_index] + " y "
+    const tmp_stop_map = {}
+    Object.keys(stop_map).forEach(key => {
+        const orig = stop_map[key]
+        tmp_stop_map[key] = {
+            stop_id: orig.stop_id,
+            stop_name: orig.stop_name
+                .filter(unique)
+                .filter(value => value !== "")
+                .join(" y ")
+                || "innominada"
         }
-        tmp_pretty_name = tmp_pretty_name.slice(0, -3);
-        tmp_stop_map[stop_index].stop_name = tmp_pretty_name
-    }
-    return JSON.stringify(tmp_stop_map)
+    })
+    return tmp_stop_map
 }
 
 
@@ -104,7 +102,7 @@ const osm_to_geojson = async (bounds) => {
     fs.writeFileSync(`./out/routes.geojson`, JSON.stringify(geojson_file))
     fs.writeFileSync(`./out/log.txt`, log_file)
     fs.writeFileSync(`./out/log_error.txt`, log_file_error)
-    fs.writeFileSync(`./out/stops.json`, make_stop_name_pretty(stop_map))
+    fs.writeFileSync(`./out/stops.json`, JSON.stringify(make_stop_name_pretty(stop_map)))
     return res_busses
 
 }
@@ -155,9 +153,9 @@ async function load_route(id_relation) {
     do {
         tmp_points = tmp_points.concat(tmp_way.geometry)
         tmp_nodes = tmp_nodes.concat(tmp_way.nodes)
-        let way_tag_name = tmp_way.tags && tmp_way.tags.name ? tmp_way.tags.name : "innominada"
+        let way_tag_name = tmp_way.tags && tmp_way.tags.name ? tmp_way.tags.name : ""
         for (let way_node of tmp_way.nodes)
-            add_stop(way_node + "", way_tag_name)
+            add_stop(String(way_node), way_tag_name)
         // tmp_way also has tags with some extra information like street name
         tmp_way = tmp_way.next
     } while (tmp_way)

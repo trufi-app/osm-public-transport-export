@@ -2,7 +2,7 @@
 Done >>> MiniBus 270, Plaza Bolivar → Pacata Central
 Done >>> MiniBus 270, Pacata Central → Plaza Bolivar
 Done >>> Micro A, Chaqui Mayu → Sindicato Agrario Taquiña
-Done >>> Micro A, Sindicato Agrario Taquiña → Chaqui Mayu
+Done >>> MicroBus A, Sindicato Agrario Taquiña → Chaqui Mayu
 Done >>> Bus LL, La Concordia → San Gabriel
 Done >>> Bus G, Asunción Llallagua → San Antonio
 Done >>> Bus LL, San Gabriel → La Concordia
@@ -20,9 +20,9 @@ Done >>> Minubus 10 , C. Faustino Suarez → Cerro Calomani
 Done >>> Minibus 10 , Cerro Calomani →  C. Faustino Suarez
 Done >>> Minibus 1001 , Barrio Universitario Bajo  → OTB Ecológica
 Done >>> Minibus 1001 , OTB Ecológica → Barrio Universitario Bajo
-Done >>> Trufi 101-A , Barrio Universitario Bajo  →  Av. Ecologica
-Done >>> Trufi 104 , C. Monsenor O. Arnulfo Romero  → 1ro de Mayo
-Done >>> Trufi 104 , 1ro de Mayo → C. Monsenor O. Arnulfo Romero
+Done >>> TaxiTrufi 101-A, Barrio Universitario Bajo → Av. Ecologica
+Done >>> TaxiTrufi 104, C. Monseñor O. Arnulfo Romero → 1ro de Mayo
+Done >>> TaxiTrufi 104, 1ro de Mayo → C. Monseñor O. Arnulfo Romero
 Done >>> Trufi 107 , Maica Quenamari → C. Rafael Bustillo-Norte
 Done >>> Trufi 107 , C. Rafael Bustillo-Norte →  Maica Quenamari
 Done >>> Trufi 109 , C. Papayo → C. Felix Reyes Ortiz
