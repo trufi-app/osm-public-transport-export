@@ -10,6 +10,33 @@ const fetch_route = (id_relation) => fetch_overpass(query_route(id_relation))
 
 const timeout = ms => new Promise(resolve => setTimeout(resolve, ms));
 
+const stop_map = {}
+const add_stop = (stop_id, stop_name) => {
+    if (!stop_map[stop_id])
+        stop_map[stop_id] = { stop_id: stop_id, stop_name: [stop_name] }
+    else
+        stop_map[stop_id].stop_name.push(stop_name)
+
+}
+const make_stop_name_pretty = _ => {
+    let tmp_stop_map = stop_map
+    for (let stop_index in tmp_stop_map) {
+        let tmp_stop_name = {}
+        let tmp_pretty_name = ""
+        tmp_stop_map[stop_index].stop_name.forEach(value => {
+            if (!tmp_stop_name[value] && tmp_stop_name[value] != "innominada")
+                tmp_stop_name[value] = value
+        })
+        for (let name_index in tmp_stop_name) {
+            tmp_pretty_name += tmp_stop_name[name_index] + " y "
+        }
+        tmp_pretty_name = tmp_pretty_name.slice(0, -3);
+        tmp_stop_map[stop_index].stop_name = tmp_pretty_name
+    }
+    return JSON.stringify(tmp_stop_map)
+}
+
+
 const fetch_overpass = (query) => axios
     .post('http://www.overpass-api.de/api/interpreter', query)
     .then(response => {
@@ -77,6 +104,7 @@ const osm_to_geojson = async _ => {
     fs.writeFileSync(`./out/routes.geojson`, JSON.stringify(geojson_file))
     fs.writeFileSync(`./out/log.txt`, log_file)
     fs.writeFileSync(`./out/log_error.txt`, log_file_error)
+    fs.writeFileSync(`./out/stops.json`, make_stop_name_pretty(stop_map))
     return res_busses
 
 }
@@ -127,6 +155,9 @@ async function load_route(id_relation) {
     do {
         tmp_points = tmp_points.concat(tmp_way.geometry)
         tmp_nodes = tmp_nodes.concat(tmp_way.nodes)
+        let way_tag_name = tmp_way.tags && tmp_way.tags.name ? tmp_way.tags.name : "innominada"
+        for (let way_node of tmp_way.nodes)
+            add_stop(way_node + "", way_tag_name)
         // tmp_way also has tags with some extra information like street name
         tmp_way = tmp_way.next
     } while (tmp_way)

@@ -1,13 +1,12 @@
 
-Done >>> Bus 270, Plaza Bolivar → Pacata Central
-Done >>> Bus 270, Pacata Central → Plaza Bolivar
+Done >>> MiniBus 270, Plaza Bolivar → Pacata Central
+Done >>> MiniBus 270, Pacata Central → Plaza Bolivar
 Done >>> Micro A, Chaqui Mayu → Sindicato Agrario Taquiña
 Done >>> Micro A, Sindicato Agrario Taquiña → Chaqui Mayu
-Done >>> Bus 106, El Paso → Cochabamba
 Done >>> Bus LL, La Concordia → San Gabriel
 Done >>> Bus G, Asunción Llallagua → San Antonio
 Done >>> Bus LL, San Gabriel → La Concordia
-Done >>> Bus 120, Tiquipaya → Cochabamba
+Done >>> Micro J, C. Gran Chaco → C. Chiquitano
 Done >>> Micro J, C. Chiquitano → C. Gran Chaco
 Done >>> Minibus 16, Av. La Joya → C. Padre Bertha
 Done >>> Minibus 16, C. Padre Bertha → Av. La Joya
@@ -28,3 +27,5 @@ Done >>> Trufi 107 , Maica Quenamari → C. Rafael Bustillo-Norte
 Done >>> Trufi 107 , C. Rafael Bustillo-Norte →  Maica Quenamari
 Done >>> Trufi 109 , C. Papayo → C. Felix Reyes Ortiz
 Done >>> Trufi 109 , C. Felix Reyes Ortiz → C. Papayo
+Done >>> Trufi 121 , Avenida Circunvalación II -> Calle Obrajes
+Done >>> Micro M , Plan 335 Prefectural Fortaleza →
