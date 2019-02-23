@@ -75,7 +75,8 @@ const osm_to_geojson = async (bounds) => {
                     "properties": { name: bus_name[0], route: bus_name[1], stroke: "blue" },
                     "geometry": {
                         "type": "LineString",
-                        "coordinates": route.points
+                        "coordinates": route.points,
+                        "nodes": route.nodes,
                     }
                 }
                 routes_json.push(route_json)
