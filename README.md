@@ -1,2 +1,2 @@
 # OSM-Public-Transport-Downloader
-OSM  Public Transport Downloader
+Run `npm start` to export routes

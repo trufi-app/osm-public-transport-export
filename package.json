@@ -4,7 +4,7 @@
   "description": "OSM  Public Transport Downloader",
   "main": "index.js",
   "scripts": {
-    "geojson": "node app/osm-to-geojson.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
