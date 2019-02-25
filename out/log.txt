@@ -3,7 +3,7 @@ Done >>> MiniBus 270, Plaza Bolivar → Pacata Central
 Done >>> MiniBus 270, Pacata Central → Plaza Bolivar
 Done >>> Micro A, Chaqui Mayu → Sindicato Agrario Taquiña
 Done >>> MicroBus A, Sindicato Agrario Taquiña → Chaqui Mayu
-Done >>> Bus LL, La Concordia → San Gabriel
+Done >>> MicroBus LL, La Concordia → San Gabriel
 Done >>> Bus G, Asunción Llallagua → San Antonio
 Done >>> Bus LL, San Gabriel → La Concordia
 Done >>> Micro J, C. Gran Chaco → C. Chiquitano
