@@ -1,0 +1,182 @@
+>>>
+Bus Caja Ferroviaria: Plaza Alonso de Mendoza → Caja Ferroviaria
+https://www.openstreetmap.org/relation/6259249
+
+rel(6259249);out geom;
+way(458613295);out geom;way(546686053);out geom;
+way(438437151);out geom;way(249165887);out geom;
+
+<<<>>>
+Ruta Chasquipampa: Chasquipampa → Parque Urbano Central
+https://www.openstreetmap.org/relation/6547711
+
+rel(6547711);out geom;
+way(616726435);out geom;way(439090792);out geom;
+way(649305529);out geom;way(439750175);out geom;
+way(35748485);out geom;way(439750174);out geom;
+way(298234817);out geom;way(147394708);out geom;
+way(440153316);out geom;way(551178426);out geom;
+way(605765394);out geom;way(605765394);out geom;
+
+<<<>>>
+undefined
+https://www.openstreetmap.org/relation/7615773
+**************** route undefined **************
+
+<<<>>>
+369
+https://www.openstreetmap.org/relation/7615779
+**************** route undefined **************
+
+<<<>>>
+847
+https://www.openstreetmap.org/relation/7615780
+**************** route undefined **************
+
+<<<>>>
+Pumakatari Caja Ferroviaria: Plaza Alonso de Mendoza → Caja Ferroviaria
+https://www.openstreetmap.org/relation/7804653
+duplicated street
+
+rel(7804653);out geom;
+way(458613295);out geom;
+
+<<<>>>
+Bus Caja Ferroviaria: Caja Ferroviaria→ Plaza Alonso de Mendoza
+https://www.openstreetmap.org/relation/7809311
+
+rel(7809311);out geom;
+way(421174169);out geom;way(421174177);out geom;
+way(421174174);out geom;way(421174174);out geom;
+way(44347920);out geom;way(44347920);out geom;
+way(421174181);out geom;way(421174181);out geom;
+way(421174180);out geom;way(421174180);out geom;
+way(546414121);out geom;way(546686053);out geom;
+
+<<<>>>
+Pumakatari Inka Llojeta
+https://www.openstreetmap.org/relation/7809722
+undefined street
+
+rel(7809722);out geom;
+way(457818251);out geom;
+
+<<<>>>
+Pumakatari Inka Llojeta
+https://www.openstreetmap.org/relation/7809725
+
+rel(7809725);out geom;
+way(441184670);out geom;way(441184670);out geom;
+way(35754287);out geom;way(441184671);out geom;
+way(375794582);out geom;way(235533513);out geom;
+way(617277462);out geom;way(617277462);out geom;
+way(44212655);out geom;way(44212655);out geom;
+way(35754283);out geom;way(35754283);out geom;
+
+<<<>>>
+Ruta Circular: Estación Faro Murillo → Estación 16 de Julio
+https://www.openstreetmap.org/relation/7815444
+
+rel(7815444);out geom;
+way(437889806);out geom;way(35150877);out geom;
+way(240780920);out geom;way(437889804);out geom;
+way(546851566);out geom;way(240780913);out geom;
+way(441209414);out geom;way(27482664);out geom;
+way(546917220);out geom;way(546850874);out geom;
+way(44876498);out geom;way(39451965);out geom;
+way(547695707);out geom;way(547695707);out geom;
+
+<<<>>>
+undefined
+https://www.openstreetmap.org/relation/7907867
+**************** route undefined **************
+
+<<<>>>
+PumaKatari Villa Salomé - PUC
+https://www.openstreetmap.org/relation/8422678
+
+rel(8422678);out geom;
+way(604987812);out geom;way(107710216);out geom;
+way(436042074);out geom;way(553615349);out geom;
+way(439221808);out geom;way(624136206);out geom;
+way(439424084);out geom;way(161601456);out geom;
+way(322975670);out geom;way(395928196);out geom;
+way(615536827);out geom;way(459849530);out geom;
+way(527050079);out geom;way(424873113);out geom;
+
+<<<>>>
+PumaKatari - Kalajahuira
+https://www.openstreetmap.org/relation/8427805
+
+rel(8427805);out geom;
+way(617941948);out geom;way(438486342);out geom;
+way(605053306);out geom;way(624068256);out geom;
+way(605053307);out geom;way(605049008);out geom;
+way(605049012);out geom;way(44349212);out geom;
+way(392505175);out geom;way(624136195);out geom;
+way(44557409);out geom;way(44487232);out geom;
+way(248944810);out geom;way(248944810);out geom;
+
+<<<>>>
+Trufi 408: Ciudad Satèlite - San Pedro
+https://www.openstreetmap.org/relation/8488712
+
+rel(8488712);out geom;
+way(612371103);out geom;way(441483574);out geom;
+way(619011727);out geom;way(619011727);out geom;
+way(619011739);out geom;way(44218694);out geom;
+way(490920232);out geom;way(619011798);out geom;
+way(490920226);out geom;way(490920225);out geom;
+
+<<<>>>
+PumaKatari PUC -Villa Salomé
+https://www.openstreetmap.org/relation/8517482
+undefined street
+
+rel(8517482);out geom;
+way(457818251);out geom;
+
+<<<>>>
+PumaKatari Irpavi - PUC
+https://www.openstreetmap.org/relation/8528997
+duplicated street
+
+rel(8528997);out geom;
+way(323268148);out geom;
+
+<<<>>>
+Puma Katari PUC - Irpavi II
+https://www.openstreetmap.org/relation/8538454
+undefined street
+
+rel(8538454);out geom;
+way(457818251);out geom;
+
+<<<>>>
+PumaKatari Ruta Integradora
+https://www.openstreetmap.org/relation/8543666
+undefined street
+
+rel(8543666);out geom;
+way(457818251);out geom;
+
+<<<>>>
+Ruta Ventilla
+https://www.openstreetmap.org/relation/8912220
+
+rel(8912220);out geom;
+way(546890394);out geom;way(369403470);out geom;
+way(643214802);out geom;way(643214802);out geom;
+way(602713919);out geom;way(602713919);out geom;
+
+<<<>>>
+Pumakatari Ruta Integradora tramo 2
+https://www.openstreetmap.org/relation/9317022
+
+rel(9317022);out geom;
+way(439424084);out geom;way(44349201);out geom;
+way(553615354);out geom;way(439221806);out geom;
+way(421174180);out geom;way(605879549);out geom;
+way(671022494);out geom;way(553615355);out geom;
+
+<<<

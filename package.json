@@ -4,7 +4,11 @@
   "description": "OSM  Public Transport Downloader",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "npm run bolivia",
+    "bolivia": "npm run bolivia:cochabamaba && npm run bolivia:santacruz && npm run bolivia:lapaz",
+    "bolivia:cochabamaba": "node ./scripts/bolivia-cochabamba.js",
+    "bolivia:santacruz": "node ./scripts/bolivia-santacruz.js",
+    "bolivia:lapaz": "node ./scripts/bolivia-lapaz.js"
   },
   "repository": {
     "type": "git",

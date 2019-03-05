@@ -1,0 +1,361 @@
+>>>
+MiniBus 209: Parque de la Autonomía → Plaza Bolívar
+https://www.openstreetmap.org/relation/3388175
+
+rel(3388175);out geom;
+way(442138144);out geom;way(313346730);out geom;
+way(168240285);out geom;way(548473894);out geom;
+way(230640699);out geom;way(471127050);out geom;
+way(252597493);out geom;way(548473898);out geom;
+
+<<<>>>
+MiniBus 201: Plaza Bolívar → Laguna Alalay
+https://www.openstreetmap.org/relation/4207829
+
+rel(4207829);out geom;
+way(313346725);out geom;way(656122561);out geom;
+way(28250005);out geom;way(574204090);out geom;
+way(574204091);out geom;way(578169113);out geom;
+
+<<<>>>
+MiniBus 205: Las Cuadras → Plaza Bolívar
+https://www.openstreetmap.org/relation/4220716
+
+rel(4220716);out geom;
+way(442138144);out geom;way(203431157);out geom;
+way(658243471);out geom;way(314152446);out geom;
+way(314152444);out geom;way(471127050);out geom;
+way(658243470);out geom;way(258227862);out geom;
+
+<<<>>>
+MiniBus 217: Plaza Bolívar → Pacata Central
+https://www.openstreetmap.org/relation/4224343
+
+rel(4224343);out geom;
+way(313346725);out geom;way(168369216);out geom;
+way(253008550);out geom;way(418239765);out geom;
+way(586691143);out geom;way(314356657);out geom;
+
+<<<>>>
+MiniBus 260: Laguna Alalay → Plaza Bolívar
+https://www.openstreetmap.org/relation/4237142
+
+rel(4237142);out geom;
+way(230640699);out geom;way(471127050);out geom;
+way(442138144);out geom;way(203431157);out geom;
+way(315097357);out geom;way(548473894);out geom;
+
+<<<>>>
+MicroBus B: Villa Moscú → Aeropuerto → Chavez Rancho
+https://www.openstreetmap.org/relation/4247869
+duplicated street
+
+rel(4247869);out geom;
+way(604396696);out geom;
+
+<<<>>>
+MiniBus 207: Plaza Bolívar → Temporal
+https://www.openstreetmap.org/relation/4269607
+
+rel(4269607);out geom;
+way(313346725);out geom;way(314152399);out geom;
+way(315097355);out geom;way(315097355);out geom;
+way(543434604);out geom;way(548473898);out geom;
+way(168240285);out geom;way(548473894);out geom;
+way(230640699);out geom;way(315097360);out geom;
+
+<<<>>>
+MiniBus 203: Las Cuadras → Plaza Bolívar
+https://www.openstreetmap.org/relation/4420888
+
+rel(4420888);out geom;
+way(442138144);out geom;way(329319891);out geom;
+way(658243471);out geom;way(314152446);out geom;
+way(222238803);out geom;way(471127050);out geom;
+way(658243470);out geom;way(258227862);out geom;
+
+<<<>>>
+Bus B: Chavez Rancho → Aeropuerto → Villa Moscú
+https://www.openstreetmap.org/relation/4420889
+
+rel(4420889);out geom;
+way(315707971);out geom;way(656900186);out geom;
+way(50848467);out geom;way(346920867);out geom;
+way(545608318);out geom;way(545608314);out geom;
+way(318643204);out geom;way(50848466);out geom;
+way(230640699);out geom;way(318643186);out geom;
+way(168240285);out geom;way(548473894);out geom;
+way(164670232);out geom;way(548473898);out geom;
+
+<<<>>>
+MicroBus C: Eucaliptos Sud → Beato Salomón
+https://www.openstreetmap.org/relation/4430244
+
+rel(4430244);out geom;
+way(484303336);out geom;way(319054095);out geom;
+way(319054112);out geom;way(654591050);out geom;
+
+<<<>>>
+MiniBus 203: Plaza Bolívar → Las Cuadras
+https://www.openstreetmap.org/relation/4431661
+
+rel(4431661);out geom;
+way(186789077);out geom;way(658243472);out geom;
+way(658243470);out geom;way(258227862);out geom;
+
+<<<>>>
+MicroBus C: Beato Salomón → Eucaliptos Sud
+https://www.openstreetmap.org/relation/4433300
+
+rel(4433300);out geom;
+way(319647258);out geom;way(587323374);out geom;
+way(654591050);out geom;way(319054112);out geom;
+
+<<<>>>
+Bus 211R: Plaza Bolivar → Parque Pairumani
+https://www.openstreetmap.org/relation/4436907
+
+rel(4436907);out geom;
+way(319384778);out geom;way(319384778);out geom;
+way(319142643);out geom;way(160234416);out geom;
+
+<<<>>>
+Bus D: Alejo Calatayud → Linde
+https://www.openstreetmap.org/relation/4443072
+
+rel(4443072);out geom;
+way(319647250);out geom;way(319647238);out geom;
+way(545166720);out geom;way(545166720);out geom;
+
+<<<>>>
+Bus D: Linde → Alejo Calatayud
+https://www.openstreetmap.org/relation/4443073
+
+rel(4443073);out geom;
+way(319647246);out geom;way(361946674);out geom;
+way(314152380);out geom;way(222015393);out geom;
+way(319647238);out geom;way(320330723);out geom;
+
+<<<>>>
+MicroBus E: Cuatro Esquinas → Villa Jarkas
+https://www.openstreetmap.org/relation/4443362
+
+rel(4443362);out geom;
+way(230640721);out geom;way(418239791);out geom;
+way(319660353);out geom;way(135321758);out geom;
+way(135321795);out geom;way(319660335);out geom;
+way(426506241);out geom;way(658243472);out geom;
+way(658243470);out geom;way(548473894);out geom;
+
+<<<>>>
+MicroBus E: Villa Jarkas → Cuatro Esquinas
+https://www.openstreetmap.org/relation/4443363
+
+rel(4443363);out geom;
+way(442138144);out geom;way(426506241);out geom;
+way(319660338);out geom;way(658243470);out geom;
+way(658243471);out geom;way(471127050);out geom;
+
+<<<>>>
+MiniBus 290: Plaza Bolívar → Chillimarca
+https://www.openstreetmap.org/relation/4655384
+
+rel(4655384);out geom;
+way(313346725);out geom;way(348839631);out geom;
+way(331694819);out geom;way(331694818);out geom;
+
+<<<>>>
+MiniBus 201: Laguna Alalay → Plaza Bolívar
+https://www.openstreetmap.org/relation/4770039
+
+rel(4770039);out geom;
+way(442138144);out geom;way(313346730);out geom;
+way(578169113);out geom;way(471127050);out geom;
+
+<<<>>>
+MiniBus 217: Pacata Central → Plaza Bolívar
+https://www.openstreetmap.org/relation/4770040
+
+rel(4770040);out geom;
+way(442138144);out geom;way(313346730);out geom;
+way(314356657);out geom;way(471127050);out geom;
+
+<<<>>>
+Bus 3: Comunidad Andrada → Santa Rosa
+https://www.openstreetmap.org/relation/5167276
+duplicated street
+
+rel(5167276);out geom;
+way(313514690);out geom;
+
+<<<>>>
+Bus 3: Santa Rosa → Comunidad Andrada
+https://www.openstreetmap.org/relation/5172572
+duplicated street
+
+rel(5172572);out geom;
+way(656122561);out geom;
+
+<<<>>>
+MicroBus W: Barrio Universitario Bajo → Plaza Bolívar
+https://www.openstreetmap.org/relation/5386695
+
+rel(5386695);out geom;
+way(442138144);out geom;way(313346730);out geom;
+way(585502807);out geom;way(471127050);out geom;
+
+<<<>>>
+MicroBus H: Chacacollo → Molle Molle → Salinas
+https://www.openstreetmap.org/relation/5457000
+
+rel(5457000);out geom;
+way(50712020);out geom;way(368000149);out geom;
+way(29070225);out geom;way(610543930);out geom;
+way(368000139);out geom;way(148658021);out geom;
+way(654603215);out geom;way(316898077);out geom;
+way(550175874);out geom;way(550175872);out geom;
+way(366967662);out geom;way(655708948);out geom;
+way(368000121);out geom;way(191624962);out geom;
+
+<<<>>>
+MicroBus H: Salinas → Molle Molle → Chacacollo
+https://www.openstreetmap.org/relation/5457001
+
+rel(5457001);out geom;
+way(654603215);out geom;way(654603215);out geom;
+way(550175874);out geom;way(550175872);out geom;
+way(368000100);out geom;way(655708947);out geom;
+way(50712015);out geom;way(656372206);out geom;
+way(50846737);out geom;way(548473898);out geom;
+way(168240285);out geom;way(548473894);out geom;
+way(230640721);out geom;way(467394200);out geom;
+way(149742432);out geom;way(316898077);out geom;
+way(148658021);out geom;way(669455011);out geom;
+way(366967662);out geom;way(366967662);out geom;
+
+<<<>>>
+MicroBus Q: Plaza Bolívar → Laguna Alalay
+https://www.openstreetmap.org/relation/5457263
+
+rel(5457263);out geom;
+way(313346725);out geom;way(323955379);out geom;
+way(366985667);out geom;way(366985667);out geom;
+way(366985668);out geom;way(587323362);out geom;
+way(366985670);out geom;way(655708948);out geom;
+way(50712019);out geom;way(320336350);out geom;
+way(360450243);out geom;way(587323394);out geom;
+
+<<<>>>
+MicroBus I: San Antonio → Colquiri Sud
+https://www.openstreetmap.org/relation/5484212
+
+rel(5484212);out geom;
+way(554698454);out geom;way(369146720);out geom;
+way(251600628);out geom;way(299958680);out geom;
+
+<<<>>>
+TaxiTrufi 252: Cochabamba → Quillacollo
+https://www.openstreetmap.org/relation/6130841
+
+rel(6130841);out geom;
+way(220594609);out geom;way(28349959);out geom;
+way(199571529);out geom;way(199571529);out geom;
+way(409632420);out geom;way(442156139);out geom;
+way(442138144);out geom;way(442138144);out geom;
+
+<<<>>>
+TaxiTrufi 103: C. J. Macedonio Urquidi → 16 de Julio
+https://www.openstreetmap.org/relation/9118824
+
+rel(9118824);out geom;
+way(396642055);out geom;way(67144534);out geom;
+way(224312089);out geom;way(314152373);out geom;
+way(314152380);out geom;way(655747225);out geom;
+way(655747216);out geom;way(478357735);out geom;
+
+<<<>>>
+TaxiTrufi 136: Av. Uncia → Av. Segunda
+https://www.openstreetmap.org/relation/9133720
+
+rel(9133720);out geom;
+way(297783150);out geom;way(320124242);out geom;
+way(46986103);out geom;way(358647847);out geom;
+
+<<<>>>
+TaxiTrufi 136: Av. Segunda → Av. Uncia
+https://www.openstreetmap.org/relation/9133722
+
+rel(9133722);out geom;
+way(657413126);out geom;way(657413126);out geom;
+way(657413125);out geom;way(224828368);out geom;
+way(657413133);out geom;way(581073117);out geom;
+way(657413134);out geom;way(657413134);out geom;
+way(28732236);out geom;way(657413135);out geom;
+way(657413136);out geom;way(656122565);out geom;
+way(503882383);out geom;way(503882383);out geom;
+way(51188210);out geom;way(297783150);out geom;
+
+<<<>>>
+Trufi 108 : Av. Benjo Cruz → C. San Luis
+https://www.openstreetmap.org/relation/9144377
+
+rel(9144377);out geom;
+way(659208676);out geom;way(659208630);out geom;
+way(55968928);out geom;way(657413136);out geom;
+
+<<<>>>
+Minibus 43 : OTB 27 de Mayo → Av. Humberto Asín Rivero
+https://www.openstreetmap.org/relation/9166781
+**************** route undefined **************
+
+<<<>>>
+Minibus 43 : Av. Humberto Asín Rivero → OTB 27 de Mayo
+https://www.openstreetmap.org/relation/9166782
+**************** route undefined **************
+
+<<<>>>
+Minibus 1001 : Barrio Universitario Bajo  → OTB Ecológica
+https://www.openstreetmap.org/relation/9193250
+duplicated street
+
+rel(9193250);out geom;
+way(271403827);out geom;
+
+<<<>>>
+TaxiTrufi 101-A: Av. Ecologica → Barrio Universitario Bajo
+https://www.openstreetmap.org/relation/9196557
+
+rel(9196557);out geom;
+way(323969111);out geom;way(662932605);out geom;
+way(323880491);out geom;way(656371117);out geom;
+
+<<<>>>
+Trufi 121 : Calle Obrajes -> Avenida Circunvalación II
+https://www.openstreetmap.org/relation/9312061
+**************** route undefined **************
+
+<<<>>>
+MiniBus 6: Av. Gerónimo de Osorio → Av. Pisiga
+https://www.openstreetmap.org/relation/9321577
+
+rel(9321577);out geom;
+way(318667337);out geom;way(670117279);out geom;
+way(670117278);out geom;way(222015415);out geom;
+way(222015416);out geom;way(222015416);out geom;
+way(222015396);out geom;way(222015396);out geom;
+way(64728456);out geom;way(318667361);out geom;
+
+<<<>>>
+Minibus Z : No → S
+https://www.openstreetmap.org/relation/9373042
+
+rel(9373042);out geom;
+way(656372202);out geom;way(656122566);out geom;
+way(192559417);out geom;way(192559417);out geom;
+way(587323421);out geom;way(654591051);out geom;
+way(655708949);out geom;way(656372210);out geom;
+way(662558815);out geom;way(669455009);out geom;
+way(150904056);out geom;way(150904056);out geom;
+way(661348445);out geom;way(323969118);out geom;
+
+<<<

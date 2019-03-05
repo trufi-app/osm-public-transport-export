@@ -1,11 +1,15 @@
-const osmToGeojson = require('./app/osm-to-geojson')
+const {
+    getRoutesAndWays,
+    getWays,
+    getRoutes
+} = require('./src/OSM_downloader')
+const {
+    convertGeoJSON
+} = require('./src/OSM_dataTool')
 
-// Export routes of Cochabamba, Bolivia
-osmToGeojson({
-    "bounds": {
-        "N": -17.276198,
-        "S": -17.57727,
-        "E": -65.96397,
-        "O": -66.376555
-    }
-})
+module.exports = {
+    convertGeoJSON: convertGeoJSON,
+    getRoutesAndWays: getRoutesAndWays,
+    getWays: getWays,
+    getRoutes: getRoutes
+}
