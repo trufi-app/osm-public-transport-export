@@ -14,6 +14,8 @@ Generate GeoJSON for all cities:
 ```sh
 npm start
 ```
+- Sometimes the server can reject with `too many requests`, therefore, is recommended run scripts by separated.
+
 Generate GeoJSON for specific city:
 
 | City | Command |
