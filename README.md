@@ -15,12 +15,16 @@ Generate GeoJSON for all cities:
 npm start
 ```
 Generate GeoJSON for specific city:
+
 | City | Command |
 | ------ | ------ |
 | Cochabamba | `npm run bolivia:cochabamba` |
 | La Paz | `npm run bolivia:lapaz` |
 | Santa Cruz | `npm run bolivia:santacruz` |
+
 The the files will be written to `scripts/out/<<city-name>>/geojson.json`. You can preview the data with several tools such as [http://geojson.io/](http://geojson.io/).
+
+![example](/img/routes_geojson_cochabamba.JPG)
+
 ### Error handler
 The file `scripts/out/<<city-name>>/log_error.text` contains queries with the route errors. You can use [overpass-turbo](http://overpass-turbo.eu/) to run the query.
-![example](/img/routes_geojson_cochabamba.JPG)
