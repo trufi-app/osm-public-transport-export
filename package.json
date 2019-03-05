@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run bolivia",
-    "bolivia": "npm run bolivia:cochabamaba && npm run bolivia:santacruz && npm run bolivia:lapaz",
-    "bolivia:cochabamaba": "node ./scripts/bolivia-cochabamba.js",
+    "bolivia": "npm run bolivia:cochabamba && npm run bolivia:santacruz && npm run bolivia:lapaz",
+    "bolivia:cochabamba": "node ./scripts/bolivia-cochabamba.js",
     "bolivia:santacruz": "node ./scripts/bolivia-santacruz.js",
     "bolivia:lapaz": "node ./scripts/bolivia-lapaz.js"
   },

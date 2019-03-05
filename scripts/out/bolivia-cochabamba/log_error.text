@@ -22,9 +22,8 @@ MiniBus 205: Las Cuadras → Plaza Bolívar
 https://www.openstreetmap.org/relation/4220716
 
 rel(4220716);out geom;
-way(442138144);out geom;way(203431157);out geom;
 way(658243471);out geom;way(314152446);out geom;
-way(314152444);out geom;way(471127050);out geom;
+way(314152444);out geom;way(203431157);out geom;
 way(658243470);out geom;way(258227862);out geom;
 
 <<<>>>
@@ -41,8 +40,7 @@ MiniBus 260: Laguna Alalay → Plaza Bolívar
 https://www.openstreetmap.org/relation/4237142
 
 rel(4237142);out geom;
-way(230640699);out geom;way(471127050);out geom;
-way(442138144);out geom;way(203431157);out geom;
+way(230640699);out geom;way(203431157);out geom;
 way(315097357);out geom;way(548473894);out geom;
 
 <<<>>>
@@ -51,7 +49,7 @@ https://www.openstreetmap.org/relation/4247869
 duplicated street
 
 rel(4247869);out geom;
-way(604396696);out geom;
+way(319874079);out geom;
 
 <<<>>>
 MiniBus 207: Plaza Bolívar → Temporal
@@ -173,14 +171,6 @@ way(442138144);out geom;way(313346730);out geom;
 way(578169113);out geom;way(471127050);out geom;
 
 <<<>>>
-MiniBus 217: Pacata Central → Plaza Bolívar
-https://www.openstreetmap.org/relation/4770040
-
-rel(4770040);out geom;
-way(442138144);out geom;way(313346730);out geom;
-way(314356657);out geom;way(471127050);out geom;
-
-<<<>>>
 Bus 3: Comunidad Andrada → Santa Rosa
 https://www.openstreetmap.org/relation/5167276
 duplicated street
@@ -272,14 +262,6 @@ way(396642055);out geom;way(67144534);out geom;
 way(224312089);out geom;way(314152373);out geom;
 way(314152380);out geom;way(655747225);out geom;
 way(655747216);out geom;way(478357735);out geom;
-
-<<<>>>
-TaxiTrufi 136: Av. Uncia → Av. Segunda
-https://www.openstreetmap.org/relation/9133720
-
-rel(9133720);out geom;
-way(297783150);out geom;way(320124242);out geom;
-way(46986103);out geom;way(358647847);out geom;
 
 <<<>>>
 TaxiTrufi 136: Av. Segunda → Av. Uncia

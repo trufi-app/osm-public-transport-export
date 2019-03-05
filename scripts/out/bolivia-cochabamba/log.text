@@ -8,6 +8,7 @@ Done >>> MicroBus A: Sindicato Agrario Taquiña → Chaqui Mayu
 Done >>> Bus 233
 Done >>> MiniBus 106: El Paso → Cochabamba
 Done >>> MiniBus 120: Cochabamba → Tiquipaya
+Done >>> MiniBus 217: Pacata Central → Plaza Bolívar
 Done >>> Bus 212: Amancayas → Tránsito
 Done >>> MicroBus LL: La Concordia → San Gabriel
 Done >>> Bus G: Asunción Llallagua → San Antonio
@@ -24,6 +25,7 @@ Done >>> Micro R : Entre Rios → Av. Arquímedes
 Done >>> Micro R : Av. Arquímedes → Entre Rios
 Done >>> Minibus 1 : Av. Humberto Asin  → Av. Ecologica
 Done >>> Minibus 1 : Av. Ecologica → Av. Humberto Asin
+Done >>> TaxiTrufi 136: Av. Uncia → Av. Segunda
 Done >>> Trufi 102 : Av. Segunda → Tamborada
 Done >>> Trufi 108 :C. San Luis → Av. Benjo Cruz
 Done >>> Minubus 10 : C. Faustino Suarez → Cerro Calomani
@@ -40,5 +42,5 @@ Done >>> Trufi 121 : Avenida Circunvalación II -> Calle Obrajes
 Done >>> Micro M : Plan 335 Prefectural Fortaleza →
 Done >>> Minibus 11: C. Qurisunqu → Av. Inglaterra
 Done >>> Minibus 11: Av. Inglaterra → C. Qurisunqu
-routes dowloaded : 41
-routes to fix : 39
+routes dowloaded : 43
+routes to fix : 37
