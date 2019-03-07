@@ -51,6 +51,20 @@ const getWays = function downloadWays(bounds, outfolder) {
     })
 }
 
+const getOnlyRoutesWays = function downloadWays(bounds, outfolder) {
+    if (!bounds) throw "missing bounds"
+    if (!(bounds.N > bounds.S && bounds.E > bounds.O)) throw "wrong bounds"
+    if (!fs.existsSync(outfolder)) fs.mkdirSync(outfolder);
+    console.time("ways downloaded")
+    return axion_request(
+        `[out:json];rel["type"="route"]["route"~"bus|share_taxi"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});way(r);out geom;`,
+        outfolder ? path.join(outfolder, 'ways.json') : null
+    ).then(response => {
+        console.timeEnd("ways downloaded")
+        return response
+    })
+}
+
 const getRoutes = function downloadRoutes(bounds, outfolder) {
     if (!bounds) throw "missing bounds"
     if (!(bounds.N > bounds.S && bounds.E > bounds.O)) throw "wrong bounds"
@@ -67,7 +81,7 @@ const getRoutes = function downloadRoutes(bounds, outfolder) {
 
 exports.getRoutesAndWays = async function (bounds, outfolder) {
     let routes = await getRoutes(bounds, outfolder)
-    let ways = await getWays(bounds, outfolder)
+    let ways = await getOnlyRoutesWays(bounds, outfolder)
     return {
         routes: routes,
         ways: ways

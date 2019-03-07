@@ -3,7 +3,6 @@ Done >>> MiniBus 209: Plaza Bolívar → Parque de la Autonomía
 Done >>> MiniBus 270: Plaza Bolivar → Pacata Central
 Done >>> MiniBus 260: Plaza Bolívar → Laguna Alalay
 Done >>> MiniBus 270: Pacata Central → Plaza Bolivar
-Done >>> Micro A: Chaqui Mayu → Sindicato Agrario Taquiña
 Done >>> MicroBus A: Sindicato Agrario Taquiña → Chaqui Mayu
 Done >>> Bus 233
 Done >>> MiniBus 106: El Paso → Cochabamba
@@ -15,7 +14,6 @@ Done >>> Bus G: Asunción Llallagua → San Antonio
 Done >>> Bus G: San Antonio → Asunción Llallagua
 Done >>> Bus LL: San Gabriel → La Concordia
 Done >>> MiniBus 120: Tiquipaya → Cochabamba
-Done >>> MiniBus 106: Cochabamba → El Paso
 Done >>> Bus 233: Quintanilla → UMSS
 Done >>> Micro J: C. Gran Chaco → C. Chiquitano
 Done >>> Micro J: C. Chiquitano → C. Gran Chaco
@@ -23,16 +21,15 @@ Done >>> Minibus 16: Av. La Joya → C. Padre Bertha
 Done >>> Minibus 16: C. Padre Bertha → Av. La Joya
 Done >>> Micro R : Entre Rios → Av. Arquímedes
 Done >>> Micro R : Av. Arquímedes → Entre Rios
-Done >>> Minibus 1 : Av. Humberto Asin  → Av. Ecologica
+Done >>> Minibus 1 : Av. Humberto Asin → Av. Ecologica
 Done >>> Minibus 1 : Av. Ecologica → Av. Humberto Asin
 Done >>> TaxiTrufi 136: Av. Uncia → Av. Segunda
 Done >>> Trufi 102 : Av. Segunda → Tamborada
 Done >>> Trufi 108 :C. San Luis → Av. Benjo Cruz
 Done >>> Minubus 10 : C. Faustino Suarez → Cerro Calomani
-Done >>> Minibus 10 : Cerro Calomani →  C. Faustino Suarez
+Done >>> Minibus 1001 : Barrio Universitario Bajo  → OTB Ecológica
 Done >>> Minibus 1001 : OTB Ecológica → Barrio Universitario Bajo
 Done >>> TaxiTrufi 101-A: Barrio Universitario Bajo → Av. Ecologica
-Done >>> TaxiTrufi 104: C. Monseñor O. Arnulfo Romero → 1ro de Mayo
 Done >>> TaxiTrufi 104: 1ro de Mayo → C. Monseñor O. Arnulfo Romero
 Done >>> Trufi 107 : Maica Quenamari → C. Rafael Bustillo-Norte
 Done >>> Trufi 107 : C. Rafael Bustillo-Norte →  Maica Quenamari
@@ -41,6 +38,9 @@ Done >>> Trufi 109 : C. Felix Reyes Ortiz → C. Papayo
 Done >>> Trufi 121 : Avenida Circunvalación II -> Calle Obrajes
 Done >>> Micro M : Plan 335 Prefectural Fortaleza →
 Done >>> Minibus 11: C. Qurisunqu → Av. Inglaterra
-Done >>> Minibus 11: Av. Inglaterra → C. Qurisunqu
+Done >>> Minibus 232: Av. Sajama → Av. Villazón
+Done >>> Minibus 232: Av. Villazón → Av. Sajama
+Done >>> Minibus 240: Av. Chaco → Av. Villazón
+Done >>> Minibus 240: Av. Villazón → Av. Chaco
 routes dowloaded : 43
-routes to fix : 37
+routes to fix : 42

@@ -63,6 +63,14 @@ way(168240285);out geom;way(548473894);out geom;
 way(230640699);out geom;way(315097360);out geom;
 
 <<<>>>
+Micro A: Chaqui Mayu → Sindicato Agrario Taquiña
+https://www.openstreetmap.org/relation/4269608
+
+rel(4269608);out geom;
+way(220594606);out geom;way(659214135);out geom;
+way(316898060);out geom;way(220594686);out geom;
+
+<<<>>>
 MiniBus 203: Las Cuadras → Plaza Bolívar
 https://www.openstreetmap.org/relation/4420888
 
@@ -77,7 +85,7 @@ Bus B: Chavez Rancho → Aeropuerto → Villa Moscú
 https://www.openstreetmap.org/relation/4420889
 
 rel(4420889);out geom;
-way(315707971);out geom;way(656900186);out geom;
+way(315707971);out geom;way(675060425);out geom;
 way(50848467);out geom;way(346920867);out geom;
 way(545608318);out geom;way(545608314);out geom;
 way(318643204);out geom;way(50848466);out geom;
@@ -231,7 +239,8 @@ rel(5457263);out geom;
 way(313346725);out geom;way(323955379);out geom;
 way(366985667);out geom;way(366985667);out geom;
 way(366985668);out geom;way(587323362);out geom;
-way(366985670);out geom;way(655708948);out geom;
+way(366985670);out geom;way(656372206);out geom;
+way(366985677);out geom;way(655708948);out geom;
 way(50712019);out geom;way(320336350);out geom;
 way(360450243);out geom;way(587323394);out geom;
 
@@ -252,6 +261,14 @@ way(220594609);out geom;way(28349959);out geom;
 way(199571529);out geom;way(199571529);out geom;
 way(409632420);out geom;way(442156139);out geom;
 way(442138144);out geom;way(442138144);out geom;
+
+<<<>>>
+MiniBus 106: Cochabamba → El Paso
+https://www.openstreetmap.org/relation/6714096
+
+rel(6714096);out geom;
+way(502557675);out geom;way(220594686);out geom;
+way(220594606);out geom;way(361656446);out geom;
 
 <<<>>>
 TaxiTrufi 103: C. J. Macedonio Urquidi → 16 de Julio
@@ -296,12 +313,12 @@ https://www.openstreetmap.org/relation/9166782
 **************** route undefined **************
 
 <<<>>>
-Minibus 1001 : Barrio Universitario Bajo  → OTB Ecológica
-https://www.openstreetmap.org/relation/9193250
-duplicated street
+Minibus 10 : Cerro Calomani →  C. Faustino Suarez
+https://www.openstreetmap.org/relation/9184014
 
-rel(9193250);out geom;
-way(271403827);out geom;
+rel(9184014);out geom;
+way(50845669);out geom;way(662551092);out geom;
+way(661348475);out geom;way(671755803);out geom;
 
 <<<>>>
 TaxiTrufi 101-A: Av. Ecologica → Barrio Universitario Bajo
@@ -310,6 +327,14 @@ https://www.openstreetmap.org/relation/9196557
 rel(9196557);out geom;
 way(323969111);out geom;way(662932605);out geom;
 way(323880491);out geom;way(656371117);out geom;
+
+<<<>>>
+TaxiTrufi 104: C. Monseñor O. Arnulfo Romero → 1ro de Mayo
+https://www.openstreetmap.org/relation/9219406
+
+rel(9219406);out geom;
+way(313514662);out geom;way(665471516);out geom;
+way(348736497);out geom;way(665471481);out geom;
 
 <<<>>>
 Trufi 121 : Calle Obrajes -> Avenida Circunvalación II
@@ -328,7 +353,15 @@ way(222015396);out geom;way(222015396);out geom;
 way(64728456);out geom;way(318667361);out geom;
 
 <<<>>>
-Minibus Z : No → S
+Minibus 11: Av. Inglaterra → C. Qurisunqu
+https://www.openstreetmap.org/relation/9342277
+
+rel(9342277);out geom;
+way(50845669);out geom;way(671755771);out geom;
+way(671755796);out geom;way(671755803);out geom;
+
+<<<>>>
+Minibus Z : Avenida Ecológica → Calle Miguel Coca
 https://www.openstreetmap.org/relation/9373042
 
 rel(9373042);out geom;
@@ -339,5 +372,14 @@ way(655708949);out geom;way(656372210);out geom;
 way(662558815);out geom;way(669455009);out geom;
 way(150904056);out geom;way(150904056);out geom;
 way(661348445);out geom;way(323969118);out geom;
+
+<<<>>>
+Minibus Z : Calle Miguel Coca → Avenida Ecológica
+https://www.openstreetmap.org/relation/9373675
+
+rel(9373675);out geom;
+way(323969118);out geom;way(674595405);out geom;
+way(655708961);out geom;way(314152446);out geom;
+way(408701919);out geom;way(662560358);out geom;
 
 <<<
