@@ -7,11 +7,12 @@ Done >>> MicroBus A: Sindicato Agrario Taquiña → Chaqui Mayu
 Done >>> Bus 233
 Done >>> MiniBus 106: El Paso → Cochabamba
 Done >>> MiniBus 120: Cochabamba → Tiquipaya
+Done >>> Trufi 290: Av. Blanco Galindo → Chillimarca
 Done >>> MiniBus 217: Pacata Central → Plaza Bolívar
 Done >>> Bus 212: Amancayas → Tránsito
 Done >>> MicroBus LL: La Concordia → San Gabriel
-Done >>> Bus G: Asunción Llallagua → San Antonio
-Done >>> Bus G: San Antonio → Asunción Llallagua
+Done >>> MicroBus G: Asunción Llallagua → San Antonio
+Done >>> MicroBus G: San Antonio → Asunción Llallagua
 Done >>> Bus LL: San Gabriel → La Concordia
 Done >>> MiniBus 120: Tiquipaya → Cochabamba
 Done >>> Bus 233: Quintanilla → UMSS
@@ -26,10 +27,12 @@ Done >>> Minibus 1 : Av. Ecologica → Av. Humberto Asin
 Done >>> TaxiTrufi 136: Av. Uncia → Av. Segunda
 Done >>> Trufi 102 : Av. Segunda → Tamborada
 Done >>> Trufi 108 :C. San Luis → Av. Benjo Cruz
-Done >>> Minubus 10 : C. Faustino Suarez → Cerro Calomani
+Done >>> MiniBus 10: C. Faustino Suarez → Cerro Calomani
+Done >>> Minibus 10 : Cerro Calomani →  C. Faustino Suarez
 Done >>> Minibus 1001 : Barrio Universitario Bajo  → OTB Ecológica
 Done >>> Minibus 1001 : OTB Ecológica → Barrio Universitario Bajo
 Done >>> TaxiTrufi 101-A: Barrio Universitario Bajo → Av. Ecologica
+Done >>> TaxiTrufi 104: C. Monseñor O. Arnulfo Romero → 1ro de Mayo
 Done >>> TaxiTrufi 104: 1ro de Mayo → C. Monseñor O. Arnulfo Romero
 Done >>> Trufi 107 : Maica Quenamari → C. Rafael Bustillo-Norte
 Done >>> Trufi 107 : C. Rafael Bustillo-Norte →  Maica Quenamari
@@ -38,9 +41,17 @@ Done >>> Trufi 109 : C. Felix Reyes Ortiz → C. Papayo
 Done >>> Trufi 121 : Avenida Circunvalación II -> Calle Obrajes
 Done >>> Micro M : Plan 335 Prefectural Fortaleza →
 Done >>> Minibus 11: C. Qurisunqu → Av. Inglaterra
+Done >>> Minibus 11: Av. Inglaterra → C. Qurisunqu
 Done >>> Minibus 232: Av. Sajama → Av. Villazón
 Done >>> Minibus 232: Av. Villazón → Av. Sajama
 Done >>> Minibus 240: Av. Chaco → Av. Villazón
 Done >>> Minibus 240: Av. Villazón → Av. Chaco
-routes dowloaded : 43
-routes to fix : 42
+Done >>> Trufi 230: C. Grover Suarez → Av. Villazón
+Done >>> Trufi 230: Av. Villazón → C. Grover Suarez
+Done >>> Microbus 250: Av. Blanco Galindo → Av. Mártires de la Democracia
+Done >>> Microbus 250: Av. Mártires de la Democracia → Av. Blanco Galindo
+Done >>> Trufi 290: Chilimarca → Av. Blanco Galindo
+Done >>> Trufi 252: C. Litoral → Av. Blanco Galindo
+Done >>> Trufi 252: Av. Blanco Galindo → C. Litoral
+routes dowloaded : 54
+routes to fix : 37

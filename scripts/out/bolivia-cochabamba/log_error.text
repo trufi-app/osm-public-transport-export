@@ -163,14 +163,6 @@ way(319660338);out geom;way(658243470);out geom;
 way(658243471);out geom;way(471127050);out geom;
 
 <<<>>>
-MiniBus 290: Plaza Bolívar → Chillimarca
-https://www.openstreetmap.org/relation/4655384
-
-rel(4655384);out geom;
-way(313346725);out geom;way(348839631);out geom;
-way(331694819);out geom;way(331694818);out geom;
-
-<<<>>>
 MiniBus 201: Laguna Alalay → Plaza Bolívar
 https://www.openstreetmap.org/relation/4770039
 
@@ -253,16 +245,6 @@ way(554698454);out geom;way(369146720);out geom;
 way(251600628);out geom;way(299958680);out geom;
 
 <<<>>>
-TaxiTrufi 252: Cochabamba → Quillacollo
-https://www.openstreetmap.org/relation/6130841
-
-rel(6130841);out geom;
-way(220594609);out geom;way(28349959);out geom;
-way(199571529);out geom;way(199571529);out geom;
-way(409632420);out geom;way(442156139);out geom;
-way(442138144);out geom;way(442138144);out geom;
-
-<<<>>>
 MiniBus 106: Cochabamba → El Paso
 https://www.openstreetmap.org/relation/6714096
 
@@ -313,28 +295,12 @@ https://www.openstreetmap.org/relation/9166782
 **************** route undefined **************
 
 <<<>>>
-Minibus 10 : Cerro Calomani →  C. Faustino Suarez
-https://www.openstreetmap.org/relation/9184014
-
-rel(9184014);out geom;
-way(50845669);out geom;way(662551092);out geom;
-way(661348475);out geom;way(671755803);out geom;
-
-<<<>>>
 TaxiTrufi 101-A: Av. Ecologica → Barrio Universitario Bajo
 https://www.openstreetmap.org/relation/9196557
 
 rel(9196557);out geom;
-way(323969111);out geom;way(662932605);out geom;
-way(323880491);out geom;way(656371117);out geom;
-
-<<<>>>
-TaxiTrufi 104: C. Monseñor O. Arnulfo Romero → 1ro de Mayo
-https://www.openstreetmap.org/relation/9219406
-
-rel(9219406);out geom;
-way(313514662);out geom;way(665471516);out geom;
-way(348736497);out geom;way(665471481);out geom;
+way(323880491);out geom;way(662932605);out geom;
+way(656371117);out geom;way(555516361);out geom;
 
 <<<>>>
 Trufi 121 : Calle Obrajes -> Avenida Circunvalación II
@@ -346,19 +312,10 @@ MiniBus 6: Av. Gerónimo de Osorio → Av. Pisiga
 https://www.openstreetmap.org/relation/9321577
 
 rel(9321577);out geom;
-way(318667337);out geom;way(670117279);out geom;
 way(670117278);out geom;way(222015415);out geom;
 way(222015416);out geom;way(222015416);out geom;
 way(222015396);out geom;way(222015396);out geom;
-way(64728456);out geom;way(318667361);out geom;
-
-<<<>>>
-Minibus 11: Av. Inglaterra → C. Qurisunqu
-https://www.openstreetmap.org/relation/9342277
-
-rel(9342277);out geom;
-way(50845669);out geom;way(671755771);out geom;
-way(671755796);out geom;way(671755803);out geom;
+way(64728456);out geom;way(670117279);out geom;
 
 <<<>>>
 Minibus Z : Avenida Ecológica → Calle Miguel Coca
