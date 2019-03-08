@@ -106,8 +106,8 @@ MiniBus 203: Plaza Bolívar → Las Cuadras
 https://www.openstreetmap.org/relation/4431661
 
 rel(4431661);out geom;
-way(186789077);out geom;way(658243472);out geom;
 way(658243470);out geom;way(258227862);out geom;
+way(186789077);out geom;way(658243472);out geom;
 
 <<<>>>
 MicroBus C: Beato Salomón → Eucaliptos Sud
@@ -203,7 +203,7 @@ way(50712020);out geom;way(368000149);out geom;
 way(29070225);out geom;way(610543930);out geom;
 way(368000139);out geom;way(148658021);out geom;
 way(654603215);out geom;way(316898077);out geom;
-way(550175874);out geom;way(550175872);out geom;
+way(550175874);out geom;way(675345635);out geom;
 way(366967662);out geom;way(655708948);out geom;
 way(368000121);out geom;way(191624962);out geom;
 
@@ -213,7 +213,7 @@ https://www.openstreetmap.org/relation/5457001
 
 rel(5457001);out geom;
 way(654603215);out geom;way(654603215);out geom;
-way(550175874);out geom;way(550175872);out geom;
+way(550175874);out geom;way(675345635);out geom;
 way(368000100);out geom;way(655708947);out geom;
 way(50712015);out geom;way(656372206);out geom;
 way(50846737);out geom;way(548473898);out geom;

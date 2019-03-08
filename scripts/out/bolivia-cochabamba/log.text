@@ -2,7 +2,7 @@
 Done >>> MiniBus 209: Plaza Bolívar → Parque de la Autonomía
 Done >>> MiniBus 270: Plaza Bolivar → Pacata Central
 Done >>> MiniBus 260: Plaza Bolívar → Laguna Alalay
-Done >>> MiniBus 270: Pacata Central → Plaza Bolivar
+Done >>> MiniBus 270: Pacata Central ��� Plaza Bolivar
 Done >>> MicroBus A: Sindicato Agrario Taquiña → Chaqui Mayu
 Done >>> Bus 233
 Done >>> MiniBus 106: El Paso → Cochabamba
@@ -53,5 +53,11 @@ Done >>> Microbus 250: Av. Mártires de la Democracia → Av. Blanco Galindo
 Done >>> Trufi 290: Chilimarca → Av. Blanco Galindo
 Done >>> Trufi 252: C. Litoral → Av. Blanco Galindo
 Done >>> Trufi 252: Av. Blanco Galindo → C. Litoral
-routes dowloaded : 54
+Done >>> Microbus 200: C. Litoral → Av. Blanco Galindo
+Done >>> Microbus 200: Av. Blanco Galindo → C. Litoral
+Done >>> Minibus 118: Av. República → Av. Ecológica
+Done >>> Minibus 118: Av. Ecológica → Av. República
+Done >>> Trufi 116: Alto Buena Vista →  C. Logustina
+Done >>> Trufi 116: C. Logustina → Alto Buena Vista
+routes dowloaded : 60
 routes to fix : 37
