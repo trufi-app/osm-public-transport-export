@@ -1,25 +1,42 @@
 
+Done >>> MiniBus 209: Parque de la Autonomía → Plaza Bolívar
 Done >>> MiniBus 209: Plaza Bolívar → Parque de la Autonomía
 Done >>> MiniBus 270: Plaza Bolivar → Pacata Central
 Done >>> MiniBus 260: Plaza Bolívar → Laguna Alalay
-Done >>> MiniBus 270: Pacata Central ��� Plaza Bolivar
+Done >>> MiniBus 201: Plaza Bolívar → Laguna Alalay
+Done >>> MiniBus 270: Pacata Central → Plaza Bolivar
+Done >>> MiniBus 217: Plaza Bolívar → Pacata Central
+Done >>> MiniBus 260: Laguna Alalay → Plaza Bolívar
+Done >>> Micro A: Chaqui Mayu → Sindicato Agrario Taquiña
 Done >>> MicroBus A: Sindicato Agrario Taquiña → Chaqui Mayu
 Done >>> Bus 233
+Done >>> MiniBus 203: Las Cuadras → Plaza Bolívar
+Done >>> MiniBus 203: Plaza Bolívar → Las Cuadras
+Done >>> Bus 211R: Plaza Bolivar → Parque Pairumani
+Done >>> Bus D: Alejo Calatayud → Linde
+Done >>> MicroBus E: Cuatro Esquinas → Villa Jarkas
+Done >>> MicroBus E: Villa Jarkas → Cuatro Esquinas
 Done >>> MiniBus 106: El Paso → Cochabamba
 Done >>> MiniBus 120: Cochabamba → Tiquipaya
 Done >>> Trufi 290: Av. Blanco Galindo → Chillimarca
+Done >>> MiniBus 201: Laguna Alalay → Plaza Bolívar
 Done >>> MiniBus 217: Pacata Central → Plaza Bolívar
 Done >>> Bus 212: Amancayas → Tránsito
 Done >>> MicroBus LL: La Concordia → San Gabriel
+Done >>> MicroBus W: Barrio Universitario Bajo → Plaza Bolívar
 Done >>> MicroBus G: Asunción Llallagua → San Antonio
 Done >>> MicroBus G: San Antonio → Asunción Llallagua
+Done >>> MicroBus Q: Plaza Bolívar → Laguna Alalay
 Done >>> Bus LL: San Gabriel → La Concordia
+Done >>> MicroBus I: San Antonio → Colquiri Sud
 Done >>> MiniBus 120: Tiquipaya → Cochabamba
+Done >>> MiniBus 106: Cochabamba → El Paso
 Done >>> Bus 233: Quintanilla → UMSS
 Done >>> Micro J: C. Gran Chaco → C. Chiquitano
 Done >>> Micro J: C. Chiquitano → C. Gran Chaco
 Done >>> Minibus 16: Av. La Joya → C. Padre Bertha
 Done >>> Minibus 16: C. Padre Bertha → Av. La Joya
+Done >>> TaxiTrufi 103: C. J. Macedonio Urquidi → 16 de Julio
 Done >>> Micro R : Entre Rios → Av. Arquímedes
 Done >>> Micro R : Av. Arquímedes → Entre Rios
 Done >>> Minibus 1 : Av. Humberto Asin → Av. Ecologica
@@ -28,10 +45,8 @@ Done >>> TaxiTrufi 136: Av. Uncia → Av. Segunda
 Done >>> Trufi 102 : Av. Segunda → Tamborada
 Done >>> Trufi 108 :C. San Luis → Av. Benjo Cruz
 Done >>> MiniBus 10: C. Faustino Suarez → Cerro Calomani
-Done >>> Minibus 10 : Cerro Calomani →  C. Faustino Suarez
 Done >>> Minibus 1001 : Barrio Universitario Bajo  → OTB Ecológica
 Done >>> Minibus 1001 : OTB Ecológica → Barrio Universitario Bajo
-Done >>> TaxiTrufi 101-A: Barrio Universitario Bajo → Av. Ecologica
 Done >>> TaxiTrufi 104: C. Monseñor O. Arnulfo Romero → 1ro de Mayo
 Done >>> TaxiTrufi 104: 1ro de Mayo → C. Monseñor O. Arnulfo Romero
 Done >>> Trufi 107 : Maica Quenamari → C. Rafael Bustillo-Norte
@@ -40,6 +55,7 @@ Done >>> Trufi 109 : C. Papayo → C. Felix Reyes Ortiz
 Done >>> Trufi 109 : C. Felix Reyes Ortiz → C. Papayo
 Done >>> Trufi 121 : Avenida Circunvalación II -> Calle Obrajes
 Done >>> Micro M : Plan 335 Prefectural Fortaleza →
+Done >>> MiniBus 6: Av. Gerónimo de Osorio → Av. Pisiga
 Done >>> Minibus 11: C. Qurisunqu → Av. Inglaterra
 Done >>> Minibus 11: Av. Inglaterra → C. Qurisunqu
 Done >>> Minibus 232: Av. Sajama → Av. Villazón
@@ -59,5 +75,5 @@ Done >>> Minibus 118: Av. República → Av. Ecológica
 Done >>> Minibus 118: Av. Ecológica → Av. República
 Done >>> Trufi 116: Alto Buena Vista →  C. Logustina
 Done >>> Trufi 116: C. Logustina → Alto Buena Vista
-routes dowloaded : 60
-routes to fix : 37
+routes dowloaded : 76
+routes to fix : 22
