@@ -95,6 +95,14 @@ rel(5172572);out geom;
 way(656122561);out geom;
 
 <<<>>>
+MicroBus W: Barrio Universitario Bajo → Plaza Bolívar
+https://www.openstreetmap.org/relation/5386695
+
+rel(5386695);out geom;
+way(585502807);out geom;way(313346730);out geom;
+way(231523182);out geom;way(319647251);out geom;
+
+<<<>>>
 MicroBus H: Chacacollo → Molle Molle → Salinas
 https://www.openstreetmap.org/relation/5457000
 

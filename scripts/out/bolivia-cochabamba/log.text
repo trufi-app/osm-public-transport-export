@@ -21,12 +21,11 @@ Done >>> MiniBus 201: Laguna Alalay → Plaza Bolívar
 Done >>> MiniBus 217: Pacata Central → Plaza Bolívar
 Done >>> Bus 212: Amancayas → Tránsito
 Done >>> MicroBus LL: La Concordia → San Gabriel
-Done >>> MicroBus W: Barrio Universitario Bajo → Plaza Bolívar
 Done >>> MicroBus G: Asunción Llallagua → San Antonio
 Done >>> MicroBus G: San Antonio → Asunción Llallagua
 Done >>> MicroBus Q: Plaza Bolívar → Laguna Alalay
 Done >>> Bus LL: San Gabriel → La Concordia
-Done >>> MicroBus I: San Antonio ��� Colquiri Sud
+Done >>> MicroBus I: San Antonio → Colquiri Sud
 Done >>> MiniBus 120: Tiquipaya → Cochabamba
 Done >>> MiniBus 106: Cochabamba → El Paso
 Done >>> Bus 233: Quintanilla → UMSS
@@ -80,5 +79,7 @@ Done >>> MiniBus 45 : Calle Serranía de Caiza → Calle Santiago Fajardo
 Done >>> Trufi 016: Av. Ecológica → C. Litoral
 Done >>> Trufi 016: C. Litoral → Av. Ecológica
 Done >>> Microbus V : S → No
-routes dowloaded : 81
-routes to fix : 34
+Done >>> Trufi 212: Av. Beijing → Lava Lava Baja
+Done >>> Trufi 212: Lava Lava Baja → Av. Beijing
+routes dowloaded : 82
+routes to fix : 35
