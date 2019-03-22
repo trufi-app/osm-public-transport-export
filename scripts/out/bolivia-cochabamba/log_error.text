@@ -24,6 +24,15 @@ way(315097355);out geom;way(315097355);out geom;
 way(543434604);out geom;way(315097360);out geom;
 
 <<<>>>
+Micro A: Chaqui Mayu → Sindicato Agrario Taquiña
+https://www.openstreetmap.org/relation/4269608
+
+rel(4269608);out geom;
+way(136717063);out geom;way(136717063);out geom;
+way(662920117);out geom;way(659214135);out geom;
+way(316898060);out geom;way(316898058);out geom;
+
+<<<>>>
 Bus B: Chavez Rancho → Aeropuerto → Villa Moscú
 https://www.openstreetmap.org/relation/4420889
 
@@ -41,7 +50,7 @@ MicroBus C: Eucaliptos Sud → Beato Salomón
 https://www.openstreetmap.org/relation/4430244
 
 rel(4430244);out geom;
-way(484303336);out geom;way(319054095);out geom;
+way(484303336);out geom;way(675833157);out geom;
 way(319054112);out geom;way(654591050);out geom;
 
 <<<>>>
@@ -60,6 +69,14 @@ rel(4443073);out geom;
 way(319647246);out geom;way(361946674);out geom;
 way(314152380);out geom;way(222015393);out geom;
 way(319647238);out geom;way(320330723);out geom;
+
+<<<>>>
+MicroBus E: Cuatro Esquinas → Villa Jarkas
+https://www.openstreetmap.org/relation/4443362
+
+rel(4443362);out geom;
+way(319660341);out geom;way(319660335);out geom;
+way(426506241);out geom;way(135681505);out geom;
 
 <<<>>>
 Bus 3: Comunidad Andrada → Santa Rosa
@@ -139,12 +156,28 @@ https://www.openstreetmap.org/relation/9166782
 **************** route undefined **************
 
 <<<>>>
-Minibus 10 : Cerro Calomani →  C. Faustino Suarez
+Minibus 10 : Cerro Calomani → C. Faustino Suarez
 https://www.openstreetmap.org/relation/9184014
 
 rel(9184014);out geom;
 way(661348475);out geom;way(297834940);out geom;
 way(662551082);out geom;way(662551092);out geom;
+
+<<<>>>
+Minibus 1001 : Barrio Universitario Bajo → OTB Ecológica
+https://www.openstreetmap.org/relation/9193250
+
+rel(9193250);out geom;
+way(662560338);out geom;way(662558801);out geom;
+way(361917844);out geom;way(662558821);out geom;
+
+<<<>>>
+Minibus 1001 : OTB Ecológica → Barrio Universitario Bajo
+https://www.openstreetmap.org/relation/9193252
+
+rel(9193252);out geom;
+way(662558801);out geom;way(194822401);out geom;
+way(662558822);out geom;way(361917844);out geom;
 
 <<<>>>
 TaxiTrufi 101-A: Av. Ecologica → Barrio Universitario Bajo
@@ -163,47 +196,100 @@ way(550175873);out geom;way(323969107);out geom;
 way(323969111);out geom;way(662560358);out geom;
 
 <<<>>>
+TaxiTrufi 104: 1ro de Mayo → C. Monseñor O. Arnulfo Romero
+https://www.openstreetmap.org/relation/9219407
+
+rel(9219407);out geom;
+way(136717063);out geom;way(136717063);out geom;
+way(662920117);out geom;way(348736497);out geom;
+way(665471516);out geom;way(316898058);out geom;
+
+<<<>>>
+Trufi 109 : C. Papayo → C. Felix Reyes Ortiz
+https://www.openstreetmap.org/relation/9219457
+
+rel(9219457);out geom;
+way(665480496);out geom;way(297828867);out geom;
+way(194041986);out geom;way(665480472);out geom;
+
+<<<>>>
 Trufi 121 : Calle Obrajes -> Avenida Circunvalación II
 https://www.openstreetmap.org/relation/9312061
 **************** route undefined **************
 
 <<<>>>
-Minibus Z : Avenida Ecológica → Calle Miguel Coca
-https://www.openstreetmap.org/relation/9373042
+Microbus 250: Av. Mártires de la Democracia → Av. Blanco Galindo
+https://www.openstreetmap.org/relation/9377827
 
-rel(9373042);out geom;
-way(656372202);out geom;way(656122566);out geom;
-way(192559417);out geom;way(192559417);out geom;
-way(587323421);out geom;way(654591051);out geom;
-way(655708949);out geom;way(656372210);out geom;
-way(662558815);out geom;way(669455009);out geom;
-way(150904056);out geom;way(150904056);out geom;
-way(661348445);out geom;way(323969118);out geom;
+rel(9377827);out geom;
+way(675090142);out geom;way(676717269);out geom;
+way(442156130);out geom;way(675090154);out geom;
 
 <<<>>>
-Minibus Z : Calle Miguel Coca → Avenida Ecológica
-https://www.openstreetmap.org/relation/9373675
+Trufi 290: Chilimarca → Av. Blanco Galindo
+https://www.openstreetmap.org/relation/9379871
 
-rel(9373675);out geom;
-way(323969118);out geom;way(674595405);out geom;
-way(655708961);out geom;way(314152446);out geom;
-way(408701919);out geom;way(662560358);out geom;
+rel(9379871);out geom;
+way(418239767);out geom;way(313346725);out geom;
+way(331694819);out geom;way(655726212);out geom;
 
 <<<>>>
-MicroBus Y : O → S
-https://www.openstreetmap.org/relation/9383241
+Trufi 252: C. Litoral → Av. Blanco Galindo
+https://www.openstreetmap.org/relation/9380021
 
-rel(9383241);out geom;
-way(260503570);out geom;way(590544747);out geom;
-way(65596548);out geom;way(319796638);out geom;
-way(245754552);out geom;way(245754552);out geom;
+rel(9380021);out geom;
+way(442156130);out geom;way(675090152);out geom;
+way(320162908);out geom;way(676717269);out geom;
+
+<<<>>>
+Microbus W : Avenida Blanco Galindo → Calle Río Beni
+https://www.openstreetmap.org/relation/9386225
+
+rel(9386225);out geom;
+way(586699511);out geom;way(361919421);out geom;
+way(675090140);out geom;way(675090140);out geom;
+way(151036359);out geom;way(361917835);out geom;
+
+<<<>>>
+Trufi 01: Av. Los Angeles → C. Calamarca
+https://www.openstreetmap.org/relation/9397733
+
+rel(9397733);out geom;
+way(676935460);out geom;way(676935453);out geom;
+way(55968928);out geom;way(657413136);out geom;
+
+<<<>>>
+Trufi 010: C. Quripacha → C. Provincia General José Ballivián
+https://www.openstreetmap.org/relation/9397899
+
+rel(9397899);out geom;
+way(175511308);out geom;way(676951187);out geom;
+way(55968928);out geom;way(657413136);out geom;
+
+<<<>>>
+MicroBus Y : S → O
+https://www.openstreetmap.org/relation/9413605
+
+rel(9413605);out geom;
+way(362505639);out geom;way(506132129);out geom;
 way(245754553);out geom;way(245754553);out geom;
-way(675625011);out geom;way(28734871);out geom;
-way(321403364);out geom;way(50845670);out geom;
-way(40861461);out geom;way(60812804);out geom;
-way(271403848);out geom;way(669455010);out geom;
-way(150904056);out geom;way(362505639);out geom;
-way(675067892);out geom;way(65596608);out geom;
-way(65596572);out geom;way(245754542);out geom;
+way(65596518);out geom;way(319926753);out geom;
+way(65596572);out geom;way(65596572);out geom;
+
+<<<>>>
+Microbus V : No → S
+https://www.openstreetmap.org/relation/9417509
+
+rel(9417509);out geom;
+way(656579387);out geom;way(136713788);out geom;
+way(678247183);out geom;way(297833516);out geom;
+
+<<<>>>
+Trufi 112: C. Volcán Tolima → C. Hugo Almaraz
+https://www.openstreetmap.org/relation/9420548
+
+rel(9420548);out geom;
+way(297833522);out geom;way(314152446);out geom;
+way(678491111);out geom;way(678491122);out geom;
 
 <<<

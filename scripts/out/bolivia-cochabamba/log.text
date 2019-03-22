@@ -7,14 +7,12 @@ Done >>> MiniBus 201: Plaza Bolívar → Laguna Alalay
 Done >>> MiniBus 270: Pacata Central → Plaza Bolivar
 Done >>> MiniBus 217: Plaza Bolívar → Pacata Central
 Done >>> MiniBus 260: Laguna Alalay → Plaza Bolívar
-Done >>> Micro A: Chaqui Mayu → Sindicato Agrario Taquiña
 Done >>> MicroBus A: Sindicato Agrario Taquiña → Chaqui Mayu
 Done >>> Bus 233
 Done >>> MiniBus 203: Las Cuadras → Plaza Bolívar
 Done >>> MiniBus 203: Plaza Bolívar → Las Cuadras
 Done >>> Bus 211R: Plaza Bolivar → Parque Pairumani
 Done >>> Bus D: Alejo Calatayud → Linde
-Done >>> MicroBus E: Cuatro Esquinas → Villa Jarkas
 Done >>> MicroBus E: Villa Jarkas → Cuatro Esquinas
 Done >>> MiniBus 106: El Paso → Cochabamba
 Done >>> MiniBus 120: Cochabamba → Tiquipaya
@@ -28,7 +26,7 @@ Done >>> MicroBus G: Asunción Llallagua → San Antonio
 Done >>> MicroBus G: San Antonio → Asunción Llallagua
 Done >>> MicroBus Q: Plaza Bolívar → Laguna Alalay
 Done >>> Bus LL: San Gabriel → La Concordia
-Done >>> MicroBus I: San Antonio → Colquiri Sud
+Done >>> MicroBus I: San Antonio ��� Colquiri Sud
 Done >>> MiniBus 120: Tiquipaya → Cochabamba
 Done >>> MiniBus 106: Cochabamba → El Paso
 Done >>> Bus 233: Quintanilla → UMSS
@@ -45,19 +43,17 @@ Done >>> TaxiTrufi 136: Av. Uncia → Av. Segunda
 Done >>> Trufi 102 : Av. Segunda → Tamborada
 Done >>> Trufi 108 :C. San Luis → Av. Benjo Cruz
 Done >>> MiniBus 10: C. Faustino Suarez → Cerro Calomani
-Done >>> Minibus 1001 : Barrio Universitario Bajo  → OTB Ecológica
-Done >>> Minibus 1001 : OTB Ecológica → Barrio Universitario Bajo
 Done >>> TaxiTrufi 104: C. Monseñor O. Arnulfo Romero → 1ro de Mayo
-Done >>> TaxiTrufi 104: 1ro de Mayo → C. Monseñor O. Arnulfo Romero
 Done >>> Trufi 107 : Maica Quenamari → C. Rafael Bustillo-Norte
 Done >>> Trufi 107 : C. Rafael Bustillo-Norte →  Maica Quenamari
-Done >>> Trufi 109 : C. Papayo → C. Felix Reyes Ortiz
 Done >>> Trufi 109 : C. Felix Reyes Ortiz → C. Papayo
 Done >>> Trufi 121 : Avenida Circunvalación II -> Calle Obrajes
 Done >>> Micro M : Plan 335 Prefectural Fortaleza →
 Done >>> MiniBus 6: Av. Gerónimo de Osorio → Av. Pisiga
 Done >>> Minibus 11: C. Qurisunqu → Av. Inglaterra
 Done >>> Minibus 11: Av. Inglaterra → C. Qurisunqu
+Done >>> Minibus Z : Avenida Ecológica → Calle Miguel Coca
+Done >>> Minibus Z : Calle Miguel Coca → Avenida Ecológica
 Done >>> Minibus 232: Av. Sajama → Av. Villazón
 Done >>> Minibus 232: Av. Villazón → Av. Sajama
 Done >>> Minibus 240: Av. Chaco → Av. Villazón
@@ -65,9 +61,6 @@ Done >>> Minibus 240: Av. Villazón → Av. Chaco
 Done >>> Trufi 230: C. Grover Suarez → Av. Villazón
 Done >>> Trufi 230: Av. Villazón → C. Grover Suarez
 Done >>> Microbus 250: Av. Blanco Galindo → Av. Mártires de la Democracia
-Done >>> Microbus 250: Av. Mártires de la Democracia → Av. Blanco Galindo
-Done >>> Trufi 290: Chilimarca → Av. Blanco Galindo
-Done >>> Trufi 252: C. Litoral → Av. Blanco Galindo
 Done >>> Trufi 252: Av. Blanco Galindo → C. Litoral
 Done >>> Microbus 200: C. Litoral → Av. Blanco Galindo
 Done >>> Microbus 200: Av. Blanco Galindo → C. Litoral
@@ -75,5 +68,17 @@ Done >>> Minibus 118: Av. República → Av. Ecológica
 Done >>> Minibus 118: Av. Ecológica → Av. República
 Done >>> Trufi 116: Alto Buena Vista →  C. Logustina
 Done >>> Trufi 116: C. Logustina → Alto Buena Vista
-routes dowloaded : 76
-routes to fix : 22
+Done >>> MicroBus Y : O → S
+Done >>> Taxi de ruta fija Taquiña : Cruce Taquiña → Fabrica
+Done >>> Trufi 113: Av. Ecológica → Calicanto
+Done >>> Trufi 113: Calicanto → Av. Ecológica
+Done >>> Trufi 01: C. Calamarca → Av. Los Angeles
+Done >>> Trufi 03: Pasaje 22 →  C. Jorge Ugaeta
+Done >>> Trufi 03: C. Jorge Ugaeta → Pasaje 22
+Done >>> Trufi 010: C. Provincia General José Ballivián → C. Quripacha
+Done >>> MiniBus 45 : Calle Serranía de Caiza → Calle Santiago Fajardo
+Done >>> Trufi 016: Av. Ecológica → C. Litoral
+Done >>> Trufi 016: C. Litoral → Av. Ecológica
+Done >>> Microbus V : S → No
+routes dowloaded : 81
+routes to fix : 34

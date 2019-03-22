@@ -24,31 +24,12 @@ way(437682647);out geom;way(668717331);out geom;
 way(399166576);out geom;way(165308750);out geom;
 
 <<<>>>
-Línea 72
-https://www.openstreetmap.org/relation/6937432
-
-rel(6937432);out geom;
-way(671161101);out geom;way(139332360);out geom;
-way(493450319);out geom;way(493450329);out geom;
-
-<<<>>>
 Línea 74
 https://www.openstreetmap.org/relation/6938190
 
 rel(6938190);out geom;
 way(441693135);out geom;way(671152080);out geom;
 way(140704486);out geom;way(55055838);out geom;
-
-<<<>>>
-Línea 10
-https://www.openstreetmap.org/relation/6945575
-
-rel(6945575);out geom;
-way(85587021);out geom;way(399166564);out geom;
-way(438015304);out geom;way(438015304);out geom;
-way(672664955);out geom;way(672664955);out geom;
-way(160459708);out geom;way(401235777);out geom;
-way(493336045);out geom;way(493336042);out geom;
 
 <<<>>>
 Línea 48
@@ -64,7 +45,7 @@ https://www.openstreetmap.org/relation/6945577
 
 rel(6945577);out geom;
 way(671413239);out geom;way(626445261);out geom;
-way(27909101);out geom;way(440233467);out geom;
+way(27909101);out geom;way(675897417);out geom;
 way(440233474);out geom;way(440233474);out geom;
 way(673253592);out geom;way(671413234);out geom;
 way(674095984);out geom;way(163989939);out geom;
@@ -90,11 +71,11 @@ way(671414344);out geom;way(671414344);out geom;
 
 <<<>>>
 Linea 110
-https://www.openstreetmap.org/relation/7664365
+https://www.openstreetmap.org/relation/7708361
 
-rel(7664365);out geom;
-way(165915754);out geom;way(673251218);out geom;
-way(669442934);out geom;way(533571282);out geom;
+rel(7708361);out geom;
+way(533571282);out geom;way(441633766);out geom;
+way(27822248);out geom;way(670349709);out geom;
 
 <<<>>>
 Linea 45
@@ -126,16 +107,9 @@ Linea 14
 https://www.openstreetmap.org/relation/9311086
 
 rel(9311086);out geom;
-way(673176861);out geom;way(440388761);out geom;
-way(536180762);out geom;way(441503457);out geom;
-
-<<<>>>
-Linea 12
-https://www.openstreetmap.org/relation/9311098
-
-rel(9311098);out geom;
-way(27819358);out geom;way(165968135);out geom;
-way(440262067);out geom;way(441715998);out geom;
+way(385365213);out geom;way(401235777);out geom;
+way(669529318);out geom;way(669529318);out geom;
+way(438859336);out geom;way(352360689);out geom;
 
 <<<>>>
 Linea 75
@@ -160,7 +134,7 @@ Linea 22 Rojo
 https://www.openstreetmap.org/relation/9313150
 
 rel(9313150);out geom;
-way(331227017);out geom;way(164077524);out geom;
+way(675892434);out geom;way(164077524);out geom;
 way(27819358);out geom;way(670347605);out geom;
 way(459866683);out geom;way(441715998);out geom;
 way(669503387);out geom;way(174170560);out geom;
@@ -199,23 +173,16 @@ Linea 51
 https://www.openstreetmap.org/relation/9356976
 
 rel(9356976);out geom;
-way(669527168);out geom;way(612335567);out geom;
-way(27928270);out geom;way(439835462);out geom;
-
-<<<>>>
-Linea 70
-https://www.openstreetmap.org/relation/9357808
-
-rel(9357808);out geom;
-way(141702419);out geom;way(27914698);out geom;
-way(376755739);out geom;way(439967872);out geom;
+way(669527168);out geom;way(440986044);out geom;
+way(84288543);out geom;way(439835462);out geom;
+way(677551957);out geom;way(164078260);out geom;
 
 <<<>>>
 Linea 1
 https://www.openstreetmap.org/relation/9357816
 
 rel(9357816);out geom;
-way(139585664);out geom;way(440060674);out geom;
+way(677185749);out geom;way(440060674);out geom;
 way(669527163);out geom;way(458136738);out geom;
 
 <<<>>>
@@ -232,9 +199,9 @@ https://www.openstreetmap.org/relation/9367150
 
 rel(9367150);out geom;
 way(417889802);out geom;way(442261807);out geom;
-way(604696783);out geom;way(35318973);out geom;
+way(604696783);out geom;way(35318979);out geom;
 way(603346488);out geom;way(441960729);out geom;
-way(35318979);out geom;way(440992158);out geom;
+way(677185758);out geom;way(677185758);out geom;
 
 <<<>>>
 Linea 4
@@ -307,7 +274,7 @@ Linea 76
 https://www.openstreetmap.org/relation/9375668
 
 rel(9375668);out geom;
-way(49000539);out geom;way(612699543);out geom;
+way(49000539);out geom;way(85189830);out geom;
 way(674845975);out geom;way(142719352);out geom;
 
 <<<
