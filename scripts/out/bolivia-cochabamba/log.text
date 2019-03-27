@@ -79,7 +79,26 @@ Done >>> MiniBus 45 : Calle Serranía de Caiza → Calle Santiago Fajardo
 Done >>> Trufi 016: Av. Ecológica → C. Litoral
 Done >>> Trufi 016: C. Litoral → Av. Ecológica
 Done >>> Microbus V : S → No
+Done >>> Trufi 112: C. Volcán Tolima → C. Hugo Almaraz
 Done >>> Trufi 212: Av. Beijing → Lava Lava Baja
 Done >>> Trufi 212: Lava Lava Baja → Av. Beijing
-routes dowloaded : 82
-routes to fix : 35
+Done >>> Trufi 114: Av. Uncia → C. Waldo Ballivián
+Done >>> Trufi114: C. Waldo Ballivián → Av. Uncia
+Done >>> Trufi 122: Chaupiloma → C. Qhochapampa
+Done >>> Trufi 134: Av. Chiquicollo → Av. Circunvalación
+Done >>> Trufi 134: Av. Circunvalación → Av. Chiquicollo
+Done >>> Trufi 135: C. Combate de Chacaltaya → Av. Circunvalación
+Done >>> Trufi 135: Av. Circunvalación → C. Combate de Chacaltaya
+Done >>> Trufi 311: Pampita Mejillones → C. Arawaqui
+Done >>> Trufi 311: C. Arawaqui → Pampita Mejillones
+Done >>> Trufi 119: Alto Litoral → Villa Taquiña
+Done >>> Trufi 119: Villa Taquiña → Alto Litoral
+Done >>> Trufi 123: Av. Paris → C. Wawaki
+Done >>> Trufi 123: C. Wawaki → Av. Paris
+Done >>> Trufi 012: Villa Cóndor → C. Claudio Tolomeo
+Done >>> Trufi 012: C. Claudio Tolomeo → Villa Cóndor
+Done >>> Minibus 160: Av. República → OTB Valle Grande
+Done >>> Trufi 112: C. Hugo Almaraz → C. Volcán Tolima
+Done >>> Trufi 122: C. Qhochapampa → Chaupiloma
+routes dowloaded : 101
+routes to fix : 38

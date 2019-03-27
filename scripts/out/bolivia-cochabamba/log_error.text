@@ -71,7 +71,7 @@ way(314152380);out geom;way(222015393);out geom;
 way(319647238);out geom;way(320330723);out geom;
 
 <<<>>>
-MicroBus E: Cuatro Esquinas → Villa Jarkas
+MicroBus E: Cuatro Esquinas ��� Villa Jarkas
 https://www.openstreetmap.org/relation/4443362
 
 rel(4443362);out geom;
@@ -217,8 +217,9 @@ Trufi 109 : C. Papayo → C. Felix Reyes Ortiz
 https://www.openstreetmap.org/relation/9219457
 
 rel(9219457);out geom;
-way(665480496);out geom;way(297828867);out geom;
-way(194041986);out geom;way(665480472);out geom;
+way(194041997);out geom;way(665480472);out geom;
+way(665480496);out geom;way(679606648);out geom;
+way(194041986);out geom;way(327396989);out geom;
 
 <<<>>>
 Trufi 121 : Calle Obrajes -> Avenida Circunvalación II
@@ -293,11 +294,36 @@ way(656579387);out geom;way(136713788);out geom;
 way(678247183);out geom;way(297833516);out geom;
 
 <<<>>>
-Trufi 112: C. Volcán Tolima → C. Hugo Almaraz
-https://www.openstreetmap.org/relation/9420548
+Minibu 27 : Alto Porvenir → C´aspichaca
+https://www.openstreetmap.org/relation/9430621
 
-rel(9420548);out geom;
-way(297833522);out geom;way(314152446);out geom;
-way(678491111);out geom;way(678491122);out geom;
+rel(9430621);out geom;
+way(676951197);out geom;way(676951197);out geom;
+way(679132572);out geom;way(679136191);out geom;
+
+<<<>>>
+Trufi 115: Urbanización Delicias → Central Agraria Taquiña
+https://www.openstreetmap.org/relation/9435998
+
+rel(9435998);out geom;
+way(679617588);out geom;way(222943024);out geom;
+way(515326357);out geom;way(672925890);out geom;
+
+<<<>>>
+Trufi 115: Central Agraria Taquiña → Urbanización Delicias
+https://www.openstreetmap.org/relation/9436000
+
+rel(9436000);out geom;
+way(222943024);out geom;way(679617588);out geom;
+way(515326357);out geom;way(672925890);out geom;
+
+<<<>>>
+Minibus 160: OTB Valle Grande → Av. República
+https://www.openstreetmap.org/relation/9436031
+
+rel(9436031);out geom;
+way(346588301);out geom;way(677561783);out geom;
+way(667571772);out geom;way(659216496);out geom;
+way(679620198);out geom;way(679620198);out geom;
 
 <<<
