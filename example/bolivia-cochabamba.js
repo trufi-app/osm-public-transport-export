@@ -1,4 +1,5 @@
 const osmToGeojson = require('..')
+const geojsonToGtfs = require('geojson-to-gtfs');
 
 let bounds = {
     "N": -17.276198,
@@ -9,6 +10,6 @@ let bounds = {
 
 osmToGeojson(bounds, __dirname + "/out/bolivia-cochabamba")
     .then(response => {
-        console.log("done")
+        geojsonToGtfs(response.geojson, __dirname + "/out/bolivia-cochabamba/gtfs");
     })
     .catch(console.log)

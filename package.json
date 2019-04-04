@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "geojson-to-gtfs": "^0.1.0"
   }
 }
