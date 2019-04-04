@@ -1,6 +1,4 @@
-const {
-    WayPartContainer
-} = require('./way_part_container')
+const { WayPartContainer } = require('./way_part_container')
 exports.routeExtractor = async function (route_elements, ways, stop_map) {
     let list_double_sense = []
     let list_single_sense = []
@@ -31,7 +29,6 @@ exports.routeExtractor = async function (route_elements, ways, stop_map) {
         let tmp_way = main_list[part_pos]
         part_pos++
         for (let way_to_join of main_list) {
-            // console.log(way_to_join, tmp_way)
             if (tmp_way.merge(way_to_join)) {
                 let index = main_list.indexOf(way_to_join);
                 main_list.splice(index, 1);
@@ -40,7 +37,6 @@ exports.routeExtractor = async function (route_elements, ways, stop_map) {
                 break
             }
         }
-        // console.log(part_pos, main_list_tam)
     }
     if (main_list.length > 1) {
         let res_error = ""
