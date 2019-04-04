@@ -17,3 +17,4 @@ async function osmToGeojson(bounds, outputDir) {
 }
 
 module.exports = osmToGeojson
+require('./example/bolivia-cochabamba')
