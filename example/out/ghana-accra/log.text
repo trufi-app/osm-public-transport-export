@@ -1,0 +1,826 @@
+
+routes dowloaded : 505
+
+
+Done >>> Trotro 31 : 37 → Abeka Lapaz
+Done >>> Trotro 31 : Abeka Lapaz → 37
+Done >>> Trotro 56 : Race Course → Abeka Lapaz
+Done >>> Trotro 11 : Abeka Lapaz → Circle Accra
+Done >>> Trotro 11 : Circle Accra → Abeka Lapaz
+Done >>> Trotro 15 : Abeka Lapaz → Dome Kwabenya
+Done >>> Trotro 15 : Dome Kwabenya → Abeka Lapaz
+Done >>> Trotro 6 : Abeka Lapaz → Sakumono Estate
+Done >>> Trotro 6 : Sakumono Estate → Abeka Lapaz
+Done >>> Trotro 209 : Circle → Swanlake Last Stop
+Done >>> Trotro 209 : Swanlake Last Stop → Circle
+Done >>> Trotro 211 : Circle → Tema (Motorway)
+Done >>> Trotro 211 : Tema (Motorway) → Circle
+Done >>> Trotro 76 : Achimota → 37
+Done >>> Trotro 76 : 37 → Achimota
+Done >>> Trotro 20 : Abeka Lapaz → Accra UTC
+Done >>> Trotro 20 : Accra UTC → Abeka Lapaz
+Done >>> Trotro 2 : 37 Lorry Park → Osu (37 Station)
+Done >>> Trotro 2 : Osu (37 Station) → 37 Lorry Park
+Done >>> Trotro 46 : Abeka Lapaz → Kaneshie
+Done >>> Trotro 46 : Kaneshie → Abeka Lapaz
+Done >>> Trotro 281 : Kaneshie → Russia
+Done >>> Trotro 281 : Russia → Kaneshie
+Done >>> Trotro 275 : Kaneshie → Madina-Adenta
+Done >>> Trotro 275 : Madina-Adenta → Kaneshie
+Done >>> Trotro 276 : Kaneshie → Mamponse
+Done >>> Trotro 276 : Mamponse → Kaneshie
+Done >>> Trotro 278 : Kaneshie → New town
+Done >>> Trotro 278 : New Town → Kaneshie
+Done >>> Trotro 998 : Circle Overhead → Ashaiaman
+Done >>> Trotro 998 : Ashaiaman → Circle Overhead
+Done >>> Trotro 72 : Accra New Town → Caprice
+Done >>> Trotro 72 : Caprice → Accra New Town
+Done >>> Trotro 242 : Dansoman → Odorkor
+Done >>> Trotro 242 : Odorkor → Dansoman
+Done >>> Trotro 264 : Hansonic → Dansoman Last Stop
+Done >>> Trotro 264 : Dansoman Last Stop → Hansonic
+Done >>> Trotro 454 : Osu → Circle
+Done >>> Trotro 454 : Circle → Osu
+Done >>> Trotro 420 : Accra New Tema Station → Kotobabi Down
+Done >>> Trotro 420 : Kotobabi Down → Accra New Tema Station
+Done >>> Trotro 422 : Circle Odorna → Madina/Adenta
+Done >>> Trotro 422 : Madina/Adenta → Circle Odorna
+Done >>> Trotro 4 : Abeka Lapaz → Ashaiman Main Station
+Done >>> Trotro 4 : Ashaiman Main Station → Abeka Lapaz
+Done >>> Trotro 7 : Abeka Lapaz → Taifa
+Done >>> Trotro 7 : Taifa → Abeka Lapaz
+Done >>> Trotro 8 : Abeka Lapaz → Tema Community One Market
+Done >>> Trotro 8 : Tema Community One Market → Abeka Lapaz
+Done >>> Trotro 10 : Abeka Lapaz → Amasaman
+Done >>> Trotro 10 : Amasaman → Abeka Lapaz
+Done >>> Trotro 18 : Abeka Lapaz → Kasoa
+Done >>> Trotro 18 : Kasoa → Abeka Lapaz
+Done >>> Trotro 19 : Abeka Lapaz → Kotokuo
+Done >>> Trotro 19 : Kotokuo → Abeka Lapaz
+Done >>> Trotro 16 : Abeka Lapaz → Sapeiman
+Done >>> Trotro 16 : Sapeiman → Abeka Lapaz
+Done >>> Trotro 3 : 37 Lorry Park → Tse Addo
+Done >>> Trotro 3 : Tse Addo → 37 Lorry Park
+Done >>> Trotro 21 : Abeka Lapaz → Dome
+Done >>> Trotro 21 : Dome → Abeka Lapaz
+Done >>> Trotro 23 : Abeka Lapaz → Teshie Nungua
+Done >>> Trotro 23 : Teshie Nungua → Abeka Lapaz
+Done >>> Trotro 26 : Abeka Main Market → Accra U.T.C
+Done >>> Trotro 26 : Accra U.T.C → Abeka Main Market
+Done >>> Trotro 48 : Abeka Lapaz → Korle Bu
+Done >>> Trotro 48 : Korle Bu → Abeka Lapaz
+Done >>> Trotro 50 : Abeka Lapaz → Mallam Gbawe
+Done >>> Trotro 50 : Mallam Gbawe → Abeka Lapaz
+Done >>> Trotro 35 : Abeka Lapaz → Agape
+Done >>> Trotro 35 : Agape → Abeka Lapaz
+Done >>> Trotro 58 : Six to Six Market → Abeka Lapaz
+Done >>> Trotro 84 : Achimota → Kuntunse/Satelite
+Done >>> Trotro 84 : Kuntunse/Satelite → Achimota
+Done >>> Trotro 70 : Accra End of the Motorway → Adjringanor/Otanor
+Done >>> Trotro 70 : Adjringanor/Otanor → Accra End of the Motorway
+Done >>> Trotro 214 : WAEC → Circle
+Done >>> Trotro 214 : Circle → WAEC
+Done >>> Trotro 81 : Achimota → Adenta Station
+Done >>> Trotro 81 : Adenta Station → Achimota
+Done >>> Trotro 88 : Achimota → Asofan
+Done >>> Trotro 88 : Asofan → Achimota
+Done >>> Trotro 93 : Achimota → Dome Pillar 2
+Done >>> Trotro 93 : Dome Pillar 2 → Achimota
+Done >>> Trotro 990 : Circle Odorna → SSNIT Flats
+Done >>> Trotro 98 : Achimota → Abeka Lapaz
+Done >>> Trotro 990 : SSNIT Flats → Circle Odorna
+Done >>> Trotro 98 : Abeka Lapaz → Achimota
+Done >>> Trotro 535 : Zambrama Line → Agbogbloshie 2
+Done >>> Trotro 535 : Agbogbloshie 2 → Zambrama Line
+Done >>> Trotro 39 : Abeka Lapaz → Antie-Eku Pallas Town
+Done >>> Trotro 39 : Antie-Eku Pallas Town → Abeka Lapaz
+Done >>> Trotro 524 : Accra New Tema Station → Banana Inn
+Done >>> Trotro 41 : Abeka Lapaz → Asofan
+Done >>> Trotro 41 : Asofan → Abeka Lapaz
+Done >>> Trotro 524 : Banana Inn → Accra New Tema Station
+Done >>> Trotro 523 : Accra New Tema Station → Trade Fair (La)
+Done >>> Trotro 43 : Bubiashie → Abeka Lapaz
+Done >>> Trotro 523 : Trade Fair (La) → Accra New Tema Station
+Done >>> Trotro 522 : Accra New Tema Station → Sukura
+Done >>> Trotro 522 : Sukura → Accra New Tema Station
+Done >>> Trotro 52 : Abeka Lapaz → Mayera
+Done >>> Trotro 492 : Tabora Alhaji → Kaneshie Station
+Done >>> Trotro 52 : Mayera → Abeka Lapaz
+Done >>> Trotro 492 : Kaneshie Station → Tabora Alhaji
+Done >>> Trotro 488 : Sukura → Arena
+Done >>> Trotro 55 : Abeka Lapaz → Osu
+Done >>> Trotro 55 : Osu → Abeka Lapaz
+Done >>> Trotro 488 : Arena → Sukura
+Done >>> Trotro 486 : Soko → Accra Post Office
+Done >>> Trotro 486 : Accra Post Office → Soko
+Done >>> Trotro 283 : Kaneshie Foot Bridge → Makola Tudu
+Done >>> Trotro 476 : Accra Salaga → Camara
+Done >>> Trotro 476 : Camara → Accra Salaga
+Done >>> Trotro 283 : Makola Tudu → Kaneshie Foot Bridge
+Done >>> Trotro 470 : Accra Rawlings Park → Osu Penta Hotel
+Done >>> Trotro 470 : Osu Penta Hotel → Accra Rawlings Park
+Done >>> Trotro 284 : Kaneshie Market Station → Agyapa Ye North Kaneshie
+Done >>> Trotro 284 : Agyapa Ye North Kaneshie → Kaneshie Market Station
+Done >>> Trotro 456 : Osu → Madina
+Done >>> Trotro 456 : Madina → Osu
+Done >>> Trotro 286 : Kaneshie Market Station → New Fadama
+Done >>> Trotro 455 : Osu → Kaneshie
+Done >>> Trotro 286 : New Fadama → Kaneshie Market Station
+Done >>> Trotro 455 : Kaneshie → Osu
+Done >>> Trotro 287 : Kaneshie Market Station → North Industrial Area
+Done >>> Trotro 452 : Orgle-Road → Kaneshie
+Done >>> Trotro 287 : North Industrial Area �� Kaneshie Market Station
+Done >>> Trotro 452 : Kaneshie → Orgle-Road
+Done >>> Trotro 288 : Kaneshie → Swanlake
+Done >>> Trotro 288 : Swanlake → Kaneshie
+Done >>> Trotro 290 : Kaneshie Takoradi Station → Dansoman Last Stop
+Done >>> Trotro 290 : Dansoman Last Stop → Kaneshie Takoradi Station
+Done >>> Trotro 447 : Opetekwei → Accra New Tema Station
+Done >>> Trotro 447 : Accra New Tema Station → Opetekwei
+Done >>> Trotro 295 : Kaneshie Takoradi Station → New Russia Last Stop
+Done >>> Trotro 295 : New Russia Last Stop → Kaneshie Takoradi Station
+Done >>> Trotro 296 : Kaneshie Takoradi Station → Russia Last Stop
+Done >>> Trotro 296 : Russia Last Stop → Kaneshie Takoradi Station
+Done >>> Trotro 435 : Odorkor → Kasoa
+Done >>> Trotro 435 : Kasoa → Odorkor
+Done >>> Trotro 299 : Korle Bu → Abeka Lapaz
+Done >>> Trotro 299 : Abeka Lapaz → Korle Bu
+Done >>> Trotro 301 : Korle Bu → Kasoa
+Done >>> Trotro 301 : Kasoa → Korle Bu
+Done >>> Trotro 431 : Circle Odorna → Korle Bu
+Done >>> Trotro 305 : Kaneshie → Dansoman
+Done >>> Trotro 431 : Korle Bu → Circle Odorna
+Done >>> Trotro 305 : Dansoman → Kaneshie
+Done >>> Trotro 428 : Circle Odorna → Tsui Bleoo
+Done >>> Trotro 99 : Achimota → Legon
+Done >>> Trotro 428 : Tsui Bleoo → Circle Odorna
+Done >>> Trotro 99 : Legon → Achimota
+Done >>> Trotro 423 : Odorna → Nima Mamobi
+Done >>> Trotro 423 : Nima Mamobi → Odorna
+Done >>> Trotro 419 : Odorna → Agblezah
+Done >>> Trotro 419 : Agblezah → Odorna
+Done >>> Trotro 416 : Accra New Tema Station → Cantonments
+Done >>> Trotro 416 : Cantonments → Accra New Tema Station
+Done >>> Trotro 66 : Accra → Nima
+Done >>> Trotro 66 : Nima → Accra
+Done >>> Trotro 71 : Accra End of the Motorway → American House
+Done >>> Trotro 71 : American House → Accra End of the Motorway
+Done >>> Trotro 415 : Nima Station → Nyaho
+Done >>> Trotro 415 : Nyaho → Nima Station
+Done >>> Trotro 90 : Achimota → Darkuman
+Done >>> Trotro 90 : Darkuman → Achimota
+Done >>> Trotro 414 : Nima Station → Madina
+Done >>> Trotro 414 : Madina → Nima Station
+Done >>> Trotro 410 : Nima Overhead → Sukura Station
+Done >>> Trotro 410 : Sukura Station → Nima Overhead
+Done >>> Trotro 405 : Nima Overhead → Lapaz-Nii Boi Junction
+Done >>> Trotro 405 : Lapaz-Nii Boi Junction → Nima Overhead
+Done >>> Trotro 107 : Achimota → Ofankor
+Done >>> Trotro 107 : Ofankor → Achimota
+Done >>> Trotro 192 : Circle → Fadama Last stop
+Done >>> Trotro 192 : Fadama Last stop → Circle
+Done >>> Trotro 200 : Circle → New Melcom
+Done >>> Trotro 200 : New Melcom → Circle
+Done >>> Trotro 202 : Circle → Novotel
+Done >>> Trotro 202 : Novotel → Circle
+Done >>> Trotro 204 : Circle → Osu Presby
+Done >>> Trotro 204 : Osu Presby → Circle
+Done >>> Trotro 205 : Circle → Osu RE
+Done >>> Trotro 205 : Osu RE → Circle
+Done >>> Trotro 206 : Circle → Osu RE
+Done >>> Trotro 206 : Osu RE → Circle
+Done >>> Trotro 207 : Circle → Ridge Hospital
+Done >>> Trotro 207 : Ridge Hospital → Circle
+Done >>> Trotro 208 : Circle → Stadium
+Done >>> Trotro 208 : Stadium → Circle
+Done >>> Trotro 210 : Circle → Teachers Hall
+Done >>> Trotro 210 : Teachers Hall → Circle
+Done >>> Trotro 404 : Nima Overhead → Dome Railway Crossing
+Done >>> Trotro 404 : Dome Railway Crossing → Nima Overhead
+Done >>> Trotro 402 : Nima Overhead → Awoshie Last Stop
+Done >>> Trotro 402 : Awoshie Last Stop → Nima Overhead
+Done >>> Trotro 401 : Nima Overhead → Israel Lomnava
+Done >>> Trotro 401 : Israel Lomnava → Nima Overhead
+Done >>> Trotro 398 : Nima Mamobi → Ashiaman
+Done >>> Trotro 398 : Ashiaman → Nima Mamobi
+Done >>> Trotro 65 : Accra → Darkuman
+Done >>> Trotro 65 : Darkuman → Accra
+Done >>> Trotro 92 : Achimota → Dome /Ashongman Estates
+Done >>> Trotro 92 : Dome /Ashongman Estates → Achimota
+Done >>> Trotro 100 : Achimota → Legon Station
+Done >>> Trotro 212 : Circle → Accra New Tema Station
+Done >>> Trotro 100 : Legon Station → Achimota
+Done >>> Trotro 188 : Circle → Asore Danho
+Done >>> Trotro 212 : Accra New Tema Station → Circle
+Done >>> Trotro 188 : Asore Danho → Circle
+Done >>> Trotro 219 : Circle Overhead → Abeka Lapaz
+Done >>> Trotro 219 : Abeka Lapaz → Circle Overhead
+Done >>> Trotro 102 : Achimota → Madina Station
+Done >>> Trotro 102 : Madina Station → Achimota
+Done >>> Trotro 103 : Achimota → Mallam Attah
+Done >>> Trotro 103 : Mallam Attah → Achimota
+Done >>> Trotro 112 : Achimota → Ashaiman Main Station
+Done >>> Trotro 112 : Ashaiman Main Station → Achimota
+Done >>> Trotro 155 : Akoto Lante → Kaneshie
+Done >>> Trotro 155 : Kaneshie → Akoto Lante
+Done >>> Trotro 157 : Alajo → Circle
+Done >>> Trotro 157 : Circle → Alajo
+Done >>> Trotro 163 : Apapa → Accra New Tema Station
+Done >>> Trotro 163 : Accra New Tema Station → Apapa
+Done >>> Trotro 167 : Atico → Kaneshie
+Done >>> Trotro 167 : Kaneshie → Atico
+Done >>> Trotro 395 : Nima → Circle
+Done >>> Trotro 395 : Circle → Nima
+Done >>> Trotro 391 : Accra New Town → Nima Maamobi
+Done >>> Trotro 391 : Nima Maamobi → Accra New Town
+Done >>> Trotro 389 : Accra New Town → Madina
+Done >>> Trotro 389 : Madina → Accra New Town
+Done >>> Trotro 351 : Legon → Dome
+Done >>> Trotro 351 : Dome → Legon
+Done >>> Trotro 356 : Mallam Atta → Achimota
+Done >>> Trotro 356 : Achimota → Mallam Atta
+Done >>> Trotro 114 : Achimota → Taifa
+Done >>> Trotro 170 : Banana Inn → Accra Post Office
+Done >>> Trotro 170 : Accra Post Office → Banana Inn
+Done >>> Trotro 174 : Bubiashie Ayigbe Town → Circle
+Done >>> Trotro 114 : Taifa → Achimota
+Done >>> Trotro 174 : Circle → Bubiashie Ayigbe Town
+Done >>> Trotro 193 : Circle → Immesco Rice
+Done >>> Trotro 193 : Immesco Rice → Circle
+Done >>> Trotro 231 : Accra CMB → Weija
+Done >>> Trotro 231 : Weija → Accra CMB
+Done >>> Trotro 308 : Kotobabi Down → Accra CMB
+Done >>> Trotro 308 : Accra CMB → Kotobabi Down
+Done >>> Trotro 996 : Nima - Maamobi → Circle
+Done >>> Trotro 996 : Circle → Nima - Maamobi
+Done >>> Trotro 331 : Abeka Lapaz → Accra
+Done >>> Trotro 331 : Accra → Abeka Lapaz
+Done >>> Trotro 336 : Abeka Lapaz → Alhaji
+Done >>> Trotro 336 : Alhaji → Abeka Lapaz
+Done >>> Trotro 338 : Abeka Lapaz → Lomnava
+Done >>> Trotro 338 : Lomnava → Abeka Lapaz
+Done >>> Trotro 348 : Abeka Lapaz → Tetteh Quarshie
+Done >>> Trotro 348 : Tetteh Quarshie → Abeka Lapaz
+Done >>> Trotro 385 : Accra New Town → 37
+Done >>> Trotro 349 : Abeka Lapaz → Yellow House
+Done >>> Trotro 385 : 37 → Accra New Town
+Done >>> Trotro 349 : Yellow House → Abeka Lapaz
+Done >>> Trotro 380 : Abeka Lapaz → Haatso
+Done >>> Trotro 380 : Haatso → Abeka Lapaz
+Done >>> Trotro 378 : Abeka Lapaz → Awoshie
+Done >>> Trotro 378 : Awoshie → Abeka Lapaz
+Done >>> Trotro 369 : Accra New Tema Station → Agbogbloshie
+Done >>> Trotro 369 : Agbogbloshie → Accra New Tema Station
+Done >>> Trotro 344 : Abeka Lapaz → Santa Maria
+Done >>> Trotro 344 : Santa Maria → Abeka Lapaz
+Done >>> Trotro 343 : Abeka Lapaz → Race Course
+Done >>> Trotro 343 : Race Course → Abeka Lapaz
+Done >>> Trotro 342 : Abeka Lapaz → Omanjor
+Done >>> Trotro 342 : Omanjor → Abeka Lapaz
+Done >>> Trotro 339 : Abeka Lapaz → Madina
+Done >>> Trotro 339 : Madina → Abeka Lapaz
+Done >>> Trotro 333 : Abeka Lapaz → Adenta
+Done >>> Trotro 333 : Adenta → Abeka Lapaz
+Done >>> Trotro 322 : Kwashieman Junction → Accra CMB
+Done >>> Trotro 322 : Accra CMB → Kwashieman Junction
+Done >>> Trotro 314 : Kwashieman → Achimota
+Done >>> Trotro 314 : Achimota → Kwashieman
+Done >>> Trotro 317 : Kwashieman → Abeka Lapaz
+Done >>> Trotro 317 : Abeka Lapaz → Kwashieman
+Done >>> Trotro 310 : Kotobabi Down → Abeka Lapaz
+Done >>> Trotro 310 : Abeka Lapaz → Kotobabi Down
+Done >>> Trotro 307 : Kotobabi Down → 37
+Done >>> Trotro 307 : 37 → Kotobabi Down
+Done >>> Trotro 274 : Kaneshie → Maamobi
+Done >>> Trotro 274 : Maamobi → Kaneshie
+Done >>> Trotro 272 : Kaneshie → Good Shepherd
+Done >>> Trotro 269 : Kaneshie → Bubuashie
+Done >>> Trotro 269 : Bubuashie → Kaneshie
+Done >>> Trotro 266 : Kaneshie → Afropa
+Done >>> Trotro 265 : Kaneshie → Sukura
+Done >>> Trotro 265 : Sukura → Kaneshie
+Done >>> Trotro 243 : Dansoman → Santa Maria
+Done >>> Trotro 243 : Santa Maria → Dansoman
+Done >>> Trotro 254 : Dzorwulu → Circle
+Done >>> Trotro 254 : Circle → Dzorwulu
+Done >>> Trotro 255 : East Legon → Circle
+Done >>> Trotro 255 : Circle → East Legon
+Done >>> Trotro 262 : Glefe → Accra Bishop
+Done >>> Trotro 262 : Accra Bishop → Glefe
+Done >>> Trotro 176 : Bubiashie Control (Old Station ) → Circle
+Done >>> Trotro 176 : Circle → Bubiashie Control (Old Station )
+Done >>> Trotro 177 : Bubiashie-Atico → Circle
+Done >>> Trotro 177 : Circle → Bubiashie-Atico
+Done >>> Trotro 56 : Abeka Lapaz → Race Course
+Done >>> Trotro 221 : Circle Overhead → Madina
+Done >>> Trotro 240 : Dansoman → Nyamekye
+Done >>> Trotro 221 : Madina → Circle Overhead
+Done >>> Trotro 222 : Circle Overhead → Nima mamobi
+Done >>> Trotro 222 : Nima mamobi → Circle Overhead
+Done >>> Trotro 225 : Accra CMB → Fan-Milk
+Done >>> Trotro 225 : Fan-Milk → Accra CMB
+Done >>> Trotro 235 : Dansoman → Achimota
+Done >>> Trotro 235 : Achimota → Dansoman
+Done >>> Trotro 238 : Dansoman → Circle
+Done >>> Trotro 238 : Circle → Dansoman
+Done >>> Trotro 241 : Bawaleshie → Circle Overhead
+Done >>> Trotro 251 : Darkuman → Accra Post - Office
+Done >>> Trotro 251 : Accra Post - Office → Darkuman
+Done >>> Trotro 306 : Korle Bu → Darkuman
+Done >>> Trotro 306 : Darkuman → Korle Bu
+Done >>> Trotro 240 : Nyamekye → Dansoman
+Done >>> Trotro 116 : Achimota → Tema
+Done >>> Trotro 116 : Tema → Achimota
+Done >>> Trotro 337 : Abeka Lapaz → Ashaiman
+Done >>> Trotro 337 : Ashaiman → Abeka Lapaz
+Done >>> Trotro 64 : Abossey-Okai → Kasoa
+Done >>> Trotro 64 : Kasoa → Abossey-Okai
+Done >>> Trotro 373 : Accra New Tema Station → Dzorwulu
+Done >>> Trotro 373 : Dzorwulu → Accra New Tema Station
+Done >>> Trotro 425 : Circle Odorna → Nungua
+Done >>> Trotro 425 : Nungua → Circle Odorna
+Done >>> Trotro 266 : Afropa → Kaneshie
+Done >>> Trotro 272 : Good Shepherd → Kaneshie
+Done >>> Trotro 9 : Abeka Lapaz → Adeyman
+Done >>> Trotro 9 : Adeyman → Abeka Lapaz
+Done >>> Trotro 29 : Abeka Main Market → Kaneshie
+Done >>> Trotro 29 : Kaneshie → Abeka Main Market
+Done >>> Trotro 36 : Abeka Lapaz → Agbogbloshie
+Done >>> Trotro 36 : Agbogbloshie → Abeka Lapaz
+Done >>> Trotro 38 : Abeka Lapaz → Amasaman
+Done >>> Trotro 38 : Amasaman → Abeka Lapaz
+Done >>> Trotro 40 : Abeka Lapaz → Ashiaman
+Done >>> Trotro 40 : Ashiaman → Abeka Lapaz
+Done >>> Trotro 82 : Achimota → Adjiringanor
+Done >>> Trotro 82 : Adjiringanor → Achimota
+Done >>> Trotro 85 : Achimota → Akweteman Zongo
+Done >>> Trotro 85 : Akweteman Zongo → Achimota
+Done >>> Trotro 104 : Achimota → Mayera/Adusa
+Done >>> Trotro 104 : Mayera/Adusa → Achimota
+Done >>> Trotro 105 : Achimota → Medie/Kotoku
+Done >>> Trotro 105 : Medie/Kotoku → Achimota
+Done >>> Trotro 117 : Achimota → Accra New Tema Station
+Done >>> Trotro 117 : Accra New Tema Station → Achimota
+Done >>> Trotro 118 : Achimota → Teshie-Nungua
+Done >>> Trotro 118 : Teshie-Nungua → Achimota
+Done >>> Trotro 164 : Arena → Kaneshie
+Done >>> Trotro 164 : Kaneshie → Arena
+Done >>> Trotro 166 : Arena → Russia
+Done >>> Trotro 166 : Russia → Arena
+Done >>> Trotro 173 : Accra Bishop → Cantonment
+Done >>> Trotro 173 : Cantonment → Accra Bishop
+Done >>> Trotro 175 : Agbogbloshie → Banana Inn/Dansoman
+Done >>> Trotro 175 : Banana Inn/Dansoman → Agbogbloshie
+Done >>> Trotro 178 : Bubuashie Ayigbe Town → Accra CMB
+Done >>> Trotro 178 : Accra CMB → Bubuashie Ayigbe Town
+Done >>> Trotro 185 : Chorkor → Agbogbloshie
+Done >>> Trotro 185 : Agbogbloshie → Chorkor
+Done >>> Trotro 224 : Accra CMB → Alajo
+Done >>> Trotro 224 : Alajo → Accra CMB
+Done >>> Trotro 227 : Accra CMB → Manhean
+Done >>> Trotro 227 : Manhean → Accra CMB
+Done >>> Trotro 228 : Accra CMB → Odorkor
+Done >>> Trotro 228 : Odorkor → Accra CMB
+Done >>> Trotro 230 : Accra CMB → Omanjor
+Done >>> Trotro 230 : Omanjor → Accra CMB
+Done >>> Trotro 172 : Banana Inn → Accra New Tema Station
+Done >>> Trotro 172 : Accra New Tema Station → Banana Inn
+Done >>> Trotro 203 : Circle → Orgle Road
+Done >>> Trotro 236 : Dansoman → Arena
+Done >>> Trotro 236 : Arena → Dansoman
+Done >>> Trotro 237 : Dansoman → Awoshie
+Done >>> Trotro 237 : Awoshie → Dansoman
+Done >>> Trotro 247 : Darkuman → Agbogbloshie
+Done >>> Trotro 247 : Agbogbloshie → Darkuman
+Done >>> Trotro 249 : Darkuman → Accra CMB
+Done >>> Trotro 249 : Accra CMB → Darkuman
+Done >>> Trotro 260 : Ebenezer → Accra Bishop
+Done >>> Trotro 260 : Accra Bishop → Ebenezer
+Done >>> Trotro 256 : Adjiringanor → Accra New Tema Station
+Done >>> Trotro 256 : Accra New Tema Station → Adjiringanor
+Done >>> Trotro 30 : Abeka Main Market → Mallam Atta
+Done >>> Trotro 30 : Mallam Atta → Abeka Main Market
+Done >>> Trotro 51 : Abeka Lapaz → Manhia Afuaman
+Done >>> Trotro 51 : Manhia Afuaman → Abeka Lapaz
+Done >>> Trotro 61 : Abelemkpe → Accra
+Done >>> Trotro 61 : Accra → Abelemkpe
+Done >>> Trotro 298 : Kokomlemle ��� Dzorwulu
+Done >>> Trotro 298 : Dzorwulu → Kokomlemle
+Done >>> Trotro 302 : Korle Bu → Kwashieman/Santa Maria
+Done >>> Trotro 302 : Kwashieman/Santa Maria → Korle Bu
+Done >>> Trotro 347 : Abeka Lapaz → Tema
+Done >>> Trotro 999 : Abeka Lapaz → Sowutuom
+Done >>> Trotro 999 : Sowutuom → Abeka Lapaz
+Done >>> Trotro 995 : Accra New Tema Station → Zamrama Line
+Done >>> Trotro 995 : Zamrama Line → Accra New Tema Station
+Done >>> Trotro 994 : Accra Rawlings Park → Chemuna
+Done >>> Trotro 994 : Chemuna → Accra Rawlings Park
+Done >>> Trotro 347 : Tema → Abeka Lapaz
+Done >>> Trotro 540 : Zongo Junction → Agege
+Done >>> Trotro 540 : Agege → Zongo Junction
+Done >>> Trotro 539 : Zambrama Line → Odorna-Circle
+Done >>> Trotro 539 : Odorna-Circle → Zambrama Line
+Done >>> Trotro 536 : Zambrama Line → Arena
+Done >>> Trotro 536 : Arena → Zambrama Line
+Done >>> Trotro 521 : Accra New Tema Station → Chemuna
+Done >>> Trotro 521 : Chemuna → Accra New Tema Station
+Done >>> Trotro 520 : Accra New Tema Station → Camara
+Done >>> Trotro 520 : Camara → Accra New Tema Station
+Done >>> Trotro 480 : Shiabu → Agbogbloshie
+Done >>> Trotro 480 : Agbogbloshie → Shiabu
+Done >>> Trotro 474 : Accra Salaga → Appiah Danquah
+Done >>> Trotro 474 : Appiah Danquah → Accra Salaga
+Done >>> Trotro 473 : Accra Salaga → Chemuna
+Done >>> Trotro 473 : Chemuna → Accra Salaga
+Done >>> Trotro 469 : Accra Rawlings Park → Nungua Authority
+Done >>> Trotro 469 : Nungua Authority → Accra Rawlings Park
+Done >>> Trotro 468 : Accra Rawlings Park → La Olympia
+Done >>> Trotro 468 : La Olympia → Accra Rawlings Park
+Done >>> Trotro 463 : Accra Post Office → Mamprobi
+Done >>> Trotro 463 : Mamprobi → Accra Post Office
+Done >>> Trotro 441 : Okponglo → American House
+Done >>> Trotro 441 : American House → Okponglo
+Done >>> Trotro 458 : Pigfarm → Accra CMB
+Done >>> Trotro 458 : Accra CMB → Pigfarm
+Done >>> Trotro 445 : Opetekwei → Circle
+Done >>> Trotro 445 : Circle → Opetekwei
+Done >>> Trotro 443 : Okponglo → Christian Centre
+Done >>> Trotro 443 : Christian Centre → Okponglo
+Done >>> Trotro 303 : Korle Bu → Mallam
+Done >>> Trotro 303 : Mallam → Korle Bu
+Done >>> Trotro 318 : Madina → Kwashieman
+Done >>> Trotro 318 : Kwashieman → Madina
+Done >>> Trotro 328 : Kwashieman Junction → Rawlings Park
+Done >>> Trotro 328 : Rawlings Park → Kwashieman Junction
+Done >>> Trotro 363 : Mataheko → Kaneshie
+Done >>> Trotro 363 : Kaneshie → Mataheko
+Done >>> Trotro 367 : New Fadama → Accra CMB
+Done >>> Trotro 367 : Accra CMB → New Fadama
+Done >>> Trotro 368 : Accra New Tema Station → Abelemkpe
+Done >>> Trotro 368 : Abelemkpe → Accra New Tema Station
+Done >>> Trotro 376 : Accra New Tema Station → Pigfarm
+Done >>> Trotro 376 : Pigfarm → Accra New Tema Station
+Done >>> Trotro 377 : Abeka Lapaz → Ashongman
+Done >>> Trotro 377 : Ashongman → Abeka Lapaz
+Done >>> Trotro 383 : Accra New Tema Station → Ashaiman Main Station
+Done >>> Trotro 383 : Ashaiman Main Station → Accra New Tema Station
+Done >>> Trotro 544 : Korle Bu → Zongo Junction
+Done >>> Trotro 406 : Nima Overhead → Mallam
+Done >>> Trotro 406 : Mallam → Nima Overhead
+Done >>> Trotro 444 : Agbogbloshie → Opetekwei
+Done >>> Trotro 444 : Opetekwei → Agbogbloshie
+Done >>> Trotro 434 : Odorkor → Anyah
+Done >>> Trotro 434 : Anyah → Odorkor
+Done >>> Trotro 386 : New Town → Adenta
+Done >>> Trotro 386 : Adenta → New Town
+Done >>> Trotro 388 : Accra New Town → Kasoa
+Done >>> Trotro 388 : Kasoa → Accra New Town
+Done >>> Trotro 393 : Nima → Accra
+Done >>> Trotro 393 : Accra → Nima
+Done >>> Trotro 394 : Nima → Ashaiman
+Done >>> Trotro 394 : Ashaiman → Nima
+Done >>> Trotro 399 : Nima Overhead Maamobi → Achimota Terminal
+Done >>> Trotro 399 : Achimota Terminal → Nima Overhead Maamobi
+Done >>> Trotro 408 : Nima Overhead → Pokuase Amasaman
+Done >>> Trotro 408 : Pokuase Amasaman → Nima Overhead
+Done >>> Trotro 412 : Nima Station → Agbogbloshie
+Done >>> Trotro 412 : Agbogbloshie → Nima Station
+Done >>> Trotro 417 : Nima Station → Accra New Tema Station
+Done >>> Trotro 417 : Accra New Tema Station → Nima Station
+Done >>> Trotro 437 : Odorkor → South Odorkor
+Done >>> Trotro 437 : South Odorkor → Odorkor
+Done >>> Trotro 438 : Odorkor → Accra New Tema Station
+Done >>> Trotro 438 : Accra New Tema Station → Odorkor
+Done >>> Trotro 467 : Accra Rawlings Park → Sakaman Blue Lagoon
+Done >>> Trotro 467 : Sakaman Blue Lagoon → Accra Rawlings Park
+Done >>> Trotro 485 : Soko → Accra Post Office
+Done >>> Trotro 485 : Accra Post Office → Soko
+Done >>> Trotro 490 : Nima-Mamobi → Sukura
+Done >>> Trotro 490 : Sukura → Nima-Mamobi
+Done >>> Trotro 216 : Circle Lido → Abeka Lapaz
+Done >>> Trotro 216 : Abeka Lapaz → Circle Lido
+Done >>> Trotro 223 : Accra CMB → Ablekuma
+Done >>> Trotro 223 : Ablekuma → Accra CMB
+Done >>> Trotro 424 : Odorna → Nungua
+Done >>> Trotro 424 : Nungua → Odorna
+Done >>> Trotro 449 : Orgle Street → Kaneshie
+Done >>> Trotro 449 : Kaneshie → Orgle Street
+Done >>> Trotro 525 : Accra New Tema Station → Adenta Station
+Done >>> Trotro 525 : Adenta Station → Accra New Tema Station
+
+
+routes to fix : 51
+
+--->>>
+
+Trotro 282 : Shalom → Kaneshie
+https://www.openstreetmap.org/relation/7406251
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 282 : Kaneshie → Shalom
+https://www.openstreetmap.org/relation/7406252
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 277 : Kaneshie → Mamprobi Alhaji
+https://www.openstreetmap.org/relation/7423593
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 277 : Mamprobi Alhaji → Kaneshie
+https://www.openstreetmap.org/relation/7423604
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 28 : Abeka Main Market → Circle Indust. Area
+https://www.openstreetmap.org/relation/7444960
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 28 : Circle Industrial Area → Abeka Main Market
+https://www.openstreetmap.org/relation/7445107
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 58 : Abeka Lapaz → Six to Six Market
+https://www.openstreetmap.org/relation/7451462
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 43 : Abeka Lapaz → Bubiashie
+https://www.openstreetmap.org/relation/7457497
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 291 : Kaneshie Takoradi Station → Korle Bu
+https://www.openstreetmap.org/relation/7460910
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 291 : Korle Bu → Kaneshie Takoradi Station
+https://www.openstreetmap.org/relation/7460916
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 293 : Kaneshie Takoradi Station → Mamprobi C Lante
+https://www.openstreetmap.org/relation/7461636
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 293 : Mamprobi C Lante → Kaneshie Takoradi Station
+https://www.openstreetmap.org/relation/7461655
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 436 : Odorkor → Official Town
+https://www.openstreetmap.org/relation/7461665
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 436 : Official Town → Odorkor
+https://www.openstreetmap.org/relation/7461708
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 196 : Circle → Kotobabi Down Polo Park
+https://www.openstreetmap.org/relation/7479429
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 196 : Kotobabi Down Polo Park → Circle
+https://www.openstreetmap.org/relation/7479571
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 226 : Circle → Pigfarm
+https://www.openstreetmap.org/relation/7479872
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 226 : Pigfarm → Circle
+https://www.openstreetmap.org/relation/7479893
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 309 : Kotobabi Down → Circle Lido
+https://www.openstreetmap.org/relation/7480327
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 309 : Circle Lido → Kotobabi Down
+https://www.openstreetmap.org/relation/7480336
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 326 : Kwashieman Junction → Sowutuom
+https://www.openstreetmap.org/relation/7484622
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 326 : Sowutuom → Kwashieman Junction
+https://www.openstreetmap.org/relation/7484676
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 324 : Kwashieman Junction → Antie Aku
+https://www.openstreetmap.org/relation/7484705
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 324 : Antie Aku → Kwashieman Junction
+https://www.openstreetmap.org/relation/7484796
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 313 : Kwashieman → A Lang
+https://www.openstreetmap.org/relation/7485266
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 313 : A Lang → Kwashieman
+https://www.openstreetmap.org/relation/7485322
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 271 : Kaneshie → Chorkor
+https://www.openstreetmap.org/relation/7485479
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 271 : Chorkor → Kaneshie
+https://www.openstreetmap.org/relation/7485604
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 273 : Kaneshie → Korlebu
+https://www.openstreetmap.org/relation/7488101
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 273 : Korlebu → Kaneshie
+https://www.openstreetmap.org/relation/7488142
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 270 : Kaneshie → Camara
+https://www.openstreetmap.org/relation/7488258
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 270 : Camara → Kaneshie
+https://www.openstreetmap.org/relation/7488287
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 267 : Kaneshie → Appiah Danquah/ Soko
+https://www.openstreetmap.org/relation/7488505
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 267 : Appiah Danquah/ Soko → Kaneshie
+https://www.openstreetmap.org/relation/7488563
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 241 : Circle Overhead → Bawaleshie
+https://www.openstreetmap.org/relation/7498362
+
+rel(7498362);out geom;
+way(514775874);out geom;way(517594761);out geom;
+way(135693013);out geom;way(517756942);out geom;
+
+<<<------>>>
+
+Trotro 159 : Alajo Junction → Kotobabi Police Station
+https://www.openstreetmap.org/relation/7546679
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 159 : Kotobabi Police Station → Alajo Junction
+https://www.openstreetmap.org/relation/7546702
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 203 : Orgle Road → Circle
+https://www.openstreetmap.org/relation/7551948
+
+rel(7551948);out geom;
+way(517772761);out geom;way(510729651);out geom;
+way(514351764);out geom;way(448671378);out geom;
+
+<<<------>>>
+
+Trotro 542 : Zongo Junction → Chorkor
+https://www.openstreetmap.org/relation/7563747
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 542 : Chorkor → Zongo Junction
+https://www.openstreetmap.org/relation/7563757
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 538 : Zambrama Line → Kaneshie
+https://www.openstreetmap.org/relation/7570881
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 538 : Kaneshie → Zambrama Line
+https://www.openstreetmap.org/relation/7571009
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 442 : Okponglo → Bawaleshie
+https://www.openstreetmap.org/relation/7575476
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 442 : Bawaleshie → Okponglo
+https://www.openstreetmap.org/relation/7575482
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 325 : Kwashieman Junction → Santa Maria
+https://www.openstreetmap.org/relation/7582514
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 325 : Santa Maria → Kwashieman Junction
+https://www.openstreetmap.org/relation/7582562
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 357 : Mallam Attah → Kotobabi Down/Polo park
+https://www.openstreetmap.org/relation/7582921
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 357 : Kotobabi Down/Polo park → Mallam Attah
+https://www.openstreetmap.org/relation/7582938
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 544 : Zongo Junction → Korle Bu
+https://www.openstreetmap.org/relation/7585106
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 400 : Nima Overhead Maamobi → Alajo Station
+https://www.openstreetmap.org/relation/7593019
+**************** route undefined **************
+
+<<<------>>>
+
+Trotro 400 : Alajo Station → Nima Overhead Maamobi
+https://www.openstreetmap.org/relation/7593076
+**************** route undefined **************
+
+<<<---

@@ -6,9 +6,11 @@
   "scripts": {
     "start": "npm run bolivia",
     "bolivia": "npm run bolivia:cochabamba && npm run bolivia:santacruz && npm run bolivia:lapaz",
-    "bolivia:cochabamba": "node ./scripts/bolivia-cochabamba.js",
-    "bolivia:santacruz": "node ./scripts/bolivia-santacruz.js",
-    "bolivia:lapaz": "node ./scripts/bolivia-lapaz.js"
+    "bolivia:cochabamba": "node ./example/bolivia-cochabamba.js",
+    "bolivia:santacruz": "node ./example/bolivia-santacruz.js",
+    "bolivia:lapaz": "node ./example/bolivia-lapaz.js",
+    "ghana": "npm run ghana:accra",
+    "ghana:accra": "node ./example/ghana-accra.js"
   },
   "repository": {
     "type": "git",
