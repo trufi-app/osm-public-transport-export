@@ -1,66 +1,72 @@
-const axios = require('axios')
-const stream = require('stream');
+const http = require('http');
 
-function axion_request(query) {
-    return axios({
-        method: 'post',
-        url: 'http://www.overpass-api.de/api/interpreter',
-        responseType: 'stream',
-        data: query
-    })
-        .then(response => {
-            return new Promise((resolve, reject) => {
-                let tmp_element = ""
-                let write_strem = new stream.Writable({
-                    write(chunk, encoding, callback) {
-                        tmp_element += chunk.toString()
-                        callback();
-                    }
-                })
-                response.data
-                    .pipe(write_strem)
-                    .on("finish", () => {
-                        let tmp_json = JSON.parse(tmp_element)
-                        let tmp_element_map = {}
-                        tmp_json.elements.forEach(element => {
-                            tmp_element_map[element.id] = element
-                        });
-                        resolve(tmp_element_map)
-                    })
-            })
-        })
+function overpassRequest(query) {
+    return new Promise((resolve, reject) => {
+        const request = http.request({
+            method: 'POST',
+            host: 'www.overpass-api.de',
+            path: '/api/interpreter',
+        }, response => {
+            response.setEncoding('utf8');
+
+            let data = '';
+
+            response.on('data', (chunk) => {
+              data += chunk;
+            });
+
+            response.on('end', () => {
+                const parsedData = JSON.parse(data);
+                resolve(parsedData);
+            });
+        });
+
+        request.on('error', reject);
+        request.write(query);
+        request.end();
+    });
 }
 
-const getAllWays = function downloadWays(bounds) {
-    if (!bounds) throw "missing bounds"
-    if (!(bounds.N > bounds.S && bounds.E > bounds.O)) throw "wrong bounds"
-    return axion_request(
-        `[out:json];way["highway"~"residential|primary|secondary|tertiary|trunk|trunk-link|service"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});out geom;`
-    ).then(response => {
-        return response
-    })
+function indexElementsById(response) {
+    const map = {};
+
+    response.elements.forEach(element => {
+        map[element.id] = element;
+    });
+
+    return map;
 }
 
-const getWays = function downloadWays(bounds) {
-    if (!bounds) throw "missing bounds"
-    if (!(bounds.N > bounds.S && bounds.E > bounds.O)) throw "wrong bounds"
-    return axion_request(
-        `[out:json];rel["type"="route"]["route"~"bus|share_taxi"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});way(r);out geom;`
-    ).then(response => {
-        return response
-    })
+function checkBounds(bounds) {
+    if (!bounds) {
+        throw new Error('Missing bounds');
+    }
+
+    if (bounds.N < bounds.S || bounds.E < bounds.O) {
+        throw new Error('Invalid bounds');
+    }
 }
 
-const getRoutes = function downloadRoutes(bounds) {
-    if (!bounds) throw "missing bounds"
-    if (!(bounds.N > bounds.S && bounds.E > bounds.O)) throw "wrong bounds"
-    return axion_request(
-        `[out:json];rel["type"="route"]["route"~"bus|share_taxi"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});out body;`
-    ).then(response => {
-        return response
-    })
+function getAllWays(bounds) {
+    checkBounds(bounds);
+    const query = `[out:json];way["highway"~"residential|primary|secondary|tertiary|trunk|trunk-link|service"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});out geom;`;
+    return overpassRequest(query).then(indexElementsById);
 }
 
-exports.getAllWays = getAllWays
-exports.getWays = getWays
-exports.getRoutes = getRoutes
+function getWays(bounds) {
+    checkBounds(bounds);
+    const query = `[out:json];rel["type"="route"]["route"~"bus|share_taxi"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});way(r);out geom;`;
+    return overpassRequest(query).then(indexElementsById);
+}
+
+function getRoutes(bounds) {
+    checkBounds(bounds);
+    const query = `[out:json];rel["type"="route"]["route"~"bus|share_taxi"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});out body;`;
+    return overpassRequest(query).then(indexElementsById);
+}
+
+module.exports = {
+    getAllWays,
+    getWays,
+    getRoutes,
+};
