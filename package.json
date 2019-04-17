@@ -1,16 +1,16 @@
 {
   "name": "osm-public-transport-downloader",
   "version": "1.0.0",
-  "description": "OSM  Public Transport Downloader",
+  "description": "OSM Public Transport Downloader",
   "main": "index.js",
   "scripts": {
     "start": "npm run bolivia",
     "bolivia": "npm run bolivia:cochabamba && npm run bolivia:santacruz && npm run bolivia:lapaz",
-    "bolivia:cochabamba": "node ./example/bolivia-cochabamba.js",
-    "bolivia:santacruz": "node ./example/bolivia-santacruz.js",
-    "bolivia:lapaz": "node ./example/bolivia-lapaz.js",
+    "bolivia:cochabamba": "node ./examples/bolivia-cochabamba.js",
+    "bolivia:santacruz": "node ./examples/bolivia-santacruz.js",
+    "bolivia:lapaz": "node ./examples/bolivia-lapaz.js",
     "ghana": "npm run ghana:accra",
-    "ghana:accra": "node ./example/ghana-accra.js"
+    "ghana:accra": "node ./examples/ghana-accra.js"
   },
   "repository": {
     "type": "git",
