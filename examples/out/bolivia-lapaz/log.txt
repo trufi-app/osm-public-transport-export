@@ -1,5 +1,5 @@
 
-routes dowloaded : 10
+routes downloaded : 10
 
 
 Done >>> undefined
@@ -14,7 +14,7 @@ Done >>> Minibus 458
 Done >>> Minubus 848
 
 
-routes to fix : 27
+routes to fix : 29
 
 --->>>
 
@@ -169,10 +169,10 @@ way(457818251);out geom;way(457818251);out geom;
 way(612810913);out geom;way(669580882);out geom;
 way(44558008);out geom;way(44221360);out geom;
 way(440051779);out geom;way(440051779);out geom;
-way(44428696);out geom;way(607959732);out geom;
+way(44428696);out geom;way(438666038);out geom;
 way(439090794);out geom;way(282566790);out geom;
 way(248944808);out geom;way(459849530);out geom;
-way(35211292);out geom;way(438666038);out geom;
+way(35211292);out geom;way(44428691);out geom;
 
 <<<------>>>
 
@@ -219,7 +219,7 @@ way(44165736);out geom;way(675468873);out geom;
 
 <<<------>>>
 
-COTRANSTUR
+Plaza Bicentenario
 https://www.openstreetmap.org/relation/9381528
 
 rel(9381528);out geom;
@@ -272,18 +272,36 @@ rel(9429001);out geom;
 way(119910436);out geom;way(585273085);out geom;
 way(255874216);out geom;way(624136191);out geom;
 way(624136203);out geom;way(624136203);out geom;
-way(475496014);out geom;way(44349205);out geom;
+way(475496014);out geom;way(682324915);out geom;
 way(674802929);out geom;way(44487228);out geom;
 way(675574023);out geom;way(452361514);out geom;
 
 <<<------>>>
 
-Linea Minibus 387
+MiniBus 387: Zona Villa Litoral → Zona Cementerio
 https://www.openstreetmap.org/relation/9437459
 
 rel(9437459);out geom;
 way(44077385);out geom;way(97840297);out geom;
 way(604998131);out geom;way(524444833);out geom;
 way(439424085);out geom;way(119904105);out geom;
+
+<<<------>>>
+
+Linea Minibus 383
+https://www.openstreetmap.org/relation/9467267
+
+rel(9467267);out geom;
+way(457746155);out geom;way(626428654);out geom;
+way(682323212);out geom;way(107708269);out geom;
+
+<<<------>>>
+
+MiniBus 854
+https://www.openstreetmap.org/relation/9475383
+
+rel(9475383);out geom;
+way(679771868);out geom;way(619011755);out geom;
+way(121661353);out geom;way(683021031);out geom;
 
 <<<---

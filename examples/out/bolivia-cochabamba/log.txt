@@ -1,5 +1,5 @@
 
-routes dowloaded : 101
+routes downloaded : 101
 
 
 Done >>> MiniBus 209: Parque de la Autonomía → Plaza Bolívar
@@ -37,7 +37,6 @@ Done >>> Micro J: C. Chiquitano → C. Gran Chaco
 Done >>> Minibus 16: Av. La Joya → C. Padre Bertha
 Done >>> Minibus 16: C. Padre Bertha → Av. La Joya
 Done >>> TaxiTrufi 103: C. J. Macedonio Urquidi → 16 de Julio
-Done >>> Micro R : Entre Rios → Av. Arquímedes
 Done >>> Micro R : Av. Arquímedes → Entre Rios
 Done >>> Minibus 1 : Av. Humberto Asin → Av. Ecologica
 Done >>> Minibus 1 : Av. Ecologica → Av. Humberto Asin
@@ -74,10 +73,8 @@ Done >>> MicroBus Y : O → S
 Done >>> Taxi de ruta fija Taquiña : Cruce Taquiña → Fabrica
 Done >>> Trufi 113: Av. Ecológica → Calicanto
 Done >>> Trufi 113: Calicanto → Av. Ecológica
-Done >>> Trufi 01: C. Calamarca → Av. Los Angeles
 Done >>> Trufi 03: Pasaje 22 →  C. Jorge Ugaeta
 Done >>> Trufi 03: C. Jorge Ugaeta → Pasaje 22
-Done >>> Trufi 010: C. Provincia General José Ballivián → C. Quripacha
 Done >>> MiniBus 45 : Calle Serranía de Caiza → Calle Santiago Fajardo
 Done >>> Trufi 016: Av. Ecológica → C. Litoral
 Done >>> Trufi 016: C. Litoral → Av. Ecológica
@@ -103,9 +100,12 @@ Done >>> Trufi 012: C. Claudio Tolomeo → Villa Cóndor
 Done >>> Minibus 160: Av. República → OTB Valle Grande
 Done >>> Trufi 112: C. Hugo Almaraz → C. Volcán Tolima
 Done >>> Trufi 122: C. Qhochapampa → Chaupiloma
+Done >>> Minibus 233 : S → E
+Done >>> Microbus 220 : E → O
+Done >>> Minibus 6 : E → O
 
 
-routes to fix : 39
+routes to fix : 45
 
 --->>>
 
@@ -207,7 +207,7 @@ way(313514690);out geom;
 
 <<<------>>>
 
-Bus 3: Santa Rosa �� Comunidad Andrada
+Bus 3: Santa Rosa → Comunidad Andrada
 https://www.openstreetmap.org/relation/5172572
 duplicated street
 
@@ -253,6 +253,15 @@ way(230640721);out geom;way(467394200);out geom;
 way(149742432);out geom;way(316898077);out geom;
 way(148658021);out geom;way(669455011);out geom;
 way(366967662);out geom;way(366967662);out geom;
+
+<<<------>>>
+
+Micro R : Entre Rios → Av. Arquímedes
+https://www.openstreetmap.org/relation/9119233
+
+rel(9119233);out geom;
+way(655799642);out geom;way(679136191);out geom;
+way(655799659);out geom;way(64678757);out geom;
 
 <<<------>>>
 
@@ -400,6 +409,15 @@ way(151036359);out geom;way(361917835);out geom;
 
 <<<------>>>
 
+Trufi 01: C. Calamarca → Av. Los Angeles
+https://www.openstreetmap.org/relation/9397731
+
+rel(9397731);out geom;
+way(676935455);out geom;way(676935460);out geom;
+way(676935453);out geom;way(676935453);out geom;
+
+<<<------>>>
+
 Trufi 01: Av. Los Angeles → C. Calamarca
 https://www.openstreetmap.org/relation/9397733
 
@@ -409,12 +427,22 @@ way(55968928);out geom;way(657413136);out geom;
 
 <<<------>>>
 
+Trufi 010: C. Provincia General José Ballivián → C. Quripacha
+https://www.openstreetmap.org/relation/9397897
+
+rel(9397897);out geom;
+way(262077298);out geom;way(175511308);out geom;
+way(676951187);out geom;way(262077251);out geom;
+
+<<<------>>>
+
 Trufi 010: C. Quripacha → C. Provincia General José Ballivián
 https://www.openstreetmap.org/relation/9397899
 
 rel(9397899);out geom;
-way(175511308);out geom;way(676951187);out geom;
+way(175511308);out geom;way(655799659);out geom;
 way(55968928);out geom;way(657413136);out geom;
+way(262077251);out geom;way(676951187);out geom;
 
 <<<------>>>
 
@@ -423,7 +451,7 @@ https://www.openstreetmap.org/relation/9413605
 
 rel(9413605);out geom;
 way(362505639);out geom;way(506132129);out geom;
-way(245754553);out geom;way(245754553);out geom;
+way(245754553);out geom;way(682146795);out geom;
 way(65596518);out geom;way(319926753);out geom;
 way(65596572);out geom;way(65596572);out geom;
 
@@ -440,10 +468,10 @@ way(678247183);out geom;way(297833516);out geom;
 
 Minibu 27 : Alto Porvenir → C´aspichaca
 https://www.openstreetmap.org/relation/9430621
+duplicated street
 
 rel(9430621);out geom;
-way(676951197);out geom;way(676951197);out geom;
-way(679132572);out geom;way(679136191);out geom;
+way(329613046);out geom;
 
 <<<------>>>
 
@@ -477,6 +505,37 @@ way(679620198);out geom;way(679620198);out geom;
 
 Minibus 27 :  C´aspichaca → Alto Porvenir
 https://www.openstreetmap.org/relation/9453724
-**************** route undefined **************
+duplicated street
+
+rel(9453724);out geom;
+way(681748278);out geom;
+
+<<<------>>>
+
+Minibus 233 : E → S
+https://www.openstreetmap.org/relation/9458409
+
+rel(9458409);out geom;
+way(160026053);out geom;way(266078522);out geom;
+way(40860551);out geom;way(176055026);out geom;
+way(40860499);out geom;way(40860499);out geom;
+
+<<<------>>>
+
+Microbus 220 : O → E
+https://www.openstreetmap.org/relation/9458471
+
+rel(9458471);out geom;
+way(66989536);out geom;way(245601803);out geom;
+way(245754552);out geom;way(167647370);out geom;
+
+<<<------>>>
+
+Minibus 6 : O → E
+https://www.openstreetmap.org/relation/9466782
+
+rel(9466782);out geom;
+way(682303079);out geom;way(682302125);out geom;
+way(682303080);out geom;way(682171665);out geom;
 
 <<<---
