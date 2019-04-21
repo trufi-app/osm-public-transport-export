@@ -66,10 +66,7 @@ function format_stop(stops, formatStopName) {
             .filter(value => value !== "")
         const stop_name = formatStopName(stop_names_filtered);
 
-        result[stop_id] = {
-            stop_id,
-            stop_name
-        }
+        result[stop_id] = stop_name
     })
 
     return result
