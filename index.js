@@ -3,19 +3,63 @@ const convertGeoJSON = require('./src/OSM_dataTool')
 const fs = require('fs')
 const path = require('path')
 
-async function osmToGeojson(bounds, outputDir) {
-    const routes = await getRoutes(bounds)
-    const ways = await getWays(bounds)
-    const data = await convertGeoJSON({ routes, ways }, outputDir)
+const defaultOptions = {
+    bounds: null,
+    outputDir: null,
+    geojsonFilename: 'routes.geojson',
+    logFilename: 'log.txt',
+    stopsFilename: 'stops.json',
+    stopNameSeparator: ' and ',
+    stopNameFallback: 'Unnamed Street',
+    formatStopName: function (names) { return names.join(this.stopNameSeparator) || this.stopNameFallback },
+    mapProperties: function (tags) { return tags },
+}
+
+async function osmToGeojson(options = {}) {
+    options = Object.assign({}, defaultOptions, options)
+
+    // Rebind functions to new options object
+    Object.keys(options).forEach(key => {
+        if (typeof options[key] === "function") {
+            options[key] = options[key].bind(options)
+        }
+    });
+
+    const {
+        bounds,
+        outputDir,
+        geojsonFilename,
+        logFilename,
+        stopsFilename,
+        formatStopName,
+        mapProperties,
+    } = options;
+
+    if (!bounds) {
+        throw new Error('Missing bounds')
+    }
+
+    if (typeof bounds !== "object" || bounds.north < bounds.south || bounds.east < bounds.west) {
+        throw new Error('Invalid bounds')
+    }
+
+    if (typeof outputDir !== "string") {
+        throw new Error('Invalid outputDir');
+    }
+
+    if (outputDir && !fs.existsSync(path.dirname(outputDir))) {
+        throw new Error('Output directory does not exist')
+    }
+
+    const bbox = `${bounds.south},${bounds.west},${bounds.north},${bounds.east}`
+    const routes = await getRoutes(bbox)
+    const ways = await getWays(bbox)
+    const data = convertGeoJSON({ routes, ways, mapProperties, formatStopName })
 
     if (outputDir) {
-        if (!fs.existsSync(path.dirname(outputDir))) {
-            throw new Error(`Output directory does not exist`)
-        }
-        
-        fs.writeFileSync(path.join(outputDir, "routes.geojson"), JSON.stringify(data.geojson))
-        fs.writeFileSync(path.join(outputDir, "log.text"), data.log)
-        fs.writeFileSync(path.join(outputDir, "stops.json"), JSON.stringify(data.stops))
+        fs.writeFileSync(path.join(outputDir, geojsonFilename), JSON.stringify(data.geojson))
+        fs.writeFileSync(path.join(outputDir, logFilename), data.log)
+        fs.writeFileSync(path.join(outputDir, stopsFilename), JSON.stringify(data.stops))
     }
 
     return data

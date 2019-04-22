@@ -37,31 +37,18 @@ function indexElementsById(response) {
     return map;
 }
 
-function checkBounds(bounds) {
-    if (!bounds) {
-        throw new Error('Missing bounds');
-    }
-
-    if (bounds.N < bounds.S || bounds.E < bounds.O) {
-        throw new Error('Invalid bounds');
-    }
-}
-
-function getAllWays(bounds) {
-    checkBounds(bounds);
-    const query = `[out:json];way["highway"~"residential|primary|secondary|tertiary|trunk|trunk-link|service"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});out geom;`;
+function getAllWays(bbox) {
+    const query = `[out:json];way["highway"~"residential|primary|secondary|tertiary|trunk|trunk-link|service"](${bbox});out geom;`;
     return overpassRequest(query).then(indexElementsById);
 }
 
-function getWays(bounds) {
-    checkBounds(bounds);
-    const query = `[out:json];rel["type"="route"]["route"~"bus|share_taxi"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});way(r);out geom;`;
+function getWays(bbox) {
+    const query = `[out:json];rel["type"="route"]["route"~"bus|share_taxi"](${bbox});way(r);out geom;`;
     return overpassRequest(query).then(indexElementsById);
 }
 
-function getRoutes(bounds) {
-    checkBounds(bounds);
-    const query = `[out:json];rel["type"="route"]["route"~"bus|share_taxi"](${bounds.S},${bounds.O},${bounds.N},${bounds.E});out body;`;
+function getRoutes(bbox) {
+    const query = `[out:json];rel["type"="route"]["route"~"bus|share_taxi"](${bbox});out body;`;
     return overpassRequest(query).then(indexElementsById);
 }
 

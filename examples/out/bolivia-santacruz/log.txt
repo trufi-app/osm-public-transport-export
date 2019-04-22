@@ -1,0 +1,348 @@
+
+routes downloaded : 39
+
+
+Done >>> Línea 18
+Done >>> Línea 72
+Done >>> Linea 119
+Done >>> Línea 10
+Done >>> Linea 79
+Done >>> Linea 15
+Done >>> Linea 24
+Done >>> Linea 37
+Done >>> Linea 3
+Done >>> Linea 24
+Done >>> Linea 20
+Done >>> Linea 19
+Done >>> Linea 21 - Rojo
+Done >>> Linea 27
+Done >>> Linea 27
+Done >>> Linea 12
+Done >>> Linea 38
+Done >>> Linea 127
+Done >>> Linea 40
+Done >>> Linea 13
+Done >>> Linea 23
+Done >>> Linea 83
+Done >>> Línea 73
+Done >>> Linea 29
+Done >>> Linea 58
+Done >>> Linea 65
+Done >>> Linea 60
+Done >>> Linea 70
+Done >>> Linea 90
+Done >>> Linea 5
+Done >>> Linea 11
+Done >>> Linea 31
+Done >>> Linea 32
+Done >>> Linea 34
+Done >>> Linea 35
+Done >>> Linea 36
+Done >>> Linea 43
+Done >>> Linea 41
+Done >>> Línea 121
+
+
+routes to fix : 29
+
+--->>>
+
+Bus 135: Aeropuerto Viru Viru → Ex Terminal de Buses
+https://www.openstreetmap.org/relation/5996412
+
+rel(5996412);out geom;
+way(395205829);out geom;way(139490408);out geom;
+way(399166572);out geom;way(437682649);out geom;
+way(399166517);out geom;way(670351233);out geom;
+way(27819495);out geom;way(399166564);out geom;
+way(160459708);out geom;way(534147197);out geom;
+way(399166531);out geom;way(399166531);out geom;
+way(75533835);out geom;way(399166534);out geom;
+
+<<<------>>>
+
+Bus 135: Ex Terminal de Buses → Aeropuerto Viru Viru
+https://www.openstreetmap.org/relation/5996413
+
+rel(5996413);out geom;
+way(399166533);out geom;way(399166533);out geom;
+way(27822248);out geom;way(669349758);out geom;
+way(160459710);out geom;way(671173785);out geom;
+way(27819412);out geom;way(669363951);out geom;
+way(437682647);out geom;way(668717331);out geom;
+way(399166576);out geom;way(165308750);out geom;
+
+<<<------>>>
+
+Línea 74
+https://www.openstreetmap.org/relation/6938190
+
+rel(6938190);out geom;
+way(441693135);out geom;way(671152080);out geom;
+way(140704486);out geom;way(55055838);out geom;
+
+<<<------>>>
+
+Línea 48
+https://www.openstreetmap.org/relation/6945576
+
+rel(6945576);out geom;
+way(164336217);out geom;way(408624953);out geom;
+way(471929570);out geom;way(671307963);out geom;
+
+<<<------>>>
+
+Línea 63
+https://www.openstreetmap.org/relation/6945577
+
+rel(6945577);out geom;
+way(671413239);out geom;way(626445261);out geom;
+way(27909101);out geom;way(675897417);out geom;
+way(440233474);out geom;way(440233474);out geom;
+way(673253592);out geom;way(671413234);out geom;
+way(674095984);out geom;way(163989939);out geom;
+way(441230624);out geom;way(30426690);out geom;
+way(442851851);out geom;way(442851851);out geom;
+
+<<<------>>>
+
+Linea 45
+https://www.openstreetmap.org/relation/7654422
+
+rel(7654422);out geom;
+way(441716001);out geom;way(441716002);out geom;
+way(288266783);out geom;way(86814640);out geom;
+
+<<<------>>>
+
+Linea 8
+https://www.openstreetmap.org/relation/7663029
+
+rel(7663029);out geom;
+way(139332358);out geom;way(493450329);out geom;
+way(671161101);out geom;way(438902481);out geom;
+way(439787435);out geom;way(164970548);out geom;
+way(671414344);out geom;way(671414344);out geom;
+
+<<<------>>>
+
+Linea 110
+https://www.openstreetmap.org/relation/7708361
+
+rel(7708361);out geom;
+way(533571282);out geom;way(441633766);out geom;
+way(27822248);out geom;way(670349709);out geom;
+
+<<<------>>>
+
+Linea 45
+https://www.openstreetmap.org/relation/9308297
+
+rel(9308297);out geom;
+way(442472322);out geom;way(669198198);out geom;
+way(669198197);out geom;way(669349765);out geom;
+
+<<<------>>>
+
+Linea 37
+https://www.openstreetmap.org/relation/9310630
+
+rel(9310630);out geom;
+way(441966600);out geom;way(140748792);out geom;
+way(669600828);out geom;way(440059248);out geom;
+way(681219720);out geom;way(402744514);out geom;
+
+<<<------>>>
+
+Linea 16
+https://www.openstreetmap.org/relation/9310656
+
+rel(9310656);out geom;
+way(440220380);out geom;way(160459737);out geom;
+way(174130297);out geom;way(27819382);out geom;
+
+<<<------>>>
+
+Linea 14
+https://www.openstreetmap.org/relation/9311086
+
+rel(9311086);out geom;
+way(385365213);out geom;way(401235777);out geom;
+way(669529318);out geom;way(669529318);out geom;
+way(438859336);out geom;way(352360689);out geom;
+
+<<<------>>>
+
+Linea 75
+https://www.openstreetmap.org/relation/9312896
+
+rel(9312896);out geom;
+way(440107295);out geom;way(589302029);out geom;
+way(164078253);out geom;way(421341393);out geom;
+way(165363565);out geom;way(60104801);out geom;
+
+<<<------>>>
+
+Linea 6
+https://www.openstreetmap.org/relation/9313149
+
+rel(9313149);out geom;
+way(438859333);out geom;way(674449576);out geom;
+way(138203382);out geom;way(669529312);out geom;
+way(674457676);out geom;way(441276032);out geom;
+
+<<<------>>>
+
+Linea 22 Rojo
+https://www.openstreetmap.org/relation/9313150
+
+rel(9313150);out geom;
+way(675892434);out geom;way(164077524);out geom;
+way(27819358);out geom;way(670347605);out geom;
+way(459866683);out geom;way(441715998);out geom;
+way(669503387);out geom;way(174170560);out geom;
+way(671171963);out geom;way(407714872);out geom;
+
+<<<------>>>
+
+Linea 7
+https://www.openstreetmap.org/relation/9313170
+
+rel(9313170);out geom;
+way(27928010);out geom;way(438008698);out geom;
+way(671414893);out geom;way(27928006);out geom;
+way(674513531);out geom;way(671414894);out geom;
+way(376691835);out geom;way(669530878);out geom;
+way(139635755);out geom;way(670985361);out geom;
+way(493336047);out geom;way(376691866);out geom;
+
+<<<------>>>
+
+Linea 9
+https://www.openstreetmap.org/relation/9313551
+
+rel(9313551);out geom;
+way(671155951);out geom;way(522495974);out geom;
+way(674449675);out geom;way(441648457);out geom;
+
+<<<------>>>
+
+Línea 1
+https://www.openstreetmap.org/relation/9332088
+
+rel(9332088);out geom;
+way(139585664);out geom;way(440060674);out geom;
+way(669527163);out geom;way(458136738);out geom;
+
+<<<------>>>
+
+Linea 51
+https://www.openstreetmap.org/relation/9356976
+
+rel(9356976);out geom;
+way(669527168);out geom;way(440986044);out geom;
+way(84288543);out geom;way(439835462);out geom;
+way(677551957);out geom;way(164078260);out geom;
+
+<<<------>>>
+
+Linea 1
+https://www.openstreetmap.org/relation/9357816
+
+rel(9357816);out geom;
+way(677185749);out geom;way(440060674);out geom;
+way(669527163);out geom;way(458136738);out geom;
+
+<<<------>>>
+
+Linea 41
+https://www.openstreetmap.org/relation/9367049
+
+rel(9367049);out geom;
+way(674796500);out geom;way(674086716);out geom;
+way(459866683);out geom;way(164111435);out geom;
+
+<<<------>>>
+
+Linea 2
+https://www.openstreetmap.org/relation/9367150
+
+rel(9367150);out geom;
+way(417889802);out geom;way(442261807);out geom;
+way(604696783);out geom;way(35318979);out geom;
+way(603346488);out geom;way(441960729);out geom;
+way(677185758);out geom;way(677185758);out geom;
+
+<<<------>>>
+
+Linea 4
+https://www.openstreetmap.org/relation/9372024
+
+rel(9372024);out geom;
+way(371295337);out geom;way(674449732);out geom;
+way(51979773);out geom;way(51979773);out geom;
+way(163227684);out geom;way(140808890);out geom;
+
+<<<------>>>
+
+Linea 25
+https://www.openstreetmap.org/relation/9372518
+
+rel(9372518);out geom;
+way(669349765);out geom;way(440060674);out geom;
+way(669527163);out geom;way(164391893);out geom;
+
+<<<------>>>
+
+Linea 30
+https://www.openstreetmap.org/relation/9372820
+
+rel(9372820);out geom;
+way(671161101);out geom;way(438007336);out geom;
+way(46843064);out geom;way(671163969);out geom;
+way(439945614);out geom;way(439945614);out geom;
+way(394623077);out geom;way(442264910);out geom;
+
+<<<------>>>
+
+Linea 33
+https://www.openstreetmap.org/relation/9373506
+
+rel(9373506);out geom;
+way(150990833);out geom;way(139039038);out geom;
+way(381236656);out geom;way(160459871);out geom;
+way(669349763);out geom;way(441715998);out geom;
+
+<<<------>>>
+
+linea 39
+https://www.openstreetmap.org/relation/9375454
+
+rel(9375454);out geom;
+way(674086714);out geom;way(27819521);out geom;
+way(674449654);out geom;way(674449654);out geom;
+way(674449657);out geom;way(503135632);out geom;
+
+<<<------>>>
+
+Linea 42
+https://www.openstreetmap.org/relation/9375503
+
+rel(9375503);out geom;
+way(441697754);out geom;way(674802916);out geom;
+way(612699531);out geom;way(462699993);out geom;
+way(674513531);out geom;way(439821963);out geom;
+way(376691835);out geom;way(669530878);out geom;
+way(674802913);out geom;way(376691866);out geom;
+way(47520058);out geom;way(49369598);out geom;
+
+<<<------>>>
+
+Linea 76
+https://www.openstreetmap.org/relation/9375668
+
+rel(9375668);out geom;
+way(49000539);out geom;way(85189830);out geom;
+way(674845975);out geom;way(142719352);out geom;
+
+<<<---
