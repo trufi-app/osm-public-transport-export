@@ -45,7 +45,7 @@ The example scripts can be run to export routes data for several city and featur
 | Santa Cruz | `npm run bolivia:santacruz` |
 | Accra | `npm run ghana:accra` |
 
-The files will be written to `examples/out/<city>/routes.geojson`. You can visualize the data with several tools such as [geojson.io](http://geojson.io/).
+The GeoJSON file will be written to `examples/out/<city>/routes.geojson`. You can visualize the data with several tools such as [geojson.io](http://geojson.io/).
 
 ![example](/img/routes_geojson_cochabamba.jpg)
 
