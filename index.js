@@ -43,7 +43,7 @@ async function osmToGeojson(options = {}) {
         throw new Error('Invalid bounds')
     }
 
-    if (typeof outputDir !== "string") {
+    if (outputDir !== null && typeof outputDir !== "string") {
         throw new Error('Invalid outputDir');
     }
 
