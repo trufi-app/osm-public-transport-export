@@ -22,7 +22,5 @@
     "url": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader/issues"
   },
   "homepage": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader#readme",
-  "dependencies": {
-    "axios": "^0.18.0"
-  }
+  "dependencies": {}
 }
