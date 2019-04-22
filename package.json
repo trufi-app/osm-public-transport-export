@@ -1,9 +1,10 @@
 {
-  "name": "osm-public-transport-downloader",
+  "name": "osm-public-transport-export",
   "version": "1.0.0",
-  "description": "OSM Public Transport Downloader",
+  "description": "OSM Public Transport Export",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run bolivia",
     "bolivia": "npm run bolivia:cochabamba && npm run bolivia:santacruz && npm run bolivia:lapaz",
     "bolivia:cochabamba": "node ./examples/bolivia-cochabamba.js",
@@ -12,15 +13,17 @@
     "ghana": "npm run ghana:accra",
     "ghana:accra": "node ./examples/ghana-accra.js"
   },
+  "author": "Samuel Rioja",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader.git"
+    "url": "git+https://github.com/trufi-app/osm-public-transport-export.git"
   },
-  "author": "Samuel RioTz",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader/issues"
+    "url": "https://github.com/trufi-app/osm-public-transport-export/issues"
   },
-  "homepage": "https://github.com/SamuelRioTz/OSM-Public-Transport-Downloader#readme",
   "dependencies": {}
 }
