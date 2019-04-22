@@ -7,6 +7,7 @@ osmToGeojson({
         north: 5.886880,
         east: 0.120503,
     },
+    allowNonSenseWays: true,
     outputDir: __dirname + '/out/ghana-accra',
     mapProperties: (tags) => ({
         ...tags,

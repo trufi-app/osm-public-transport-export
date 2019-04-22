@@ -6,6 +6,7 @@ const path = require('path')
 const defaultOptions = {
     bounds: null,
     outputDir: null,
+    allowNonSenseWays: false,
     geojsonFilename: 'routes.geojson',
     logFilename: 'log.txt',
     stopsFilename: 'stops.json',
@@ -28,6 +29,7 @@ async function osmToGeojson(options = {}) {
     const {
         bounds,
         outputDir,
+        allowNonSenseWays,
         geojsonFilename,
         logFilename,
         stopsFilename,
@@ -54,7 +56,7 @@ async function osmToGeojson(options = {}) {
     const bbox = `${bounds.south},${bounds.west},${bounds.north},${bounds.east}`
     const routes = await getRoutes(bbox)
     const ways = await getWays(bbox)
-    const data = convertGeoJSON({ routes, ways, mapProperties, formatStopName })
+    const data = convertGeoJSON({ routes, ways, allowNonSenseWays, mapProperties, formatStopName })
 
     if (outputDir) {
         fs.writeFileSync(path.join(outputDir, geojsonFilename), JSON.stringify(data.geojson))

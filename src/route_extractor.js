@@ -1,6 +1,6 @@
 const WayPartContainer = require('./way_part_container')
 
-module.exports = function (route_elements, ways) {
+module.exports = function (route_elements, ways, allowNonSenseWays) {
     const way_parts_unidirectional = []
     const way_parts_bidirectional = []
     const ways_processed = {}
@@ -10,7 +10,7 @@ module.exports = function (route_elements, ways) {
             if (ways_processed[member.ref]) {
                 throw new Error(`duplicated street\n\nrel(${route_elements.id});out geom;\nway(${member.ref});out geom;`)
             }
-            
+
             if (!ways[member.ref]) {
                 throw new Error(`undefined street\n\nrel(${route_elements.id});out geom;\nway(${member.ref});out geom;`)
             }
@@ -28,7 +28,7 @@ module.exports = function (route_elements, ways) {
         }
     }
 
-    if (way_parts_unidirectional.length === 0) {
+    if (way_parts_unidirectional.length === 0 && !allowNonSenseWays) {
         throw new Error("**************** route undefined **************")
     }
 

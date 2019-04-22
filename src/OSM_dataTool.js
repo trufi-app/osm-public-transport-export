@@ -1,18 +1,18 @@
 const routeExtractor = require('./route_extractor')
 
-module.exports = function ({ routes, ways, mapProperties, formatStopName}) {
+module.exports = function ({ routes, ways, allowNonSenseWays, mapProperties, formatStopName }) {
     const stops = {}
     const geojson_features = []
     let routes_complete = 0
     let routes_incomplete = 0
     let log_file = ''
     let log_file_error = ''
-    
+
     for (let key in routes) {
         const current_route = routes[key]
 
         try {
-            const data = routeExtractor(current_route, ways)
+            const data = routeExtractor(current_route, ways, allowNonSenseWays)
 
             routes_complete++
             log_file += `\nDone >>> ${current_route.tags.name}`
