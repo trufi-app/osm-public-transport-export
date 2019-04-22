@@ -47,7 +47,7 @@ The example scripts can be run to export routes data for several city and featur
 
 The GeoJSON file will be written to `examples/out/<city>/routes.geojson`. You can visualize the data with several tools such as [geojson.io](http://geojson.io/).
 
-![example](/img/routes_geojson_cochabamba.jpg)
+![example](/img/routes_geojson_cochabamba.png)
 
 Note: Sometimes the server can reject with `too many requests`. That's why we recommend to run them one by one.
 
