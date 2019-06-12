@@ -10,7 +10,6 @@
     "bolivia:cochabamba": "node ./examples/bolivia-cochabamba.js",
     "bolivia:santacruz": "node ./examples/bolivia-santacruz.js",
     "bolivia:lapaz": "node ./examples/bolivia-lapaz.js",
-    "bolivia:tarija": "node ./examples/bolivia-tarija.js",
     "ghana": "npm run ghana:accra",
     "ghana:accra": "node ./examples/ghana-accra.js"
   },
