@@ -16,7 +16,5 @@ osmToGeojson({
     stopNameSeparator: ' y ',
     stopNameFallback: 'innominada',
 })
-    .then(data => {
-        console.log("done")
-    })
-    .catch(console.log)
+    .then(data => console.log("done"))
+    .catch(error => console.error(error))
