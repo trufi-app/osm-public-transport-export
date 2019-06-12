@@ -1,3 +1,4 @@
+const debug = require('./debug')
 const routeExtractor = require('./route_extractor')
 
 module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties, formatStopName }) {
@@ -10,12 +11,14 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
 
     for (let key in routes) {
         const current_route = routes[key]
+        const name = current_route.tags.name
+        debug(`Processing route ${name}`)
 
         try {
             const data = routeExtractor(current_route, ways, assumeFirstWayIsStart)
 
             routes_complete++
-            log_file += `\nDone >>> ${current_route.tags.name}`
+            log_file += `\nDone >>> ${name}`
 
             geojson_features.push({
                 "type": "Feature",
@@ -36,8 +39,9 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
                 }
             })
         } catch (error) {
+            debug(`Error: ${error.message}`)
             routes_incomplete++
-            log_file_error += `--->>>\n\n${current_route.tags.name}\nhttps://www.openstreetmap.org/relation/${current_route.id}\n${error.message}\n\n<<<---`
+            log_file_error += `--->>>\n\n${name}\nhttps://www.openstreetmap.org/relation/${current_route.id}\n${error.message}\n\n<<<---`
         }
     }
 

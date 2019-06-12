@@ -6,10 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run bolivia",
-    "bolivia": "npm run bolivia:cochabamba && npm run bolivia:santacruz && npm run bolivia:lapaz",
+    "bolivia": "npm run bolivia:cochabamba && npm run bolivia:santacruz && npm run bolivia:lapaz && npm run bolivia:tarija",
     "bolivia:cochabamba": "node ./examples/bolivia-cochabamba.js",
     "bolivia:santacruz": "node ./examples/bolivia-santacruz.js",
     "bolivia:lapaz": "node ./examples/bolivia-lapaz.js",
+    "bolivia:tarija": "node ./examples/bolivia-tarija.js",
     "ghana": "npm run ghana:accra",
     "ghana:accra": "node ./examples/ghana-accra.js"
   },
@@ -25,5 +26,7 @@
   "bugs": {
     "url": "https://github.com/trufi-app/osm-public-transport-export/issues"
   },
-  "dependencies": {}
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
 }
