@@ -33,24 +33,31 @@ module.exports = function (route_elements, ways, assumeFirstWayIsStart) {
     }
 
     let way_parts = way_parts_unidirectional.concat(way_parts_bidirectional)
-    let part_pos = 0;
-    let way_parts_tam = way_parts.length
+    let part_pos = 0
 
-    while (part_pos < way_parts_tam) {
+    // For each way part, try to combine it with all other way parts.
+    // If for a part A, a part B can be found that can be merged into A,
+    // we merge, keep the new part A' and remove part B from the list.
+    // Two parts can be merged if the start node of a part A is the same
+    // as the end node of a part B or vice versa. We continue doing this
+    // until we cannot merge any two parts in the list anymore.
+    while (part_pos < way_parts.length) {
         let tmp_way = way_parts[part_pos]
         part_pos++
 
         for (let way_to_join of way_parts) {
             if (tmp_way.merge(way_to_join)) {
-                const index = way_parts.indexOf(way_to_join);
-                way_parts.splice(index, 1);
-                way_parts_tam = way_parts.length
-                part_pos = 0;
+                // Remove merged item from the list and start at the beginning
+                const index = way_parts.indexOf(way_to_join)
+                way_parts.splice(index, 1)
+                part_pos = 0
                 break
             }
         }
     }
 
+    // Remaining parts that could not be merged will result
+    // in an error (route will be skipped).
     if (way_parts.length > 1) {
         let res_error = `\nrel(${route_elements.id});out geom;`
 
