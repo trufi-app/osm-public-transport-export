@@ -1,3 +1,5 @@
+const { point } = require('@turf/helpers')
+const isEqual = require('@turf/boolean-equal').default
 const debug = require('./debug')
 const routeExtractor = require('./route_extractor')
 
@@ -19,6 +21,10 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
 
             routes_complete++
             log_file += `\nDone >>> ${name}`
+
+            debug(`${data.points.length} points in route`)
+            data.points = filterPoints(data.points)
+            debug(`${data.points.length} points after filtering`)
 
             geojson_features.push({
                 "type": "Feature",
@@ -72,6 +78,26 @@ function format_stop(stops, formatStopName) {
 
         result[stop_id] = stop_name
     })
+
+    return result
+}
+
+function filterPoints(points) {
+    const result = []
+    let last = null
+
+    for (let i = 0; i < points.length; i++) {
+        const cur = points[i]
+
+        if (last) {
+            if (isEqual(point(last), point(cur))) {
+                continue
+            }
+        }
+
+        last = cur
+        result.push(cur)
+    }
 
     return result
 }
