@@ -1,15 +1,14 @@
 
-routes downloaded : 101
+routes downloaded : 104
 
 
 Done >>> MiniBus 209: Parque de la Autonomía → Plaza Bolívar
 Done >>> MiniBus 209: Plaza Bolívar → Parque de la Autonomía
 Done >>> MiniBus 270: Plaza Bolivar → Pacata Central
 Done >>> MiniBus 260: Plaza Bolívar → Laguna Alalay
-Done >>> MiniBus 201: Plaza Bolívar → Laguna Alalay
 Done >>> MiniBus 270: Pacata Central → Plaza Bolivar
 Done >>> MiniBus 217: Plaza Bolívar → Pacata Central
-Done >>> MiniBus 260: Laguna Alalay → Plaza Bolívar
+Done >>> MiniBus 207: Plaza Bolívar → Temporal
 Done >>> MicroBus A: Sindicato Agrario Taquiña → Chaqui Mayu
 Done >>> Bus 233
 Done >>> MiniBus 203: Las Cuadras → Plaza Bolívar
@@ -20,13 +19,13 @@ Done >>> MicroBus E: Villa Jarkas → Cuatro Esquinas
 Done >>> MiniBus 106: El Paso → Cochabamba
 Done >>> MiniBus 120: Cochabamba → Tiquipaya
 Done >>> Trufi 290: Av. Blanco Galindo → Chillimarca
-Done >>> MiniBus 201: Laguna Alalay → Plaza Bolívar
+Done >>> MiniBus 201: C. República de Haití → Plaza Bolivar
 Done >>> MiniBus 217: Pacata Central → Plaza Bolívar
 Done >>> Bus 212: Amancayas → Tránsito
 Done >>> MicroBus LL: La Concordia → San Gabriel
 Done >>> MicroBus G: Asunción Llallagua → San Antonio
 Done >>> MicroBus G: San Antonio → Asunción Llallagua
-Done >>> MicroBus Q: Plaza Bolívar → Laguna Alalay
+Done >>> MicroBus Q: Calvario → Circuito Bolivia
 Done >>> MicroBus LL: San Gabriel → La Concordia
 Done >>> MicroBus I: San Antonio → Colquiri Sud
 Done >>> MiniBus 120: Tiquipaya → Cochabamba
@@ -37,45 +36,44 @@ Done >>> Micro J: C. Chiquitano → C. Gran Chaco
 Done >>> Minibus 16: Av. La Joya → C. Padre Bertha
 Done >>> Minibus 16: C. Padre Bertha → Av. La Joya
 Done >>> TaxiTrufi 103: C. J. Macedonio Urquidi → 16 de Julio
-Done >>> Micro R : Av. Arquímedes → Entre Rios
+Done >>> MicroBus R: Av. Arquímedes → Entre Rios
 Done >>> Minibus 1 : Av. Humberto Asin → Av. Ecologica
 Done >>> Minibus 1 : Av. Ecologica → Av. Humberto Asin
 Done >>> TaxiTrufi 136: Av. Uncia → Av. Segunda
 Done >>> Trufi 102 : Av. Segunda → Tamborada
 Done >>> Trufi 108 :C. San Luis → Av. Benjo Cruz
 Done >>> MiniBus 10: C. Faustino Suarez → Cerro Calomani
-Done >>> TaxiTrufi 104: C. Monseñor O. Arnulfo Romero → 1ro de Mayo
-Done >>> Trufi 107 : Maica Quenamari → C. Rafael Bustillo-Norte
+Done >>> Trufi 107: Maica Quenamari → C. Rafael Bustillo-Norte
 Done >>> Trufi 107 : C. Rafael Bustillo-Norte →  Maica Quenamari
 Done >>> Trufi 109 : C. Felix Reyes Ortiz → C. Papayo
-Done >>> Trufi 121 : Avenida Circunvalación II -> Calle Obrajes
+Done >>> Trufi 121: Avenida Circunvalación II -> Calle Obrajes
 Done >>> Micro M : Plan 335 Prefectural Fortaleza →
 Done >>> MiniBus 6: Av. Gerónimo de Osorio → Av. Pisiga
 Done >>> Minibus 11: C. Qurisunqu → Av. Inglaterra
 Done >>> Minibus 11: Av. Inglaterra → C. Qurisunqu
 Done >>> Minibus Z : Avenida Ecológica → Calle Miguel Coca
 Done >>> Minibus Z : Calle Miguel Coca → Avenida Ecológica
-Done >>> Minibus 232: Av. Sajama → Av. Villazón
-Done >>> Minibus 232: Av. Villazón → Av. Sajama
-Done >>> Minibus 240: Av. Chaco → Av. Villazón
-Done >>> Minibus 240: Av. Villazón → Av. Chaco
+Done >>> MiniBus 232: Av. Sajama → Av. Villazón
+Done >>> MiniBus 232: Av. Villazón → Av. Sajama
+Done >>> MiniBus 240: Av. Chaco → Av. Villazón
+Done >>> MiniBus 240: Av. Villazón → Av. Chaco
 Done >>> Trufi 230: C. Grover Suarez → Av. Villazón
 Done >>> Trufi 230: Av. Villazón → C. Grover Suarez
-Done >>> Microbus 250: Av. Blanco Galindo → Av. Mártires de la Democracia
+Done >>> MicroBus 250: Av. Blanco Galindo → Av. Mártires de la Democracia
 Done >>> Trufi 252: Av. Blanco Galindo → C. Litoral
-Done >>> Microbus 200: C. Litoral → Av. Blanco Galindo
-Done >>> Microbus 200: Av. Blanco Galindo → C. Litoral
+Done >>> MicroBus 200: C. Litoral → Av. Blanco Galindo
+Done >>> MicroBus 200: Av. Blanco Galindo → C. Litoral
 Done >>> Minibus 118: Av. República → Av. Ecológica
 Done >>> Minibus 118: Av. Ecológica → Av. República
 Done >>> Trufi 116: Alto Buena Vista →  C. Logustina
 Done >>> Trufi 116: C. Logustina → Alto Buena Vista
-Done >>> MicroBus Y : O → S
+Done >>> MicroBus Y: O → S
 Done >>> Taxi de ruta fija Taquiña : Cruce Taquiña → Fabrica
 Done >>> Trufi 113: Av. Ecológica → Calicanto
 Done >>> Trufi 113: Calicanto → Av. Ecológica
 Done >>> Trufi 03: Pasaje 22 →  C. Jorge Ugaeta
 Done >>> Trufi 03: C. Jorge Ugaeta → Pasaje 22
-Done >>> MiniBus 45 : Calle Serranía de Caiza → Calle Santiago Fajardo
+Done >>> MiniBus 45: Calle Serranía de Caiza → Calle Santiago Fajardo
 Done >>> Trufi 016: Av. Ecológica → C. Litoral
 Done >>> Trufi 016: C. Litoral → Av. Ecológica
 Done >>> Microbus V : S → No
@@ -83,7 +81,7 @@ Done >>> Trufi 112: C. Volcán Tolima → C. Hugo Almaraz
 Done >>> Trufi 212: Av. Beijing → Lava Lava Baja
 Done >>> Trufi 212: Lava Lava Baja → Av. Beijing
 Done >>> Trufi 114: Av. Uncia → C. Waldo Ballivián
-Done >>> Trufi114: C. Waldo Ballivián → Av. Uncia
+Done >>> Trufi 114: C. Waldo Ballivián → Av. Uncia
 Done >>> Trufi 122: Chaupiloma → C. Qhochapampa
 Done >>> Trufi 134: Av. Chiquicollo → Av. Circunvalación
 Done >>> Trufi 134: Av. Circunvalación → Av. Chiquicollo
@@ -97,17 +95,31 @@ Done >>> Trufi 123: Av. Paris → C. Wawaki
 Done >>> Trufi 123: C. Wawaki → Av. Paris
 Done >>> Trufi 012: Villa Cóndor → C. Claudio Tolomeo
 Done >>> Trufi 012: C. Claudio Tolomeo → Villa Cóndor
-Done >>> Minibus 160: Av. República → OTB Valle Grande
+Done >>> MiniBus 160: Av. República → OTB Valle Grande
 Done >>> Trufi 112: C. Hugo Almaraz → C. Volcán Tolima
 Done >>> Trufi 122: C. Qhochapampa → Chaupiloma
-Done >>> Minibus 233 : S → E
-Done >>> Microbus 220 : E → O
+Done >>> MiniBus 233: S → E
+Done >>> MicroBus 220: E → O
 Done >>> Minibus 6 : E → O
+Done >>> Trufi 131: Valle Hermoso → C. Lucia Alcocer
+Done >>> Micro N: Av. Eliodoro Villazón → C. Severo Fernandez A.
+Done >>> Micro O: Av. Circunvalación II  → Sau Sau Loma
+Done >>> Micro U: Av. Circunvalación II → C. Federico Jimenez
+Done >>> MicroBus Q: Circuito Bolivia → Calvario
 
 
-routes to fix : 45
+routes to fix : 78
 
 --->>>
+
+MiniBus 201: Plaza Bolivar → C. República de Haití
+https://www.openstreetmap.org/relation/4207829
+
+rel(4207829);out geom;
+way(313346725);out geom;way(313514655);out geom;
+way(192797149);out geom;way(578169115);out geom;
+
+<<<------>>>
 
 MiniBus 205: Las Cuadras → Plaza Bolívar
 https://www.openstreetmap.org/relation/4220716
@@ -118,22 +130,21 @@ way(314152444);out geom;way(203431157);out geom;
 
 <<<------>>>
 
+MiniBus 260: Laguna Alalay → Plaza Bolívar
+https://www.openstreetmap.org/relation/4237142
+
+rel(4237142);out geom;
+way(675329052);out geom;way(203431157);out geom;
+way(315097357);out geom;way(677561784);out geom;
+
+<<<------>>>
+
 MicroBus B: Villa Moscú → Aeropuerto → Chavez Rancho
 https://www.openstreetmap.org/relation/4247869
 duplicated street
 
 rel(4247869);out geom;
 way(319874079);out geom;
-
-<<<------>>>
-
-MiniBus 207: Plaza Bolívar → Temporal
-https://www.openstreetmap.org/relation/4269607
-
-rel(4269607);out geom;
-way(313346725);out geom;way(314152399);out geom;
-way(315097355);out geom;way(315097355);out geom;
-way(543434604);out geom;way(315097360);out geom;
 
 <<<------>>>
 
@@ -147,7 +158,7 @@ way(316898060);out geom;way(316898058);out geom;
 
 <<<------>>>
 
-Bus B: Chavez Rancho → Aeropuerto → Villa Moscú
+MicroBus B: Chavez Rancho → Aeropuerto → Villa Moscú
 https://www.openstreetmap.org/relation/4420889
 
 rel(4420889);out geom;
@@ -198,7 +209,7 @@ way(426506241);out geom;way(135681505);out geom;
 
 <<<------>>>
 
-Bus 3: Comunidad Andrada → Santa Rosa
+MicroBus 3: Comunidad Andrada → Santa Rosa
 https://www.openstreetmap.org/relation/5167276
 duplicated street
 
@@ -207,7 +218,7 @@ way(313514690);out geom;
 
 <<<------>>>
 
-Bus 3: Santa Rosa → Comunidad Andrada
+MicroBus 3: Santa Rosa → Comunidad Andrada
 https://www.openstreetmap.org/relation/5172572
 duplicated street
 
@@ -225,16 +236,25 @@ way(231523182);out geom;way(319647251);out geom;
 
 <<<------>>>
 
+MicroBus W: Plaza Bolívar → Barrio Universitario Bajo
+https://www.openstreetmap.org/relation/5386696
+duplicated street
+
+rel(5386696);out geom;
+way(361917842);out geom;
+
+<<<------>>>
+
 MicroBus H: Chacacollo → Molle Molle → Salinas
 https://www.openstreetmap.org/relation/5457000
 
 rel(5457000);out geom;
+way(366967662);out geom;way(655708948);out geom;
 way(50712020);out geom;way(368000149);out geom;
 way(29070225);out geom;way(610543930);out geom;
 way(368000139);out geom;way(148658021);out geom;
 way(654603215);out geom;way(316898077);out geom;
 way(550175874);out geom;way(675345635);out geom;
-way(366967662);out geom;way(655708948);out geom;
 way(368000121);out geom;way(191624962);out geom;
 
 <<<------>>>
@@ -249,14 +269,14 @@ way(368000100);out geom;way(655708947);out geom;
 way(50712015);out geom;way(656372206);out geom;
 way(50846737);out geom;way(548473898);out geom;
 way(168240285);out geom;way(548473894);out geom;
-way(230640721);out geom;way(467394200);out geom;
+way(230640721);out geom;way(467394211);out geom;
+way(366967662);out geom;way(687288622);out geom;
 way(149742432);out geom;way(316898077);out geom;
 way(148658021);out geom;way(669455011);out geom;
-way(366967662);out geom;way(366967662);out geom;
 
 <<<------>>>
 
-Micro R : Entre Rios → Av. Arquímedes
+MicroBus R: Entre Rios → Av. Arquímedes
 https://www.openstreetmap.org/relation/9119233
 
 rel(9119233);out geom;
@@ -284,7 +304,8 @@ Trufi 108 : Av. Benjo Cruz → C. San Luis
 https://www.openstreetmap.org/relation/9144377
 
 rel(9144377);out geom;
-way(659208676);out geom;way(659208630);out geom;
+way(659208676);out geom;way(659216483);out geom;
+way(206038877);out geom;way(659208630);out geom;
 way(55968928);out geom;way(657413136);out geom;
 
 <<<------>>>
@@ -346,13 +367,23 @@ way(323969111);out geom;way(662560358);out geom;
 
 <<<------>>>
 
+TaxiTrufi 104: C. Monseñor O. Arnulfo Romero → 1ro de Mayo
+https://www.openstreetmap.org/relation/9219406
+
+rel(9219406);out geom;
+way(350677652);out geom;way(665471516);out geom;
+way(348736497);out geom;way(348736484);out geom;
+
+<<<------>>>
+
 TaxiTrufi 104: 1ro de Mayo → C. Monseñor O. Arnulfo Romero
 https://www.openstreetmap.org/relation/9219407
 
 rel(9219407);out geom;
 way(136717063);out geom;way(136717063);out geom;
-way(662920117);out geom;way(348736497);out geom;
+way(662920117);out geom;way(350677652);out geom;
 way(665471516);out geom;way(316898058);out geom;
+way(348736484);out geom;way(348736497);out geom;
 
 <<<------>>>
 
@@ -372,7 +403,7 @@ https://www.openstreetmap.org/relation/9312061
 
 <<<------>>>
 
-Microbus 250: Av. Mártires de la Democracia → Av. Blanco Galindo
+MicroBus 250: Av. Mártires de la Democracia → Av. Blanco Galindo
 https://www.openstreetmap.org/relation/9377827
 
 rel(9377827);out geom;
@@ -399,7 +430,7 @@ way(320162908);out geom;way(676717269);out geom;
 
 <<<------>>>
 
-Microbus W : Avenida Blanco Galindo → Calle Río Beni
+MicroBus W: Avenida Blanco Galindo → Calle Río Beni
 https://www.openstreetmap.org/relation/9386225
 
 rel(9386225);out geom;
@@ -446,7 +477,7 @@ way(262077251);out geom;way(676951187);out geom;
 
 <<<------>>>
 
-MicroBus Y : S → O
+MicroBus Y: S → O
 https://www.openstreetmap.org/relation/9413605
 
 rel(9413605);out geom;
@@ -493,7 +524,7 @@ way(515326357);out geom;way(672925890);out geom;
 
 <<<------>>>
 
-Minibus 160: OTB Valle Grande → Av. República
+MiniBus 160: OTB Valle Grande → Av. República
 https://www.openstreetmap.org/relation/9436031
 
 rel(9436031);out geom;
@@ -503,7 +534,7 @@ way(679620198);out geom;way(679620198);out geom;
 
 <<<------>>>
 
-Minibus 27 :  C´aspichaca → Alto Porvenir
+MiniBus 27:  C'spichaca → Alto Porvenir
 https://www.openstreetmap.org/relation/9453724
 duplicated street
 
@@ -512,7 +543,7 @@ way(681748278);out geom;
 
 <<<------>>>
 
-Minibus 233 : E → S
+MiniBus 233: E → S
 https://www.openstreetmap.org/relation/9458409
 
 rel(9458409);out geom;
@@ -522,7 +553,7 @@ way(40860499);out geom;way(40860499);out geom;
 
 <<<------>>>
 
-Microbus 220 : O → E
+MicroBus 220: O → E
 https://www.openstreetmap.org/relation/9458471
 
 rel(9458471);out geom;
@@ -537,5 +568,232 @@ https://www.openstreetmap.org/relation/9466782
 rel(9466782);out geom;
 way(682303079);out geom;way(682302125);out geom;
 way(682303080);out geom;way(682171665);out geom;
+
+<<<------>>>
+
+Trufi 125: Buena Vista → C. M. R. Saravia de Lanza
+https://www.openstreetmap.org/relation/9582565
+duplicated street
+
+rel(9582565);out geom;
+way(657444361);out geom;
+
+<<<------>>>
+
+Trufi 125: C. M. R. Saravia de Lanza → Buena Vista
+https://www.openstreetmap.org/relation/9582567
+duplicated street
+
+rel(9582567);out geom;
+way(136141003);out geom;
+
+<<<------>>>
+
+Minibus 13: Ch'aska Rumi → Av. Ecologica
+https://www.openstreetmap.org/relation/9582568
+duplicated street
+
+rel(9582568);out geom;
+way(327016404);out geom;
+
+<<<------>>>
+
+Minibus 13: Av. Ecologica → Ch'aska Rumi
+https://www.openstreetmap.org/relation/9582570
+**************** route undefined **************
+
+<<<------>>>
+
+Trufi 131: C. Lucia Alcocer → Valle Hermoso
+https://www.openstreetmap.org/relation/9582573
+
+rel(9582573);out geom;
+way(34156472);out geom;way(690749658);out geom;
+way(322417279);out geom;way(314303717);out geom;
+way(690608585);out geom;way(192726411);out geom;
+
+<<<------>>>
+
+Trufi 148: Calicanto → C. Esteban Arce
+https://www.openstreetmap.org/relation/9582574
+**************** route undefined **************
+
+<<<------>>>
+
+Trufi 148: C.Esteban → Arce Calicanto
+https://www.openstreetmap.org/relation/9582576
+**************** route undefined **************
+
+<<<------>>>
+
+Minibus 17: OTB Nueva Esperanza → C. Raul G. Prada
+https://www.openstreetmap.org/relation/9582848
+**************** route undefined **************
+
+<<<------>>>
+
+Minibus 17: C. Raul G. Prada → OTB Nueva Esperanza
+https://www.openstreetmap.org/relation/9582850
+**************** route undefined **************
+
+<<<------>>>
+
+Minibus 18: Av. Uncia → Av. Benjo Cruz
+https://www.openstreetmap.org/relation/9582851
+duplicated street
+
+rel(9582851);out geom;
+way(282745400);out geom;
+
+<<<------>>>
+
+Minibus 18: Av. Benjo Cruz → Av. Uncia
+https://www.openstreetmap.org/relation/9582853
+
+rel(9582853);out geom;
+way(690832084);out geom;way(254463043);out geom;
+way(690840178);out geom;way(690840178);out geom;
+way(358385653);out geom;way(659216483);out geom;
+way(690832082);out geom;way(320430121);out geom;
+
+<<<------>>>
+
+Minibus 19: Av. Autonomía → Calle 7
+https://www.openstreetmap.org/relation/9582854
+
+rel(9582854);out geom;
+way(690912023);out geom;way(368000115);out geom;
+way(502557671);out geom;way(319660369);out geom;
+way(222015419);out geom;way(690912034);out geom;
+way(591080372);out geom;way(690912021);out geom;
+way(515326347);out geom;way(361230781);out geom;
+way(149742430);out geom;way(148657326);out geom;
+
+<<<------>>>
+
+Minibus 19: Calle 7 → Av. Autonomía
+https://www.openstreetmap.org/relation/9582856
+
+rel(9582856);out geom;
+way(690912034);out geom;way(665480483);out geom;
+way(690958435);out geom;way(219638324);out geom;
+way(318667331);out geom;way(675336872);out geom;
+
+<<<------>>>
+
+Minibus 2: Av. del Cabildo → C. Las Begonias
+https://www.openstreetmap.org/relation/9582857
+
+rel(9582857);out geom;
+way(273223840);out geom;way(691079606);out geom;
+way(70711295);out geom;way(691079624);out geom;
+
+<<<------>>>
+
+Minibus 2: C. Las Begonias → Av. del Cabildo
+https://www.openstreetmap.org/relation/9582859
+duplicated street
+
+rel(9582859);out geom;
+way(167145107);out geom;
+
+<<<------>>>
+
+Minibus 20: Trafalgar → C. Lloque Yupanqui
+https://www.openstreetmap.org/relation/9582860
+
+rel(9582860);out geom;
+way(233706169);out geom;way(222933754);out geom;
+way(297783158);out geom;way(480285498);out geom;
+
+<<<------>>>
+
+Minibus 20: C. Lloque Yupanqui → Trafalgar
+https://www.openstreetmap.org/relation/9582862
+duplicated street
+
+rel(9582862);out geom;
+way(347879210);out geom;
+
+<<<------>>>
+
+Micro K: C. Achachairú → Av. Arquímedes
+https://www.openstreetmap.org/relation/9615974
+**************** route undefined **************
+
+<<<------>>>
+
+Micro K: Av. Arquímedes → C. Achachairú
+https://www.openstreetmap.org/relation/9615976
+**************** route undefined **************
+
+<<<------>>>
+
+Micro N: C. Severo Fernandez A. → Av. Eliodoro Villazón
+https://www.openstreetmap.org/relation/9615977
+**************** route undefined **************
+
+<<<------>>>
+
+Micro O: Sau Sau Loma → Av. Circunvalación II
+https://www.openstreetmap.org/relation/9615980
+**************** route undefined **************
+
+<<<------>>>
+
+Micro U: C. Federico Jimenez → Av. Circunvalación II
+https://www.openstreetmap.org/relation/9615983
+**************** route undefined **************
+
+<<<------>>>
+
+MiniBus 31: Av. Simón Lopez → C. Río Nicolás Suárez
+https://www.openstreetmap.org/relation/9643477
+duplicated street
+
+rel(9643477);out geom;
+way(321575983);out geom;
+
+<<<------>>>
+
+undefined
+https://www.openstreetmap.org/relation/9643479
+**************** route undefined **************
+
+<<<------>>>
+
+undefined
+https://www.openstreetmap.org/relation/9643481
+**************** route undefined **************
+
+<<<------>>>
+
+Minibus 35: Villa Israel → C. Ricardo Mujia
+https://www.openstreetmap.org/relation/9643484
+**************** route undefined **************
+
+<<<------>>>
+
+Minibus 36: C. T'ikallajta → C. Manuel Virreira
+https://www.openstreetmap.org/relation/9643485
+**************** route undefined **************
+
+<<<------>>>
+
+Minibus 36: C. Manuel Virreira → C. T'ikallajta
+https://www.openstreetmap.org/relation/9643487
+**************** route undefined **************
+
+<<<------>>>
+
+Minibus 40: Ciudad de los niños → Buena vista
+https://www.openstreetmap.org/relation/9643488
+**************** route undefined **************
+
+<<<------>>>
+
+Minibus 40: Buena vista → Ciudad de los niños
+https://www.openstreetmap.org/relation/9643490
+**************** route undefined **************
 
 <<<---

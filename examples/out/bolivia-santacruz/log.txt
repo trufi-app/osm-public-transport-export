@@ -1,5 +1,5 @@
 
-routes downloaded : 39
+routes downloaded : 36
 
 
 Done >>> Línea 18
@@ -18,7 +18,6 @@ Done >>> Linea 21 - Rojo
 Done >>> Linea 27
 Done >>> Linea 27
 Done >>> Linea 12
-Done >>> Linea 38
 Done >>> Linea 127
 Done >>> Linea 40
 Done >>> Linea 13
@@ -26,12 +25,10 @@ Done >>> Linea 23
 Done >>> Linea 83
 Done >>> Línea 73
 Done >>> Linea 29
-Done >>> Linea 58
 Done >>> Linea 65
 Done >>> Linea 60
 Done >>> Linea 70
 Done >>> Linea 90
-Done >>> Linea 5
 Done >>> Linea 11
 Done >>> Linea 31
 Done >>> Linea 32
@@ -43,7 +40,7 @@ Done >>> Linea 41
 Done >>> Línea 121
 
 
-routes to fix : 29
+routes to fix : 32
 
 --->>>
 
@@ -79,7 +76,8 @@ https://www.openstreetmap.org/relation/6938190
 
 rel(6938190);out geom;
 way(441693135);out geom;way(671152080);out geom;
-way(140704486);out geom;way(55055838);out geom;
+way(440366509);out geom;way(55055838);out geom;
+way(140704486);out geom;way(50604246);out geom;
 
 <<<------>>>
 
@@ -87,7 +85,8 @@ Línea 48
 https://www.openstreetmap.org/relation/6945576
 
 rel(6945576);out geom;
-way(164336217);out geom;way(408624953);out geom;
+way(672653575);out geom;way(408624953);out geom;
+way(164336217);out geom;way(56315172);out geom;
 way(471929570);out geom;way(671307963);out geom;
 
 <<<------>>>
@@ -173,6 +172,17 @@ way(438859336);out geom;way(352360689);out geom;
 
 <<<------>>>
 
+Linea 38
+https://www.openstreetmap.org/relation/9311981
+
+rel(9311981);out geom;
+way(49394042);out geom;way(56315158);out geom;
+way(672653575);out geom;way(672653575);out geom;
+way(56315168);out geom;way(164336806);out geom;
+way(442122871);out geom;way(672664952);out geom;
+
+<<<------>>>
+
 Linea 75
 https://www.openstreetmap.org/relation/9312896
 
@@ -236,6 +246,15 @@ way(669527163);out geom;way(458136738);out geom;
 
 <<<------>>>
 
+Linea 58
+https://www.openstreetmap.org/relation/9351495
+
+rel(9351495);out geom;
+way(439823060);out geom;way(394623075);out geom;
+way(85189338);out geom;way(672664952);out geom;
+
+<<<------>>>
+
 Linea 51
 https://www.openstreetmap.org/relation/9356976
 
@@ -272,6 +291,15 @@ way(417889802);out geom;way(442261807);out geom;
 way(604696783);out geom;way(35318979);out geom;
 way(603346488);out geom;way(441960729);out geom;
 way(677185758);out geom;way(677185758);out geom;
+
+<<<------>>>
+
+Linea 5
+https://www.openstreetmap.org/relation/9372023
+
+rel(9372023);out geom;
+way(164077732);out geom;way(592439607);out geom;
+way(377411452);out geom;way(377411452);out geom;
 
 <<<------>>>
 

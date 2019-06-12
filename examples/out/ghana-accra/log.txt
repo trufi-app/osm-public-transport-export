@@ -1,5 +1,5 @@
 
-routes downloaded : 554
+routes downloaded : 555
 
 
 Done >>> Trotro 31 : 37 → Abeka Lapaz
@@ -59,7 +59,7 @@ Done >>> Trotro 10 : Abeka Lapaz → Amasaman
 Done >>> Trotro 10 : Amasaman → Abeka Lapaz
 Done >>> Trotro 18 : Abeka Lapaz → Kasoa
 Done >>> Trotro 18 : Kasoa → Abeka Lapaz
-Done >>> Trotro 19 : Abeka Lapaz → Kotokuo
+Done >>> Lapaz Asofan Amasaman Branch of G.P.R.T.U. 19 Abeka Lapaz - Kotokuo
 Done >>> Trotro 19 : Kotokuo → Abeka Lapaz
 Done >>> Trotro 16 : Abeka Lapaz → Sapeiman
 Done >>> Trotro 16 : Sapeiman → Abeka Lapaz
@@ -99,7 +99,6 @@ Done >>> Trotro 990 : SSNIT Flats → Circle Odorna
 Done >>> Trotro 98 : Abeka Lapaz → Achimota
 Done >>> Trotro 535 : Zambrama Line → Agbogbloshie 2
 Done >>> Trotro 535 : Agbogbloshie 2 → Zambrama Line
-Done >>> Trotro 39 : Abeka Lapaz → Antie-Eku Pallas Town
 Done >>> Trotro 39 : Antie-Eku Pallas Town → Abeka Lapaz
 Done >>> Trotro 524 : Accra New Tema Station → Banana Inn
 Done >>> Trotro 41 : Abeka Lapaz → Asofan
@@ -117,7 +116,6 @@ Done >>> Trotro 52 : Mayera → Abeka Lapaz
 Done >>> Trotro 492 : Kaneshie Station → Tabora Alhaji
 Done >>> Trotro 488 : Sukura → Arena
 Done >>> Trotro 55 : Abeka Lapaz → Osu
-Done >>> Trotro 55 : Osu → Abeka Lapaz
 Done >>> Trotro 488 : Arena → Sukura
 Done >>> Trotro 486 : Soko → Accra Post Office
 Done >>> Trotro 486 : Accra Post Office → Soko
@@ -291,7 +289,6 @@ Done >>> Trotro 378 : Abeka Lapaz → Awoshie
 Done >>> Trotro 378 : Awoshie → Abeka Lapaz
 Done >>> Trotro 369 : Accra New Tema Station → Agbogbloshie
 Done >>> Trotro 369 : Agbogbloshie → Accra New Tema Station
-Done >>> Trotro 344 : Abeka Lapaz → Santa Maria
 Done >>> Trotro 344 : Santa Maria → Abeka Lapaz
 Done >>> Trotro 343 : Abeka Lapaz → Race Course
 Done >>> Trotro 343 : Race Course → Abeka Lapaz
@@ -369,7 +366,6 @@ Done >>> Trotro 337 : Abeka Lapaz → Ashaiman
 Done >>> Trotro 337 : Ashaiman → Abeka Lapaz
 Done >>> Trotro 64 : Abossey-Okai → Kasoa
 Done >>> Trotro 64 : Kasoa → Abossey-Okai
-Done >>> Trotro 373 : Accra New Tema Station → Dzorwulu
 Done >>> Trotro 373 : Dzorwulu → Accra New Tema Station
 Done >>> Trotro 425 : Circle Odorna → Nungua
 Done >>> Trotro 425 : Nungua → Circle Odorna
@@ -448,14 +444,12 @@ Done >>> Trotro 347 : Abeka Lapaz → Tema
 Done >>> Trotro 999 : Abeka Lapaz → Sowutuom
 Done >>> Trotro 999 : Sowutuom → Abeka Lapaz
 Done >>> Trotro 995 : Accra New Tema Station → Zamrama Line
-Done >>> Trotro 995 : Zamrama Line → Accra New Tema Station
 Done >>> Trotro 994 : Accra Rawlings Park → Chemuna
 Done >>> Trotro 994 : Chemuna → Accra Rawlings Park
 Done >>> Trotro 542 : Zongo Junction → Chorkor
 Done >>> Trotro 542 : Chorkor → Zongo Junction
 Done >>> Trotro 347 : Tema → Abeka Lapaz
 Done >>> Trotro 540 : Zongo Junction → Agege
-Done >>> Trotro 540 : Agege → Zongo Junction
 Done >>> Trotro 539 : Zambrama Line → Odorna-Circle
 Done >>> Trotro 539 : Odorna-Circle → Zambrama Line
 Done >>> Trotro 538 : Zambrama Line → Kaneshie
@@ -504,7 +498,6 @@ Done >>> Trotro 367 : New Fadama → Accra CMB
 Done >>> Trotro 367 : Accra CMB → New Fadama
 Done >>> Trotro 368 : Accra New Tema Station → Abelemkpe
 Done >>> Trotro 368 : Abelemkpe → Accra New Tema Station
-Done >>> Trotro 376 : Accra New Tema Station → Pigfarm
 Done >>> Trotro 376 : Pigfarm → Accra New Tema Station
 Done >>> Trotro 377 : Abeka Lapaz → Ashongman
 Done >>> Trotro 377 : Ashongman → Abeka Lapaz
@@ -556,11 +549,46 @@ Done >>> Trotro 449 : Orgle Street → Kaneshie
 Done >>> Trotro 449 : Kaneshie → Orgle Street
 Done >>> Trotro 525 : Accra New Tema Station → Adenta Station
 Done >>> Trotro 525 : Adenta Station → Accra New Tema Station
+Done >>> Lapaz Branch of G.P.R.T.U. 24 Abeka Lapaz - Nsawam
+Done >>> Trotro 24 : Nsawam → Abeka Lapaz
+Done >>> Trotro 119 : Madina → St. Johns
+Done >>> Trotro 119 : St. Johns → Madina
+Done >>> Trotro 120 : Madina → Sowutuom
+Done >>> Trotro 120 : Sowutuom → Madina
+Done >>> Trotro 526 : Accra New Tema Station → Mateytse
+Done >>> Trotro 526 : Mateytse → Accra New Tema Station
 
 
-routes to fix : 2
+routes to fix : 9
 
 --->>>
+
+Trotro 39 : Abeka Lapaz → Antie-Eku Pallas Town
+https://www.openstreetmap.org/relation/7456407
+
+rel(7456407);out geom;
+way(518607193);out geom;way(516683627);out geom;
+way(514024490);out geom;way(659326297);out geom;
+
+<<<------>>>
+
+Trotro 55 : Osu → Abeka Lapaz
+https://www.openstreetmap.org/relation/7458534
+
+rel(7458534);out geom;
+way(510510820);out geom;way(513543463);out geom;
+way(509920627);out geom;way(659326288);out geom;
+
+<<<------>>>
+
+Trotro 344 : Abeka Lapaz → Santa Maria
+https://www.openstreetmap.org/relation/7482055
+
+rel(7482055);out geom;
+way(509040211);out geom;way(516683627);out geom;
+way(516913782);out geom;way(659326297);out geom;
+
+<<<------>>>
 
 Trotro 241 : Circle Overhead → Bawaleshie
 https://www.openstreetmap.org/relation/7498362
@@ -571,11 +599,47 @@ way(135693013);out geom;way(517756942);out geom;
 
 <<<------>>>
 
+Trotro 373 : Accra New Tema Station → Dzorwulu
+https://www.openstreetmap.org/relation/7502108
+
+rel(7502108);out geom;
+way(148004576);out geom;way(660103917);out geom;
+way(29970005);out geom;way(517110496);out geom;
+
+<<<------>>>
+
 Trotro 203 : Orgle Road → Circle
 https://www.openstreetmap.org/relation/7551948
 
 rel(7551948);out geom;
 way(517772761);out geom;way(510729651);out geom;
 way(514351764);out geom;way(448671378);out geom;
+
+<<<------>>>
+
+Trotro 995 : Zamrama Line → Accra New Tema Station
+https://www.openstreetmap.org/relation/7563496
+
+rel(7563496);out geom;
+way(677444310);out geom;way(514021264);out geom;
+way(525739266);out geom;way(515937847);out geom;
+
+<<<------>>>
+
+Trotro 540 : Agege → Zongo Junction
+https://www.openstreetmap.org/relation/7570157
+
+rel(7570157);out geom;
+way(448818506);out geom;way(524257440);out geom;
+way(686536590);out geom;way(525684982);out geom;
+
+<<<------>>>
+
+Trotro 376 : Accra New Tema Station → Pigfarm
+https://www.openstreetmap.org/relation/7584453
+
+rel(7584453);out geom;
+way(148004576);out geom;way(660103917);out geom;
+way(29970005);out geom;way(518607209);out geom;
 
 <<<---
