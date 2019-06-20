@@ -9,7 +9,6 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
     let routes_complete = 0
     let routes_incomplete = 0
     let log_file = []
-    let log_file_error = []
 
     for (let key in routes) {
         const current_route = routes[key]
@@ -46,7 +45,7 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
             })
         } catch (error) {
             debug(`Error: ${error.extractor_error || error.message}`)
-            log_file_error.push(Object.assign({
+            log_file.push(Object.assign({
                 id: current_route.id,
                 error_log: error.extractor_error ? error : "not controlled"
             }, current_route.tags))
@@ -54,7 +53,11 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
         }
     }
 
-    log_file = { completed: log_file, with_error: log_file_error }
+    log_file.sort((a, b) => {
+        let x = a.ref ? a.ref.toLowerCase() : 0
+        let y = b.ref ? b.ref.toLowerCase() : 0
+        return (x < y) ? -1 : (x > y) ? 1 : 0;
+    })
 
     const geojson_feature_collection = {
         "type": "FeatureCollection",
