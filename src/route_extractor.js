@@ -1,4 +1,5 @@
 const WayPartContainer = require('./way_part_container')
+const extractor_error = require('./extractor_error')
 
 module.exports = function (route_elements, ways, assumeFirstWayIsStart) {
     const way_parts_unidirectional = []
@@ -8,11 +9,12 @@ module.exports = function (route_elements, ways, assumeFirstWayIsStart) {
     for (const member of route_elements.members) {
         if (member.type == "way") {
             if (ways_processed[member.ref]) {
-                throw new Error(`duplicated street\n\nrel(${route_elements.id});out geom;\nway(${member.ref});out geom;`)
+                throw { extractor_error: extractor_error.duplicated, uri: `https://overpass-turbo.eu/?Q=${encodeURI(`//${extractor_error.duplicated}\nrel(${route_elements.id});out geom;\nway(${member.ref});out geom;`)}&R` }
             }
 
             if (!ways[member.ref]) {
-                throw new Error(`undefined street\n\nrel(${route_elements.id});out geom;\nway(${member.ref});out geom;`)
+                throw { extractor_error: extractor_error.undefined_street, uri: `https://overpass-turbo.eu/?Q=${encodeURI(`//${extractor_error.undefined_street}\nrel(${route_elements.id});out geom;\nway(${member.ref});out geom;`)}&R` }
+
             }
 
             const way = JSON.parse(JSON.stringify(ways[member.ref]))
@@ -29,7 +31,7 @@ module.exports = function (route_elements, ways, assumeFirstWayIsStart) {
     }
 
     if (way_parts_unidirectional.length === 0 && !assumeFirstWayIsStart) {
-        throw new Error("**************** route undefined **************")
+        throw { extractor_error: extractor_error.undefined, uri: `https://overpass-turbo.eu/?Q=${encodeURI(`//${extractor_error.undefined}\nrel(${route_elements.id});out geom;`)}&R` }
     }
 
     let way_parts = way_parts_unidirectional.concat(way_parts_bidirectional)
@@ -65,7 +67,7 @@ module.exports = function (route_elements, ways, assumeFirstWayIsStart) {
             res_error += `\n${part.toString()}`
         })
 
-        throw new Error(res_error)
+        throw { extractor_error: extractor_error.nomergeable, uri: `https://overpass-turbo.eu/?Q=${encodeURI(`//${extractor_error.nomergeable}\n${res_error}`)}&R` }
     }
 
     const result_way = []

@@ -45,12 +45,12 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
                 }
             })
         } catch (error) {
-            debug(`Error: ${error.message}`)
-            routes_incomplete++
+            debug(`Error: ${error.extractor_error || error.message}`)
             log_file_error.push(Object.assign({
                 id: current_route.id,
-                error_log: `--->>>\n\n${name}\nhttps://www.openstreetmap.org/relation/${current_route.id}\n${error.message}\n\n<<<---`
+                error_log: error.extractor_error ? error : "not controlled"
             }, current_route.tags))
+            routes_incomplete++
         }
     }
 
