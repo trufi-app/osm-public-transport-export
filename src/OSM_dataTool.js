@@ -6,8 +6,6 @@ const routeExtractor = require('./route_extractor')
 module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties, formatStopName }) {
     const stops = {}
     const geojson_features = []
-    let routes_complete = 0
-    let routes_incomplete = 0
     let log_file = []
 
     for (let key in routes) {
@@ -18,7 +16,6 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
         try {
             const data = routeExtractor(current_route, ways, assumeFirstWayIsStart)
 
-            routes_complete++
             log_file.push({ id: current_route.id, tags: current_route.tags })
 
             debug(`${data.points.length} points in route`)
@@ -45,11 +42,11 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
             })
         } catch (error) {
             debug(`Error: ${error.extractor_error || error.message}`)
-            log_file.push(Object.assign({
+            log_file.push({
                 id: current_route.id,
-                error: error.extractor_error ? error : "not controlled"
-            }, current_route.tags))
-            routes_incomplete++
+                error: error.extractor_error ? error : "not controlled",
+                tags: current_route.tags
+            })
         }
     }
 
