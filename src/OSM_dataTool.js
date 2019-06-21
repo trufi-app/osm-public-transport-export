@@ -19,7 +19,7 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
             const data = routeExtractor(current_route, ways, assumeFirstWayIsStart)
 
             routes_complete++
-            log_file.push(Object.assign({ id: current_route.id }, current_route.tags))
+            log_file.push({ id: current_route.id, tags: current_route.tags })
 
             debug(`${data.points.length} points in route`)
             data.points = filterPoints(data.points)
