@@ -51,8 +51,8 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
     }
 
     log_file.sort((a, b) => {
-        let x = a.ref ? a.ref.toLowerCase() : 0
-        let y = b.ref ? b.ref.toLowerCase() : 0
+        let x = a.tags.ref ? a.tags.ref.toLowerCase() : 0
+        let y = b.tags.ref ? b.tags.ref.toLowerCase() : 0
         return (x < y) ? -1 : (x > y) ? 1 : 0;
     })
 
