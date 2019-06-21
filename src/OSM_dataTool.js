@@ -47,7 +47,7 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
             debug(`Error: ${error.extractor_error || error.message}`)
             log_file.push(Object.assign({
                 id: current_route.id,
-                error_log: error.extractor_error ? error : "not controlled"
+                error: error.extractor_error ? error : "not controlled"
             }, current_route.tags))
             routes_incomplete++
         }
