@@ -67,7 +67,7 @@ module.exports = function (route_elements, ways, assumeFirstWayIsStart) {
             res_error += `\n${part.toString()}`
         })
 
-        throw { extractor_error: extractor_error.no_mergeable, uri: `https://overpass-turbo.eu/?Q=${encodeURI(`//${extractor_error.no_mergeable}\n${res_error}`)}&R` }
+        throw { extractor_error: extractor_error.not_mergeable, uri: `https://overpass-turbo.eu/?Q=${encodeURI(`//${extractor_error.not_mergeable}\n${res_error}`)}&R` }
     }
 
     const result_way = []
