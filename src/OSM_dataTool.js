@@ -51,9 +51,17 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
     }
 
     log_file.sort((a, b) => {
-        let x = a.tags.ref ? a.tags.ref.toLowerCase() : 0
-        let y = b.tags.ref ? b.tags.ref.toLowerCase() : 0
-        return (x < y) ? -1 : (x > y) ? 1 : 0;
+        a = a.tags.ref || "0a"
+        b = b.tags.ref || "0a"
+        let aIsNumber = !isNaN(a)
+        let bIsNumber = !isNaN(b)
+        if (aIsNumber && bIsNumber) {
+            return parseInt(a) - parseInt(b)
+        } else if (aIsNumber || bIsNumber) {
+            return aIsNumber ? 1 : -1
+        } else {
+            return a.localeCompare(b)
+        }
     })
 
     const geojson_feature_collection = {
