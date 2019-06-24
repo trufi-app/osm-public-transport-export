@@ -23,7 +23,9 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
             log_file += `\nDone >>> ${name}`
 
             debug(`${data.points.length} points in route`)
-            data.points = filterPoints(data.points)
+            const tmp_filter = filterPoints(data.points, data.nodes)
+            data.points = tmp_filter.points
+            data.nodes = tmp_filter.nodes
             debug(`${data.points.length} points after filtering`)
 
             geojson_features.push({
@@ -82,8 +84,8 @@ function format_stop(stops, formatStopName) {
     return result
 }
 
-function filterPoints(points) {
-    const result = []
+function filterPoints(points, nodes) {
+    const result = { points: [], nodes: [] }
     let last = null
 
     for (let i = 0; i < points.length; i++) {
@@ -96,7 +98,8 @@ function filterPoints(points) {
         }
 
         last = cur
-        result.push(cur)
+        result.points.push(cur)
+        result.nodes.push(nodes[i])
     }
 
     return result
