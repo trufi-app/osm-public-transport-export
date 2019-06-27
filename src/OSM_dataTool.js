@@ -25,7 +25,6 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
             debug(`${data.points.length} points in route`)
             data.points = filterPoints(data.points)
             debug(`${data.points.length} points after filtering`)
-            current_route.tags.id = current_route.id
             geojson_features.push({
                 "type": "Feature",
                 "properties": mapProperties(current_route.tags),
