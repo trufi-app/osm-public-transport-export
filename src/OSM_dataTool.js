@@ -6,10 +6,7 @@ const routeExtractor = require('./route_extractor')
 module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties, formatStopName }) {
     const stops = {}
     const geojson_features = []
-    let routes_complete = 0
-    let routes_incomplete = 0
-    let log_file = ''
-    let log_file_error = ''
+    let log_file = []
 
     for (let key in routes) {
         const current_route = routes[key]
@@ -19,8 +16,7 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
         try {
             const data = routeExtractor(current_route, ways, assumeFirstWayIsStart)
 
-            routes_complete++
-            log_file += `\nDone >>> ${name}`
+            log_file.push({ id: current_route.id, tags: current_route.tags })
 
             debug(`${data.points.length} points in route`)
             data.points = filterPoints(data.points)
@@ -45,13 +41,28 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
                 }
             })
         } catch (error) {
-            debug(`Error: ${error.message}`)
-            routes_incomplete++
-            log_file_error += `--->>>\n\n${name}\nhttps://www.openstreetmap.org/relation/${current_route.id}\n${error.message}\n\n<<<---`
+            debug(`Error: ${error.extractor_error || error.message}`)
+            log_file.push({
+                id: current_route.id,
+                error: error.extractor_error ? error : "not controlled",
+                tags: current_route.tags
+            })
         }
     }
 
-    log_file = `\nroutes downloaded : ${routes_complete}\n\n${log_file}\n\n\nroutes to fix : ${routes_incomplete}\n\n${log_file_error}`
+    log_file.sort((a, b) => {
+        a = a.tags.ref || "0a"
+        b = b.tags.ref || "0a"
+        let aIsNumber = !isNaN(a)
+        let bIsNumber = !isNaN(b)
+        if (aIsNumber && bIsNumber) {
+            return parseInt(a) - parseInt(b)
+        } else if (aIsNumber || bIsNumber) {
+            return aIsNumber ? 1 : -1
+        } else {
+            return a.localeCompare(b)
+        }
+    })
 
     const geojson_feature_collection = {
         "type": "FeatureCollection",

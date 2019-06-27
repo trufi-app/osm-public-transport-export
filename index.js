@@ -8,7 +8,7 @@ const defaultOptions = {
     outputDir: null,
     assumeFirstWayIsStart: false,
     geojsonFilename: 'routes.geojson',
-    logFilename: 'log.txt',
+    logFilename: 'log.json',
     stopsFilename: 'stops.json',
     stopNameSeparator: ' and ',
     stopNameFallback: 'Unnamed Street',
@@ -60,7 +60,7 @@ async function osmToGeojson(options = {}) {
 
     if (outputDir) {
         fs.writeFileSync(path.join(outputDir, geojsonFilename), JSON.stringify(data.geojson))
-        fs.writeFileSync(path.join(outputDir, logFilename), data.log)
+        fs.writeFileSync(path.join(outputDir, logFilename), JSON.stringify(data.log))
         fs.writeFileSync(path.join(outputDir, stopsFilename), JSON.stringify(data.stops))
     }
 
