@@ -23,7 +23,7 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
             log_file += `\nDone >>> ${name}`
 
             debug(`${data.points.length} points in route`)
-            const tmp_filter = filterPoints(data.points, data.nodes)
+            const tmp_filter = filterPointsAndNodes(data.points, data.nodes)
             data.points = tmp_filter.points
             data.nodes = tmp_filter.nodes
             debug(`${data.points.length} points after filtering`)
@@ -84,7 +84,7 @@ function format_stop(stops, formatStopName) {
     return result
 }
 
-function filterPoints(points, nodes) {
+function filterPointsAndNodes(points, nodes) {
     const result = { points: [], nodes: [] }
     let last = null
 
