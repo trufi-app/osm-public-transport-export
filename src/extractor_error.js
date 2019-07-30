@@ -3,5 +3,5 @@ module.exports = {
     not_mergeable: "not mergeable",
     undefined_street: "undefined street",
     undefined: "undefined",
-    not_next: "streets no sequential"
+    not_next: "streets not sequential"
 }
