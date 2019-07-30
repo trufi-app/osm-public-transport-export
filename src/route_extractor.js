@@ -7,7 +7,7 @@ const reverseWay = (current_way) => {
 const isNextWay = (last_way, current_way) => {
     let res = last_way.nodes[last_way.nodes.length - 1] == current_way.nodes[0]
     if (!res && current_way && current_way.tags && current_way.tags.oneway != "yes") {
-        revenseWay(current_way)
+        reverseWay(current_way)
         res = last_way.nodes[last_way.nodes.length - 1] == current_way.nodes[0]
     }
     return res
