@@ -1,6 +1,6 @@
 const WayPartContainer = require('./way_part_container')
 const extractor_error = require('./extractor_error')
-const revenseWay = (current_way) => {
+const reverseWay = (current_way) => {
     current_way.geometry = current_way.geometry.reverse()
     current_way.nodes = current_way.nodes.reverse()
 }
