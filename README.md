@@ -54,7 +54,6 @@ Note: Sometimes the server can reject with `too many requests`. That's why we re
 ## Options
 * `bounds` (object, default `null`) — Defines the OSM bounding box to pull public transport data from. Expects keys `south`, `west`, `north`, `east` with `number` type values.
 * `outputDir` (string, default `null`) — When set, writes geojson data, stops and logs into files at the provided location.
-* `assumeFirstWayIsStart` (bool, default `false`) — When true, assumes that ways that build a street are in order and the first way is the start of the route.
 * `geojsonFilename` (string, default: `'routes.geojson'`) — Filename for GeoJSON route data when `outputDir` is given.
 * `logFilename` (string, default: `'log.txt'`) — Filename for error log when `outputDir` is given.
 * `stopsFilename` (string default: `'stops.json'`) — Filename for stops data when `outputDir` is given.

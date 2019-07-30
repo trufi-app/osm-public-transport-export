@@ -3,7 +3,7 @@ const isEqual = require('@turf/boolean-equal').default
 const debug = require('./debug')
 const routeExtractor = require('./route_extractor')
 
-module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties, formatStopName }) {
+module.exports = function ({ routes, ways, mapProperties, formatStopName }) {
     const stops = {}
     const geojson_features = []
     let log_file = []
@@ -14,7 +14,7 @@ module.exports = function ({ routes, ways, assumeFirstWayIsStart, mapProperties,
         debug(`Processing route ${name}`)
 
         try {
-            const data = routeExtractor(current_route, ways, assumeFirstWayIsStart)
+            const data = routeExtractor(current_route, ways)
 
             log_file.push({ id: current_route.id, tags: current_route.tags })
 
