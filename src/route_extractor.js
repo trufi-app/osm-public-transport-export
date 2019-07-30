@@ -20,7 +20,7 @@ const isPreviousWay = (last_way, current_way) => {
     }
     return res
 }
-module.exports = function (route_elements, ways, assumeFirstWayIsStart) {
+module.exports = function (route_elements, ways) {
     const way_res = []
     let indexFirstOneWay
     for (const index in route_elements.members) {
