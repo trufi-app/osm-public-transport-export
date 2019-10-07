@@ -2,7 +2,7 @@
 Node.js library to download public transport data from [OpenStreetMaps](https://www.openstreetmap.org/#layers=T) using [Overpass](https://wiki.openstreetmap.org/wiki/Overpass_API) and output it into an extended [GeoJSON](http://geojson.org) file.
 
 ## Motivation
-This project is part of a set of tools to provide travel data in countries where public transport works on demand and neither bus stops nor timetables exist. Check out https://github.com/trufi-app to see more of our work.
+This project is part of a set of tools to provide travel data in countries where public transport works on demand and neither bus stops nor timetables exist. Check out https://github.com/trufi-association to see more of our work.
 
 ## Why GeoJSON
 GeoJSON is a great format to encode geographical data and has a big ecosystem with lots of great tools. GitHub for instance has built-in support for visualizing the contents of a .geojson file. And in essence that is exactly what data from OSM is: Geographical data that was annotated with public transport information. GeoJSON was not made to store all of this information though. That's why we extended standard GeoJSON and output complementary data where it makes sense. The exported data can then be converted into a public transport format of choice in a second step. Use [geojson-to-gtfs](https://github.com/trufi-app/geojson-to-gtfs) to convert it into Google's de facto standard for public transit feeds.
