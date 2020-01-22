@@ -63,7 +63,7 @@ module.exports = function (route_elements, ways) {
             }
         }
     }
-    let res_nodes = way_res.map(element => element.id)
+    let tmp_nodes = []
     let tmp_stops = {}
     let tmp_pointss = []
     way_res.forEach(element => {
@@ -77,10 +77,11 @@ module.exports = function (route_elements, ways) {
                 tmp_stops[stop_id].push(stop_name)
             }
         }
+        tmp_nodes = tmp_nodes.concat(element.nodes)
         tmp_pointss = tmp_pointss.concat(element.geometry.map(point => ([point.lon, point.lat])))
     })
     return {
-        nodes: res_nodes,
+        nodes: tmp_nodes,
         stops: tmp_stops,
         points: tmp_pointss,
     }
