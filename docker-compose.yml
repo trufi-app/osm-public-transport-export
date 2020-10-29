@@ -3,6 +3,8 @@ version: '3.8'
 services: 
     osm-public-transport-export:
         build: .
+        image: osm-public-transport-export:latest
+        container_name: osm-public-transport-export
         env_file: .env
         volumes: 
             - ./out:/app/docker/out/
