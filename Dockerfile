@@ -13,4 +13,4 @@ ADD ./docker/ ./
 RUN npm i
 RUN mkdir out
 
-ENTRYPOINT ["/usr/local/bin/npm", "start"]
+# ENTRYPOINT ["/usr/local/bin/npm", "start"]
