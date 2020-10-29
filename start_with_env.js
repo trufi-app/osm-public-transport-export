@@ -1,4 +1,4 @@
-const osmToGeojson = require('..')
+const osmToGeojson = require('.')
 const fs = require('fs')
 osmToGeojson({
         bounds: {

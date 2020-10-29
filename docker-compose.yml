@@ -5,7 +5,6 @@ services:
         build: .
         image: osm-public-transport-export:latest
         container_name: osm-public-transport-export
-        env_file: .env
+        env_file: cochabamba.env
         volumes: 
-            - ./out:/app/docker/out/
-        command: npm start
+            - ./out:/app/osm-public-transport-export/out/

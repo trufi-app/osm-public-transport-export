@@ -12,7 +12,7 @@ For use docker tool, just run the next command and then see the **./out/**
 ```console
 docker-compose up
 ```
-for change the params see the **/.env** file.
+for change the params see the **/*.env** file.
 
 ## Usage
 ```js

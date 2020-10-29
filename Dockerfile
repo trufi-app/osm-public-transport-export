@@ -1,16 +1,15 @@
 FROM node:14.15-slim
 
-WORKDIR /app/
+WORKDIR /app/osm-public-transport-export/
 
 ADD ./src/ src/
 ADD ./index.js index.js
 ADD ./package-lock.json package-lock.json
 ADD ./package.json package.json
+
 RUN npm i
 
-WORKDIR /app/docker/
-ADD ./docker/ ./
-RUN npm i
+ADD ./start_with_env.js start_with_env.js
 RUN mkdir out
 
-# ENTRYPOINT ["/usr/local/bin/npm", "start"]
+CMD ["/usr/local/bin/npm", "start"]
