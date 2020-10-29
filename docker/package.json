@@ -1,0 +1,23 @@
+{
+    "name": "geojson-docker-tool",
+    "version": "1.0.0",
+    "description": "GoeJSON docker tool",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SamuelRioTz/GeoJSON-Bolivia-Cochabamba.git"
+    },
+    "keywords": [
+        "geojson"
+    ],
+    "author": "Samuel Rioja",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SamuelRioTz/GeoJSON-Bolivia-Cochabamba/issues"
+    },
+    "homepage": "https://github.com/SamuelRioTz/GeoJSON-Bolivia-Cochabamba#readme",
+    "dependencies": {}
+}
