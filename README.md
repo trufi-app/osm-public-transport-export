@@ -7,6 +7,13 @@ This project is part of a set of tools to provide travel data in countries where
 ## Why GeoJSON
 GeoJSON is a great format to encode geographical data and has a big ecosystem with lots of great tools. GitHub for instance has built-in support for visualizing the contents of a .geojson file. And in essence that is exactly what data from OSM is: Geographical data that was annotated with public transport information. GeoJSON was not made to store all of this information though. That's why we extended standard GeoJSON and output complementary data where it makes sense. The exported data can then be converted into a public transport format of choice in a second step. Use [geojson-to-gtfs](https://github.com/trufi-app/geojson-to-gtfs) to convert it into Google's de facto standard for public transit feeds.
 
+## Docker usage
+For use docker tool, just run the next command and then see the **./out/**
+```console
+docker-compose up
+```
+for change the params see the **/.env** file.
+
 ## Usage
 ```js
 // Cochabamba, Bolivia
