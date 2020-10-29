@@ -1,0 +1,8 @@
+version: '3.8'
+
+services: 
+    osm-public-transport-export:
+        build: .
+        env_file: .env
+        volumes: 
+            - ./out:/app/docker/out/

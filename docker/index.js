@@ -13,8 +13,8 @@ osmToGeojson({
             stroke: '#164154',
             "stroke-width": 5,
         }),
-        stopNameSeparator: ' y ',
-        stopNameFallback: 'innominada',
+        stopNameSeparator: process.env.STOP_NAME_SEPARATOR,
+        stopNameFallback: process.env.STOP_NAME_FALLBACK,
     })
     .then(data => {
         let route_with_error = 0
